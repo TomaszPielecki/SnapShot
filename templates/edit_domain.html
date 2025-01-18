@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="edit-domain py-5">
+    <div class="container">
+        <h2 class="mb-4">Edytuj domenę</h2>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                {{ form.new_domain.label(class="form-label") }}
+                {{ form.new_domain(class="form-control") }}
+            </div>
+            <div class="form-group mt-3">
+                {{ form.submit(class="btn btn-primary") }}
+            </div>
+        </form>
+    </div>
+</section>
+{% endblock %}

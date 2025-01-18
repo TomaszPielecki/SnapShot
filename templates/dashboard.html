@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="dashboard py-5">
+    <div class="container">
+        <h2 class="mb-4">Witamy w panelu administracyjnym!</h2>
+        <p>Oto Twoje statystyki:</p>
+
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="card bg-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Liczba logów</h5>
+                        <p class="card-text">{{ log_count }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Liczba domen</h5>
+                        <p class="card-text">{{ domain_count }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Liczba zrzutów ekranu</h5>
+                        <p class="card-text">{{ screenshot_count }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="logs mb-5">
+            <h3>Ostatnie logi:</h3>
+            <ul class="list-group">
+                {% for log in logs %}
+                <li class="list-group-item">{{ log }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <section class="screenshots">
+            <h3>Zrzuty ekranu:</h3>
+            {% for domain, images in screenshots.items() %}
+            <h4 class="mt-4">{{ domain }}</h4>
+            <div class="row">
+                {% for image in images %}
+                <div class="col-md-3 mb-3">
+                    <img src="{{ image }}" alt="Screenshot" class="img-fluid rounded shadow-sm">
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </section>
+    </div>
+</section>
+{% endblock %}

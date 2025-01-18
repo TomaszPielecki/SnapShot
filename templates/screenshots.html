@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="screenshots py-5">
+    <div class="container">
+        <h2 class="mb-4">Screenshots</h2>
+        <form action="{{ url_for('screenshots') }}" method="post" class="mb-4">
+            <div class="input-group">
+                <input type="text" name="url" class="form-control" placeholder="Enter website URL" required>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Take Screenshot</button>
+                </div>
+            </div>
+        </form>
+        <div class="progress mb-4">
+            <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+        </div>
+        <div class="row">
+            {% for screenshot in screenshots %}
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{ url_for('static', filename='screenshots/' ~ screenshot) }}" class="card-img-top" alt="Screenshot">
+                    <div class="card-body">
+                        <a href="{{ url_for('delete_screenshot', screenshot_id=loop.index) }}" class="btn btn-danger" onclick="return confirm('Czy na pewno chcesz usunąć ten zrzut ekranu?');">Usuń</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<script src="{{ url_for('static', filename='js/progress.js') }}"></script>
+{% endblock %}
