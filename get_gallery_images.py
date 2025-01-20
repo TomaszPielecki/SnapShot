@@ -1,7 +1,7 @@
 import os
 
 
-def get_gallery_images(directory='static/gallery'):
+def get_gallery_images(directory='static/screenshots'):
     """
     Pobiera listę obrazów z katalogu galerii.
 

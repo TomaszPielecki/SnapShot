@@ -2449,3 +2449,939 @@
 2025-01-18 23:55:14,576 - INFO - Capturing request: https://katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59
 2025-01-18 23:55:14,755 - INFO - Capturing response: https://katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59 200 
 2025-01-18 23:55:21,068 - INFO - 127.0.0.1 - - [18/Jan/2025 23:55:21] "[32mPOST /screenshots HTTP/1.1[0m" 302 -
+2025-01-18 23:56:01,333 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\forms.py', reloading
+2025-01-18 23:56:20,513 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-18 23:56:21,974 - INFO - Application started
+2025-01-18 23:56:21,984 - WARNING -  * Debugger is active!
+2025-01-18 23:56:21,990 - INFO -  * Debugger PIN: 942-584-997
+2025-01-19 00:00:56,184 - INFO - 127.0.0.1 - - [19/Jan/2025 00:00:56] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:00:56,671 - INFO - 127.0.0.1 - - [19/Jan/2025 00:00:56] "[36mGET /static/screenshots/images.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:00:56,675 - INFO - 127.0.0.1 - - [19/Jan/2025 00:00:56] "[36mGET /static/screenshots/Ffocus.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:00:56,716 - INFO - 127.0.0.1 - - [19/Jan/2025 00:00:56] "GET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1" 200 -
+2025-01-19 00:00:56,744 - INFO - 127.0.0.1 - - [19/Jan/2025 00:00:56] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-19 00:00:56,749 - INFO - 127.0.0.1 - - [19/Jan/2025 00:00:56] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-19 00:00:56,786 - INFO - 127.0.0.1 - - [19/Jan/2025 00:00:56] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:00:59,687 - INFO - ====== WebDriver manager ======
+2025-01-19 00:01:01,903 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:01:02,152 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:01:02,399 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:01:03,064 - INFO - WebDriver version 132.0.6834.83 selected
+2025-01-19 00:01:03,072 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.83/win32/chromedriver-win32.zip
+2025-01-19 00:01:03,072 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.83/win32/chromedriver-win32.zip
+2025-01-19 00:01:03,240 - INFO - Driver downloading response is 200
+2025-01-19 00:01:03,776 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:01:04,392 - INFO - Driver has been saved in cache [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.83]
+2025-01-19 00:01:04,394 - INFO - Using default request storage
+2025-01-19 00:01:04,405 - INFO - Created proxy listening on 127.0.0.1:53754
+2025-01-19 00:01:06,684 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+2025-01-19 00:01:06,828 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
+2025-01-19 00:01:07,046 - INFO - Capturing request: https://katarzynakobiela.pl/
+2025-01-19 00:01:07,248 - INFO - Capturing response: https://katarzynakobiela.pl/ 200 
+2025-01-19 00:01:07,406 - INFO - Capturing request: https://katarzynakobiela.pl/framework-16534ddc5a576711dd15.js
+2025-01-19 00:01:07,410 - INFO - Capturing request: https://katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js
+2025-01-19 00:01:07,424 - INFO - Capturing request: https://katarzynakobiela.pl/app-ccf113e834caa5869340.js
+2025-01-19 00:01:07,430 - INFO - Capturing request: https://katarzynakobiela.pl/styles-2c8cc638826070126d54.js
+2025-01-19 00:01:07,439 - INFO - Capturing request: https://katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js
+2025-01-19 00:01:07,447 - INFO - Capturing request: https://katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js
+2025-01-19 00:01:07,453 - INFO - Capturing request: https://katarzynakobiela.pl/page-data/index/page-data.json
+2025-01-19 00:01:07,464 - INFO - Capturing request: https://katarzynakobiela.pl/page-data/app-data.json
+2025-01-19 00:01:07,468 - INFO - Capturing request: https://katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg
+2025-01-19 00:01:07,474 - INFO - Capturing request: https://katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg
+2025-01-19 00:01:07,478 - INFO - Capturing request: https://katarzynakobiela.pl/o-mnie.jpg
+2025-01-19 00:01:07,490 - INFO - Capturing request: https://katarzynakobiela.pl/sesja-zdjeciowa.jpg
+2025-01-19 00:01:07,494 - INFO - Capturing request: https://katarzynakobiela.pl/warsztaty-szkolenia.jpg
+2025-01-19 00:01:07,499 - INFO - Capturing request: https://katarzynakobiela.pl/przeglad-szafy.jpg
+2025-01-19 00:01:07,507 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/image005.png
+2025-01-19 00:01:07,512 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/logo-Aryton.png
+2025-01-19 00:01:07,515 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png
+2025-01-19 00:01:07,527 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png
+2025-01-19 00:01:07,536 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png
+2025-01-19 00:01:07,542 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png
+2025-01-19 00:01:07,548 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/top-logo-300x86.png
+2025-01-19 00:01:07,550 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png
+2025-01-19 00:01:07,554 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png
+2025-01-19 00:01:07,559 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/logo-dv1.png
+2025-01-19 00:01:07,587 - INFO - Capturing response: https://katarzynakobiela.pl/styles-2c8cc638826070126d54.js 200 
+2025-01-19 00:01:07,593 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png
+2025-01-19 00:01:07,607 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png
+2025-01-19 00:01:07,610 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/logo-1-200x46.png
+2025-01-19 00:01:07,622 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png
+2025-01-19 00:01:07,632 - INFO - Capturing response: https://katarzynakobiela.pl/page-data/index/page-data.json 200 
+2025-01-19 00:01:07,639 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png
+2025-01-19 00:01:07,653 - INFO - Capturing response: https://katarzynakobiela.pl/framework-16534ddc5a576711dd15.js 200 
+2025-01-19 00:01:07,655 - INFO - Capturing request: https://katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png
+2025-01-19 00:01:07,668 - INFO - Capturing request: https://katarzynakobiela.pl/katarzyna-kobiela.jpg
+2025-01-19 00:01:07,683 - INFO - Capturing response: https://katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js 200 
+2025-01-19 00:01:07,698 - INFO - Capturing request: https://katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff
+2025-01-19 00:01:07,715 - INFO - Capturing response: https://katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js 200 
+2025-01-19 00:01:07,717 - INFO - Capturing request: https://katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff
+2025-01-19 00:01:07,721 - INFO - Capturing response: https://katarzynakobiela.pl/app-ccf113e834caa5869340.js 200 
+2025-01-19 00:01:07,754 - INFO - Capturing response: https://katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js 200 
+2025-01-19 00:01:07,761 - INFO - Capturing response: https://katarzynakobiela.pl/page-data/app-data.json 200 
+2025-01-19 00:01:07,768 - INFO - Capturing response: https://katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg 200 
+2025-01-19 00:01:07,913 - INFO - Capturing request: https://katarzynakobiela.pl/instagram.json
+2025-01-19 00:01:07,960 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/logo-Aryton.png 200 
+2025-01-19 00:01:07,993 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png 200 
+2025-01-19 00:01:07,999 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png 200 
+2025-01-19 00:01:08,052 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png 200 
+2025-01-19 00:01:08,056 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png 200 
+2025-01-19 00:01:08,061 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png 200 
+2025-01-19 00:01:08,066 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png 200 
+2025-01-19 00:01:08,146 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/image005.png 200 
+2025-01-19 00:01:08,149 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png 200 
+2025-01-19 00:01:08,194 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png 200 
+2025-01-19 00:01:08,254 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/top-logo-300x86.png 200 
+2025-01-19 00:01:08,258 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png 200 
+2025-01-19 00:01:08,330 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTMyLjAuNjgzNC44NBIuCXAC5kb9Q1gfEgUNlFT6zxIFDTUpXqwSBQ14bxIZEgUNxmiw_CFa1U1zMDk9HA==?alt=proto
+2025-01-19 00:01:08,415 - INFO - Capturing response: https://katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff 200 
+2025-01-19 00:01:08,424 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/logo-1-200x46.png 200 
+2025-01-19 00:01:08,465 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png 200 
+2025-01-19 00:01:08,525 - INFO - Capturing response: https://katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff 200 
+2025-01-19 00:01:08,536 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTMyLjAuNjgzNC44NBIuCXAC5kb9Q1gfEgUNlFT6zxIFDTUpXqwSBQ14bxIZEgUNxmiw_CFa1U1zMDk9HA==?alt=proto 200 
+2025-01-19 00:01:08,566 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/logo-dv1.png 200 
+2025-01-19 00:01:08,587 - INFO - Capturing response: https://katarzynakobiela.pl/sesja-zdjeciowa.jpg 200 
+2025-01-19 00:01:08,630 - INFO - Capturing response: https://katarzynakobiela.pl/instagram.json 200 
+2025-01-19 00:01:08,660 - INFO - Capturing response: https://katarzynakobiela.pl/przeglad-szafy.jpg 200 
+2025-01-19 00:01:08,753 - INFO - Capturing response: https://katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png 200 
+2025-01-19 00:01:08,866 - INFO - Capturing response: https://katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg 200 
+2025-01-19 00:01:09,083 - INFO - Capturing response: https://katarzynakobiela.pl/warsztaty-szkolenia.jpg 200 
+2025-01-19 00:01:09,108 - INFO - Capturing response: https://katarzynakobiela.pl/katarzyna-kobiela.jpg 200 
+2025-01-19 00:01:09,548 - INFO - Capturing response: https://katarzynakobiela.pl/o-mnie.jpg 200 
+2025-01-19 00:01:09,889 - INFO - Capturing request: https://katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59
+2025-01-19 00:01:10,077 - INFO - Capturing response: https://katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59 200 
+2025-01-19 00:01:16,487 - INFO - 127.0.0.1 - - [19/Jan/2025 00:01:16] "[32mPOST /screenshots HTTP/1.1[0m" 302 -
+2025-01-19 00:01:16,495 - INFO - 127.0.0.1 - - [19/Jan/2025 00:01:16] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:01:16,525 - INFO - 127.0.0.1 - - [19/Jan/2025 00:01:16] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-19 00:01:16,525 - INFO - 127.0.0.1 - - [19/Jan/2025 00:01:16] "[36mGET /static/screenshots/Ffocus.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:01:16,537 - INFO - 127.0.0.1 - - [19/Jan/2025 00:01:16] "[36mGET /static/screenshots/images.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:01:16,545 - INFO - 127.0.0.1 - - [19/Jan/2025 00:01:16] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-19 00:01:16,546 - INFO - 127.0.0.1 - - [19/Jan/2025 00:01:16] "GET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1" 200 -
+2025-01-19 00:01:16,580 - INFO - 127.0.0.1 - - [19/Jan/2025 00:01:16] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:01:55,803 - INFO - 127.0.0.1 - - [19/Jan/2025 00:01:55] "[31m[1mGET /screenshots/delete/1 HTTP/1.1[0m" 405 -
+2025-01-19 00:02:00,183 - INFO - 127.0.0.1 - - [19/Jan/2025 00:02:00] "[31m[1mGET /screenshots/delete/3 HTTP/1.1[0m" 405 -
+2025-01-19 00:02:04,377 - INFO - 127.0.0.1 - - [19/Jan/2025 00:02:04] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:02:04,547 - INFO - 127.0.0.1 - - [19/Jan/2025 00:02:04] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-19 00:02:04,551 - INFO - 127.0.0.1 - - [19/Jan/2025 00:02:04] "[36mGET /static/screenshots/Ffocus.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:02:04,552 - INFO - 127.0.0.1 - - [19/Jan/2025 00:02:04] "[36mGET /static/screenshots/images.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:02:04,556 - INFO - 127.0.0.1 - - [19/Jan/2025 00:02:04] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-19 00:02:04,559 - INFO - 127.0.0.1 - - [19/Jan/2025 00:02:04] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-19 00:02:04,619 - INFO - 127.0.0.1 - - [19/Jan/2025 00:02:04] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:03:12,022 - INFO - ====== WebDriver manager ======
+2025-01-19 00:03:14,151 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:03:14,377 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:03:14,599 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.83\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-19 00:03:14,599 - INFO - Using default request storage
+2025-01-19 00:03:14,608 - INFO - Created proxy listening on 127.0.0.1:54932
+2025-01-19 00:03:16,537 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+2025-01-19 00:03:16,654 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
+2025-01-19 00:03:16,769 - INFO - Capturing request: https://gonzalez.pl/
+2025-01-19 00:03:18,456 - INFO - Capturing response: https://gonzalez.pl/ 200 
+2025-01-19 00:03:18,688 - INFO - Capturing request: https://gonzalez.pl/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1
+2025-01-19 00:03:18,703 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/cookie-notice/css/front.min.css?ver=2.4.16
+2025-01-19 00:03:18,705 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.1
+2025-01-19 00:03:18,718 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.4.3
+2025-01-19 00:03:18,721 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.4.3
+2025-01-19 00:03:18,723 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/login-with-google/assets/build/css/login.css?ver=1715710913
+2025-01-19 00:03:18,734 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/css/bootstrap.min.css?ver=6.7.1
+2025-01-19 00:03:18,740 - INFO - Capturing response: https://gonzalez.pl/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1 200 
+2025-01-19 00:03:18,767 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woo-payu-payment-gateway/assets/css/payu-gateway.css?ver=2.6.1
+2025-01-19 00:03:18,771 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/advanced-product-fields-for-woocommerce-pro/assets/css/frontend.min.css?ver=2.7.11
+2025-01-19 00:03:18,777 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/cookie-notice/css/front.min.css?ver=2.4.16 200 
+2025-01-19 00:03:18,785 - INFO - Capturing request: https://gonzalez.pl/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+2025-01-19 00:03:18,788 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/css/main.css?ver=6.7.1
+2025-01-19 00:03:18,791 - INFO - Capturing request: https://gonzalez.pl/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+2025-01-19 00:03:18,794 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/01/LOGO_gonzalez2.png
+2025-01-19 00:03:18,797 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/cookie-notice/js/front.min.js?ver=2.4.16
+2025-01-19 00:03:18,805 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/pizza-150x150.png
+2025-01-19 00:03:18,852 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.4.3 200 
+2025-01-19 00:03:18,861 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.1 200 
+2025-01-19 00:03:18,867 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.4.3 200 
+2025-01-19 00:03:18,921 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/login-with-google/assets/build/css/login.css?ver=1715710913 200 
+2025-01-19 00:03:18,935 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/css/bootstrap.min.css?ver=6.7.1 200 
+2025-01-19 00:03:18,999 - INFO - Capturing response: https://gonzalez.pl/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1 200 
+2025-01-19 00:03:19,002 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/advanced-product-fields-for-woocommerce-pro/assets/css/frontend.min.css?ver=2.7.11 200 
+2025-01-19 00:03:19,015 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/cookie-notice/js/front.min.js?ver=2.4.16 200 
+2025-01-19 00:03:19,019 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woo-payu-payment-gateway/assets/css/payu-gateway.css?ver=2.6.1 200 
+2025-01-19 00:03:19,023 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/css/main.css?ver=6.7.1 200 
+2025-01-19 00:03:19,027 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/pizza-150x150.png 200 
+2025-01-19 00:03:19,061 - INFO - Capturing response: https://gonzalez.pl/wp-includes/js/jquery/jquery.min.js?ver=3.7.1 200 
+2025-01-19 00:03:19,076 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/01/LOGO_gonzalez2.png 200 
+2025-01-19 00:03:19,575 - INFO - Capturing request: https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+2025-01-19 00:03:19,669 - INFO - Capturing request: https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+2025-01-19 00:03:19,795 - INFO - Capturing response: https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css 200 
+2025-01-19 00:03:19,823 - INFO - Capturing request: https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
+2025-01-19 00:03:19,900 - INFO - Capturing response: https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js 200 
+2025-01-19 00:03:19,931 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/kebap-150x150.png
+2025-01-19 00:03:19,935 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/106-1066079_midici-neapolitan-pizza-neapolitan-pizza-png-transparent-png-removebg-preview-150x150.png
+2025-01-19 00:03:19,995 - INFO - Capturing response: https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap 200 
+2025-01-19 00:03:20,021 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/kebap-150x150.png 200 
+2025-01-19 00:03:20,180 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/106-1066079_midici-neapolitan-pizza-neapolitan-pizza-png-transparent-png-removebg-preview-150x150.png 200 
+2025-01-19 00:03:20,194 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/daniamiesne.png
+2025-01-19 00:03:20,211 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.4.3
+2025-01-19 00:03:20,217 - INFO - Capturing request: https://gonzalez.pl/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6
+2025-01-19 00:03:20,231 - INFO - Capturing request: https://gonzalez.pl/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6
+2025-01-19 00:03:20,244 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.1
+2025-01-19 00:03:20,251 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.1
+2025-01-19 00:03:20,257 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-contact-form-7-tracker.js?ver=1.20.2
+2025-01-19 00:03:20,303 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-ecommerce-generic.js?ver=1.20.2
+2025-01-19 00:03:20,333 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/05/Mexburger-gonzalez-hero.png
+2025-01-19 00:03:20,352 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/salatki.png
+2025-01-19 00:03:20,355 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/05/pizza_hero_gonzalez.png
+2025-01-19 00:03:20,369 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/zapiekanki-150x150.png
+2025-01-19 00:03:20,376 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-contact-form-7-tracker.js?ver=1.20.2 200 
+2025-01-19 00:03:20,380 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/daniamiesne.png 200 
+2025-01-19 00:03:20,383 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/zupy-150x150.png
+2025-01-19 00:03:20,392 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-ecommerce-generic.js?ver=1.20.2 200 
+2025-01-19 00:03:20,400 - INFO - Capturing response: https://gonzalez.pl/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6 200 
+2025-01-19 00:03:20,402 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/daniarybne-150x150.png
+2025-01-19 00:03:20,404 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/makarony-150x150.png
+2025-01-19 00:03:20,412 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/burgery-150x150.png
+2025-01-19 00:03:20,426 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/cart_icon.svg
+2025-01-19 00:03:20,430 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.4.3 200 
+2025-01-19 00:03:20,438 - INFO - Capturing response: https://gonzalez.pl/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6 200 
+2025-01-19 00:03:20,447 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.1 200 
+2025-01-19 00:03:20,449 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/instagram-icon.svg
+2025-01-19 00:03:20,451 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/user_icon_green.svg
+2025-01-19 00:03:20,473 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.1 200 
+2025-01-19 00:03:20,475 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/facebook.svg
+2025-01-19 00:03:20,554 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/salatki.png 200 
+2025-01-19 00:03:20,595 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-woocommerce.js?ver=1.20.2
+2025-01-19 00:03:20,688 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/zapiekanki-150x150.png 200 
+2025-01-19 00:03:20,752 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/daniarybne-150x150.png 200 
+2025-01-19 00:03:20,758 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/instagram-icon.svg 200 
+2025-01-19 00:03:20,765 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/user_icon_green.svg 200 
+2025-01-19 00:03:20,769 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/zupy-150x150.png 200 
+2025-01-19 00:03:20,773 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/makarony-150x150.png 200 
+2025-01-19 00:03:20,780 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/cart_icon.svg 200 
+2025-01-19 00:03:20,784 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/burgery-150x150.png 200 
+2025-01-19 00:03:20,790 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/05/Mexburger-gonzalez-hero.png 200 
+2025-01-19 00:03:20,796 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/facebook.svg 200 
+2025-01-19 00:03:20,860 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-woocommerce.js?ver=1.20.2 200 
+2025-01-19 00:03:20,951 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/05/pizza_hero_gonzalez.png 200 
+2025-01-19 00:03:20,981 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/js/bootstrap.bundle.min.js?ver=6.7.1
+2025-01-19 00:03:21,150 - INFO - Capturing request: https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJfecg.woff2
+2025-01-19 00:03:21,152 - INFO - Capturing request: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2
+2025-01-19 00:03:21,155 - INFO - Capturing request: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2
+2025-01-19 00:03:21,160 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/js/bootstrap.bundle.min.js?ver=6.7.1 200 
+2025-01-19 00:03:21,163 - INFO - Capturing request: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2
+2025-01-19 00:03:21,167 - INFO - Capturing request: https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJnecmNE.woff2
+2025-01-19 00:03:21,174 - INFO - Capturing request: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2
+2025-01-19 00:03:21,177 - INFO - Capturing request: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2
+2025-01-19 00:03:21,180 - INFO - Capturing request: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2
+2025-01-19 00:03:21,277 - INFO - Capturing response: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2 200 
+2025-01-19 00:03:21,293 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woo-payu-payment-gateway/assets/js/payu-gateway.js?ver=2.6.1
+2025-01-19 00:03:21,310 - INFO - Capturing response: https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJfecg.woff2 200 
+2025-01-19 00:03:21,341 - INFO - Capturing response: https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJnecmNE.woff2 200 
+2025-01-19 00:03:21,348 - INFO - Capturing response: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2 200 
+2025-01-19 00:03:21,353 - INFO - Capturing response: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2 200 
+2025-01-19 00:03:21,357 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woo-payu-payment-gateway/assets/js/payu-gateway.js?ver=2.6.1 200 
+2025-01-19 00:03:21,362 - INFO - Capturing response: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2 200 
+2025-01-19 00:03:21,366 - INFO - Capturing response: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2 200 
+2025-01-19 00:03:21,377 - INFO - Capturing response: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2 200 
+2025-01-19 00:03:21,498 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.4.3
+2025-01-19 00:03:21,508 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.4.3
+2025-01-19 00:03:21,524 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/advanced-product-fields-for-woocommerce-pro/assets/js/frontend.min.js?ver=2.7.11
+2025-01-19 00:03:21,533 - INFO - Capturing request: https://gonzalez.pl/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0
+2025-01-19 00:03:21,541 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.0.1
+2025-01-19 00:03:21,703 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.4.3 200 
+2025-01-19 00:03:21,743 - INFO - Capturing response: https://gonzalez.pl/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0 200 
+2025-01-19 00:03:21,757 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.4.3 200 
+2025-01-19 00:03:21,783 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/advanced-product-fields-for-woocommerce-pro/assets/js/frontend.min.js?ver=2.7.11 200 
+2025-01-19 00:03:21,797 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.0.1 200 
+2025-01-19 00:03:21,900 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.4.3
+2025-01-19 00:03:21,902 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.4.3
+2025-01-19 00:03:21,905 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.4.3
+2025-01-19 00:03:21,931 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/daniameksykanskie-150x150.png
+2025-01-19 00:03:21,948 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/naszybko.png
+2025-01-19 00:03:21,950 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/maluchmenu.png
+2025-01-19 00:03:22,024 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/maluchmenu.png 200 
+2025-01-19 00:03:22,057 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.4.3 200 
+2025-01-19 00:03:22,104 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.4.3 200 
+2025-01-19 00:03:22,105 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.4.3 200 
+2025-01-19 00:03:22,133 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/daniameksykanskie-150x150.png 200 
+2025-01-19 00:03:22,165 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/naszybko.png 200 
+2025-01-19 00:03:22,180 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/deser-2.png
+2025-01-19 00:03:22,228 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/napojegorace.png
+2025-01-19 00:03:22,230 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/napoje.png
+2025-01-19 00:03:22,256 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/nowosci.png
+2025-01-19 00:03:22,287 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/zukowo_lokal_gonzalez-300x225.jpg
+2025-01-19 00:03:22,380 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/deser-2.png 200 
+2025-01-19 00:03:22,429 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/napoje.png 200 
+2025-01-19 00:03:22,432 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/napojegorace.png 200 
+2025-01-19 00:03:22,460 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/nowosci.png 200 
+2025-01-19 00:03:22,462 - INFO - Capturing request: https://www.google.com/recaptcha/api.js?render=6Le7yRIqAAAAAFt545zFRHzoRMqs-RV9n3vQiurC&ver=3.0
+2025-01-19 00:03:22,506 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/zukowo_lokal_gonzalez-300x225.jpg 200 
+2025-01-19 00:03:22,508 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/Gonzalez_Kartuzy_lokal-300x225.jpg
+2025-01-19 00:03:22,530 - INFO - Capturing response: https://www.google.com/recaptcha/api.js?render=6Le7yRIqAAAAAFt545zFRHzoRMqs-RV9n3vQiurC&ver=3.0 200 
+2025-01-19 00:03:22,553 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/08/hocki_klocki_sala_zabaw_Kartuzy-300x188.jpg
+2025-01-19 00:03:22,567 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/05/kebap_hero_gonzalez.png
+2025-01-19 00:03:22,583 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/PROSCIUTTO.png
+2025-01-19 00:03:22,629 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/02/kebab-w-bulce_gonzalez.png
+2025-01-19 00:03:22,641 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/08/hocki_klocki_sala_zabaw_Kartuzy-300x188.jpg 200 
+2025-01-19 00:03:22,662 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/05/chili.png
+2025-01-19 00:03:22,665 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/05/clean.png
+2025-01-19 00:03:22,667 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/Mexburger-gonzalez.png
+2025-01-19 00:03:22,682 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/Gonzalez_Kartuzy_lokal-300x225.jpg 200 
+2025-01-19 00:03:22,820 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/Texburger-gonzalez.png
+2025-01-19 00:03:22,830 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/zukowo_lokal_gonzalez.jpg
+2025-01-19 00:03:22,850 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/05/kebap_hero_gonzalez.png 200 
+2025-01-19 00:03:22,907 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/kebab-w-bulce_gonzalez.png 200 
+2025-01-19 00:03:23,025 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/Mexburger-gonzalez.png 200 
+2025-01-19 00:03:23,080 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/Texburger-gonzalez.png 200 
+2025-01-19 00:03:23,092 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/Gonzalez_Kartuzy_lokal.jpg
+2025-01-19 00:03:23,108 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/08/hocki_klocki_sala_zabaw_Kartuzy.jpg
+2025-01-19 00:03:23,125 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/05/clean.png 200 
+2025-01-19 00:03:23,139 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/05/chili.png 200 
+2025-01-19 00:03:23,150 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/02/PROSCIUTTO.png 200 
+2025-01-19 00:03:23,255 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/05/mastercard-icon-2048x1587-tygju446-1-e1715761708153.png
+2025-01-19 00:03:23,274 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/BLIK-LOGO.svg
+2025-01-19 00:03:23,281 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/05/Visa_Logo-1.png
+2025-01-19 00:03:23,309 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/zukowo_lokal_gonzalez.jpg 200 
+2025-01-19 00:03:23,318 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/google_pay_logo.svg
+2025-01-19 00:03:23,332 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2023/12/PayU_logo.svg
+2025-01-19 00:03:23,458 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/Gonzalez_Kartuzy_lokal.jpg 200 
+2025-01-19 00:03:23,499 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/05/Visa_Logo-1.png 200 
+2025-01-19 00:03:23,526 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/google_pay_logo.svg 200 
+2025-01-19 00:03:23,559 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/05/mastercard-icon-2048x1587-tygju446-1-e1715761708153.png 200 
+2025-01-19 00:03:23,573 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/08/hocki_klocki_sala_zabaw_Kartuzy.jpg 200 
+2025-01-19 00:03:23,606 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/BLIK-LOGO.svg 200 
+2025-01-19 00:03:23,715 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/arrow_yellow_left.svg
+2025-01-19 00:03:23,742 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/cart_button_icon.svg
+2025-01-19 00:03:23,747 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2023/12/PayU_logo.svg 200 
+2025-01-19 00:03:23,773 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/big_phone_icon.svg
+2025-01-19 00:03:23,804 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/adres_icon.svg
+2025-01-19 00:03:23,819 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/godziny_otwarcia_icon.svg
+2025-01-19 00:03:23,835 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/prowadz_icon.svg
+2025-01-19 00:03:23,883 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/google__logo.svg
+2025-01-19 00:03:23,898 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/arrow_yellow_left.svg 200 
+2025-01-19 00:03:23,938 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/prowadz_icon.svg 200 
+2025-01-19 00:03:23,945 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/cart_button_icon.svg 200 
+2025-01-19 00:03:23,974 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/big_phone_icon.svg 200 
+2025-01-19 00:03:24,021 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/godziny_otwarcia_icon.svg 200 
+2025-01-19 00:03:24,023 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/adres_icon.svg 200 
+2025-01-19 00:03:24,025 - INFO - Capturing request: https://gonzalez.pl/wp-content/themes/gonzalez/images/numer_telefonu_icon.svg
+2025-01-19 00:03:24,067 - INFO - Capturing request: https://gonzalez.pl/wp-includes/js/wp-emoji-release.min.js?ver=6.7.1
+2025-01-19 00:03:24,098 - INFO - Capturing request: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.4.3
+2025-01-19 00:03:24,145 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/google__logo.svg 200 
+2025-01-19 00:03:24,190 - INFO - Capturing response: https://gonzalez.pl/wp-content/themes/gonzalez/images/numer_telefonu_icon.svg 200 
+2025-01-19 00:03:24,220 - INFO - Capturing response: https://gonzalez.pl/wp-includes/js/wp-emoji-release.min.js?ver=6.7.1 200 
+2025-01-19 00:03:24,266 - INFO - Capturing response: https://gonzalez.pl/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.4.3 200 
+2025-01-19 00:03:24,440 - INFO - Capturing request: https://www.googletagmanager.com/gtm.js?id=GTM-MCDVRR86
+2025-01-19 00:03:24,690 - INFO - Capturing response: https://www.googletagmanager.com/gtm.js?id=GTM-MCDVRR86 200 
+2025-01-19 00:03:24,736 - INFO - Capturing request: https://www.gstatic.com/recaptcha/releases/1Bq_oiMBd4XPUhKDwr0YL1Js/recaptcha__pl.js
+2025-01-19 00:03:24,843 - INFO - Capturing request: https://www.googletagmanager.com/gtag/js?id=G-3VCZNMXPX9&l=dataLayer&cx=c&gtm=45He51g0v9170618781za200
+2025-01-19 00:03:25,047 - INFO - Capturing response: https://www.gstatic.com/recaptcha/releases/1Bq_oiMBd4XPUhKDwr0YL1Js/recaptcha__pl.js 200 
+2025-01-19 00:03:25,093 - INFO - Capturing response: https://www.googletagmanager.com/gtag/js?id=G-3VCZNMXPX9&l=dataLayer&cx=c&gtm=45He51g0v9170618781za200 200 
+2025-01-19 00:03:25,577 - INFO - Capturing request: https://connect.facebook.net/en_US/fbevents.js
+2025-01-19 00:03:25,780 - INFO - Capturing response: https://connect.facebook.net/en_US/fbevents.js 200 
+2025-01-19 00:03:25,950 - INFO - Capturing request: https://connect.facebook.net/signals/config/1177355825635153?v=2.9.180&r=stable&domain=gonzalez.pl&hme=1b2b48fb279bc2e2881583cc2153b57f55e340ed882b2c5394167c8bc992d930&ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C174%2C177%2C189%2C185%2C186%2C188%2C29%2C101%2C53%2C77%2C187%2C169%2C172%2C182%2C183%2C190%2C132%2C41%2C192%2C193%2C34%2C144%2C15%2C50%2C198%2C197%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C170%2C173%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113
+2025-01-19 00:03:26,088 - INFO - Capturing request: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Le7yRIqAAAAAFt545zFRHzoRMqs-RV9n3vQiurC&co=aHR0cHM6Ly9nb256YWxlei5wbDo0NDM.&hl=pl&v=1Bq_oiMBd4XPUhKDwr0YL1Js&size=invisible&cb=wvh4cnj7kmrj
+2025-01-19 00:03:26,197 - INFO - Capturing response: https://connect.facebook.net/signals/config/1177355825635153?v=2.9.180&r=stable&domain=gonzalez.pl&hme=1b2b48fb279bc2e2881583cc2153b57f55e340ed882b2c5394167c8bc992d930&ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C174%2C177%2C189%2C185%2C186%2C188%2C29%2C101%2C53%2C77%2C187%2C169%2C172%2C182%2C183%2C190%2C132%2C41%2C192%2C193%2C34%2C144%2C15%2C50%2C198%2C197%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C170%2C173%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113 200 
+2025-01-19 00:03:26,225 - INFO - Capturing request: https://region1.google-analytics.com/g/collect?v=2&tid=G-3VCZNMXPX9&gtm=45je51g0v9170624417z89170618781za200zb9170618781&_p=1737241400059&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&tag_exp=102067555~102067808~102081485~102123607&cid=1371187159.1737241405&ul=pl-pl&sr=1536x864&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B8.0.0.0%7CChromium%3B132.0.6834.84%7CGoogle%2520Chrome%3B132.0.6834.84&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&sid=1737241405&sct=1&seg=0&dl=https%3A%2F%2Fgonzalez.pl%2F&dt=Restauracja%20Gonzalez%20%E2%80%93%20Zam%C3%B3w%20online%20z%20dostaw%C4%85%20lub%20odbierz%20osobi%C5%9Bcie&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=9338
+2025-01-19 00:03:26,256 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTMyLjAuNjgzNC44NBIZCQRjME-SuZKZEgUNU1pHxSGD4cqdfb6l1Q==?alt=proto
+2025-01-19 00:03:26,298 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+2025-01-19 00:03:26,304 - INFO - Capturing response: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Le7yRIqAAAAAFt545zFRHzoRMqs-RV9n3vQiurC&co=aHR0cHM6Ly9nb256YWxlei5wbDo0NDM.&hl=pl&v=1Bq_oiMBd4XPUhKDwr0YL1Js&size=invisible&cb=wvh4cnj7kmrj 200 
+2025-01-19 00:03:26,398 - INFO - Capturing response: https://region1.google-analytics.com/g/collect?v=2&tid=G-3VCZNMXPX9&gtm=45je51g0v9170624417z89170618781za200zb9170618781&_p=1737241400059&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&tag_exp=102067555~102067808~102081485~102123607&cid=1371187159.1737241405&ul=pl-pl&sr=1536x864&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B8.0.0.0%7CChromium%3B132.0.6834.84%7CGoogle%2520Chrome%3B132.0.6834.84&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&sid=1737241405&sct=1&seg=0&dl=https%3A%2F%2Fgonzalez.pl%2F&dt=Restauracja%20Gonzalez%20%E2%80%93%20Zam%C3%B3w%20online%20z%20dostaw%C4%85%20lub%20odbierz%20osobi%C5%9Bcie&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=9338 204 
+2025-01-19 00:03:26,427 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTMyLjAuNjgzNC44NBIZCQRjME-SuZKZEgUNU1pHxSGD4cqdfb6l1Q==?alt=proto 200 
+2025-01-19 00:03:26,490 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw 200 
+2025-01-19 00:03:27,197 - INFO - Capturing request: https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=1177355825635153&ev=PageView&dl=https%3A%2F%2Fgonzalez.pl%2F&rl=&if=false&ts=1737241406229&sw=1536&sh=864&v=2.9.180&r=stable&ec=0&o=12446&fbp=fb.1.1737241406228.952874701337208479&ler=empty&cdl=API_unavailable&it=1737241405842&coo=false&rqm=FGET
+2025-01-19 00:03:27,210 - INFO - Capturing request: https://www.facebook.com/tr/?id=1177355825635153&ev=PageView&dl=https%3A%2F%2Fgonzalez.pl%2F&rl=&if=false&ts=1737241406229&sw=1536&sh=864&v=2.9.180&r=stable&ec=0&o=12446&fbp=fb.1.1737241406228.952874701337208479&ler=empty&cdl=API_unavailable&it=1737241405842&coo=false&rqm=GET
+2025-01-19 00:03:27,351 - INFO - Capturing request: https://www.gstatic.com/recaptcha/releases/1Bq_oiMBd4XPUhKDwr0YL1Js/recaptcha__pl.js
+2025-01-19 00:03:27,357 - INFO - Capturing request: https://www.gstatic.com/recaptcha/releases/1Bq_oiMBd4XPUhKDwr0YL1Js/styles__ltr.css
+2025-01-19 00:03:27,413 - INFO - Capturing response: https://www.facebook.com/tr/?id=1177355825635153&ev=PageView&dl=https%3A%2F%2Fgonzalez.pl%2F&rl=&if=false&ts=1737241406229&sw=1536&sh=864&v=2.9.180&r=stable&ec=0&o=12446&fbp=fb.1.1737241406228.952874701337208479&ler=empty&cdl=API_unavailable&it=1737241405842&coo=false&rqm=GET 200 
+2025-01-19 00:03:27,444 - INFO - Capturing response: https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=1177355825635153&ev=PageView&dl=https%3A%2F%2Fgonzalez.pl%2F&rl=&if=false&ts=1737241406229&sw=1536&sh=864&v=2.9.180&r=stable&ec=0&o=12446&fbp=fb.1.1737241406228.952874701337208479&ler=empty&cdl=API_unavailable&it=1737241405842&coo=false&rqm=FGET 200 
+2025-01-19 00:03:27,690 - INFO - Capturing response: https://www.gstatic.com/recaptcha/releases/1Bq_oiMBd4XPUhKDwr0YL1Js/styles__ltr.css 200 
+2025-01-19 00:03:27,788 - INFO - Capturing response: https://www.gstatic.com/recaptcha/releases/1Bq_oiMBd4XPUhKDwr0YL1Js/recaptcha__pl.js 200 
+2025-01-19 00:03:28,189 - INFO - Capturing request: https://www.google.com/js/bg/SjI4xaazOLGYHsCmpj5vwTkIv3fbctOR9tjWYGw9sEg.js
+2025-01-19 00:03:28,192 - INFO - Capturing request: https://www.google.com/recaptcha/api2/webworker.js?hl=pl&v=1Bq_oiMBd4XPUhKDwr0YL1Js
+2025-01-19 00:03:28,347 - INFO - Capturing response: https://www.google.com/js/bg/SjI4xaazOLGYHsCmpj5vwTkIv3fbctOR9tjWYGw9sEg.js 200 
+2025-01-19 00:03:28,412 - INFO - Capturing response: https://www.google.com/recaptcha/api2/webworker.js?hl=pl&v=1Bq_oiMBd4XPUhKDwr0YL1Js 200 
+2025-01-19 00:03:28,597 - INFO - Capturing request: https://www.gstatic.com/recaptcha/releases/1Bq_oiMBd4XPUhKDwr0YL1Js/recaptcha__pl.js
+2025-01-19 00:03:28,619 - INFO - Capturing request: https://gonzalez.pl/wp-content/uploads/2024/05/cropped-fav-gonzalez-32x32.png
+2025-01-19 00:03:28,802 - INFO - Capturing response: https://gonzalez.pl/wp-content/uploads/2024/05/cropped-fav-gonzalez-32x32.png 200 
+2025-01-19 00:03:35,192 - INFO - 127.0.0.1 - - [19/Jan/2025 00:03:35] "[32mPOST /screenshots HTTP/1.1[0m" 302 -
+2025-01-19 00:03:35,224 - INFO - 127.0.0.1 - - [19/Jan/2025 00:03:35] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:03:35,369 - INFO - 127.0.0.1 - - [19/Jan/2025 00:03:35] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-19 00:03:35,377 - INFO - 127.0.0.1 - - [19/Jan/2025 00:03:35] "GET /static/screenshots/gonzalez.pl_.png HTTP/1.1" 200 -
+2025-01-19 00:03:35,377 - INFO - 127.0.0.1 - - [19/Jan/2025 00:03:35] "[36mGET /static/screenshots/Ffocus.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:03:35,383 - INFO - 127.0.0.1 - - [19/Jan/2025 00:03:35] "[36mGET /static/screenshots/images.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:03:35,386 - INFO - 127.0.0.1 - - [19/Jan/2025 00:03:35] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-19 00:03:35,387 - INFO - 127.0.0.1 - - [19/Jan/2025 00:03:35] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-19 00:03:35,456 - INFO - 127.0.0.1 - - [19/Jan/2025 00:03:35] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:04:14,658 - INFO - ====== WebDriver manager ======
+2025-01-19 00:04:16,961 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:04:17,189 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:04:17,439 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.83\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-19 00:04:17,441 - INFO - Using default request storage
+2025-01-19 00:04:17,466 - INFO - Created proxy listening on 127.0.0.1:55588
+2025-01-19 00:04:19,504 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+2025-01-19 00:04:19,709 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
+2025-01-19 00:04:19,950 - INFO - Capturing request: https://coody.it/
+2025-01-19 00:04:20,372 - INFO - Capturing response: https://coody.it/ 200 
+2025-01-19 00:04:20,526 - INFO - Capturing request: https://coody.it/themes/default/assets/css/initfont.css
+2025-01-19 00:04:20,541 - INFO - Capturing request: https://coody.it/img/logo_coody.svg
+2025-01-19 00:04:20,543 - INFO - Capturing request: https://coody.it/themes/default/assets/cache/theme-78229391.css
+2025-01-19 00:04:20,546 - INFO - Capturing request: https://coody.it/modules/seigicookie/views/css/cookieconsent.css?v1
+2025-01-19 00:04:20,556 - INFO - Capturing request: https://coody.it/img/rp.jpg
+2025-01-19 00:04:20,572 - INFO - Capturing response: https://coody.it/themes/default/assets/css/initfont.css 200 
+2025-01-19 00:04:20,611 - INFO - Capturing response: https://coody.it/modules/seigicookie/views/css/cookieconsent.css?v1 200 
+2025-01-19 00:04:20,712 - INFO - Capturing response: https://coody.it/img/logo_coody.svg 200 
+2025-01-19 00:04:20,759 - INFO - Capturing response: https://coody.it/themes/default/assets/cache/theme-78229391.css 200 
+2025-01-19 00:04:20,763 - INFO - Capturing response: https://coody.it/img/rp.jpg 200 
+2025-01-19 00:04:20,836 - INFO - Capturing request: https://coody.it/themes/default/assets/cache/bottom-8e22d990.js
+2025-01-19 00:04:20,956 - INFO - Capturing response: https://coody.it/themes/default/assets/cache/bottom-8e22d990.js 200 
+2025-01-19 00:04:21,398 - INFO - Capturing request: https://use.typekit.net/buh2uti.css
+2025-01-19 00:04:21,430 - INFO - Capturing request: https://use.typekit.net/gci0mop.css
+2025-01-19 00:04:21,574 - INFO - Capturing response: https://use.typekit.net/buh2uti.css 200 
+2025-01-19 00:04:21,615 - INFO - Capturing response: https://use.typekit.net/gci0mop.css 200 
+2025-01-19 00:04:21,742 - INFO - Capturing request: https://coody.it/themes/default/assets/img/svg/hero.svg
+2025-01-19 00:04:21,926 - INFO - Capturing response: https://coody.it/themes/default/assets/img/svg/hero.svg 200 
+2025-01-19 00:04:22,645 - INFO - Capturing request: https://p.typekit.net/p.css?s=1&k=buh2uti&ht=tk&f=24539.24541.24543.24547&a=27929026&app=typekit&e=css
+2025-01-19 00:04:22,675 - INFO - Capturing request: https://p.typekit.net/p.css?s=1&k=gci0mop&ht=tk&f=24537.24538.24539.24540.24543.24544.24545.24546.24547.24548.24549.24552&a=27929026&app=typekit&e=css
+2025-01-19 00:04:22,711 - INFO - Capturing response: https://p.typekit.net/p.css?s=1&k=buh2uti&ht=tk&f=24539.24541.24543.24547&a=27929026&app=typekit&e=css 200 
+2025-01-19 00:04:22,858 - INFO - Capturing response: https://p.typekit.net/p.css?s=1&k=gci0mop&ht=tk&f=24537.24538.24539.24540.24543.24544.24545.24546.24547.24548.24549.24552&a=27929026&app=typekit&e=css 200 
+2025-01-19 00:04:22,871 - INFO - Capturing request: https://coody.it/themes/default/assets/img/svg/index-modules.svg
+2025-01-19 00:04:23,004 - INFO - Capturing request: https://coody.it/themes/default/assets/img/svg/index-teamwork.svg
+2025-01-19 00:04:23,021 - INFO - Capturing request: https://coody.it/themes/default/assets/img/svg/index-exp.svg
+2025-01-19 00:04:23,023 - INFO - Capturing request: https://coody.it/themes/default/assets/img/svg/index-strategy.svg
+2025-01-19 00:04:23,039 - INFO - Capturing request: https://coody.it/themes/default/assets/img/svg/arrow.svg
+2025-01-19 00:04:23,041 - INFO - Capturing request: https://coody.it/themes/default/assets/img/coody_logo_white.svg
+2025-01-19 00:04:23,054 - INFO - Capturing request: https://coody.it/modules/seigicookie/views/js/seigicookieconsent.js?v1
+2025-01-19 00:04:23,057 - INFO - Capturing request: https://coody.it/modules/seigicookie/views/js/cookieconsent.js?v1
+2025-01-19 00:04:23,068 - INFO - Capturing response: https://coody.it/themes/default/assets/img/svg/index-modules.svg 200 
+2025-01-19 00:04:23,097 - INFO - Capturing request: https://coody.it/themes/default/assets/css/fonts/MustBake.ttf?t7jlhq
+2025-01-19 00:04:23,125 - INFO - Capturing response: https://coody.it/modules/seigicookie/views/js/seigicookieconsent.js?v1 200 
+2025-01-19 00:04:23,132 - INFO - Capturing response: https://coody.it/modules/seigicookie/views/js/cookieconsent.js?v1 200 
+2025-01-19 00:04:23,161 - INFO - Capturing response: https://coody.it/themes/default/assets/img/svg/index-teamwork.svg 200 
+2025-01-19 00:04:23,193 - INFO - Capturing response: https://coody.it/themes/default/assets/img/svg/arrow.svg 200 
+2025-01-19 00:04:23,207 - INFO - Capturing response: https://coody.it/themes/default/assets/img/coody_logo_white.svg 200 
+2025-01-19 00:04:23,212 - INFO - Capturing response: https://coody.it/themes/default/assets/img/svg/index-exp.svg 200 
+2025-01-19 00:04:23,223 - INFO - Capturing response: https://coody.it/themes/default/assets/img/svg/index-strategy.svg 200 
+2025-01-19 00:04:23,270 - INFO - Capturing response: https://coody.it/themes/default/assets/css/fonts/MustBake.ttf?t7jlhq 200 
+2025-01-19 00:04:23,301 - INFO - Capturing request: https://coody.it/modules/seigicookie/views/img/cookie.svg
+2025-01-19 00:04:23,454 - INFO - Capturing response: https://coody.it/modules/seigicookie/views/img/cookie.svg 200 
+2025-01-19 00:04:23,576 - INFO - Capturing request: https://coody.it/img/menu_icons/funkcje-systemowe.svg
+2025-01-19 00:04:23,578 - INFO - Capturing request: https://coody.it/img/menu_icons/wyglad.svg
+2025-01-19 00:04:23,580 - INFO - Capturing request: https://coody.it/img/menu_icons/dostosowanie-produktu.svg
+2025-01-19 00:04:23,733 - INFO - Capturing response: https://coody.it/img/menu_icons/funkcje-systemowe.svg 200 
+2025-01-19 00:04:23,764 - INFO - Capturing response: https://coody.it/img/menu_icons/wyglad.svg 200 
+2025-01-19 00:04:23,781 - INFO - Capturing response: https://coody.it/img/menu_icons/dostosowanie-produktu.svg 200 
+2025-01-19 00:04:23,860 - INFO - Capturing request: https://coody.it/img/menu_icons/marketing.svg
+2025-01-19 00:04:23,876 - INFO - Capturing request: https://coody.it/img/menu_icons/wkrotce.svg
+2025-01-19 00:04:23,908 - INFO - Capturing request: https://coody.it/img/menu_icons/integracje.svg
+2025-01-19 00:04:23,913 - INFO - Capturing response: https://coody.it/img/menu_icons/marketing.svg 200 
+2025-01-19 00:04:23,993 - INFO - Capturing response: https://coody.it/img/menu_icons/integracje.svg 200 
+2025-01-19 00:04:24,030 - INFO - Capturing request: https://coody.it/img/menu_icons/microsoft-365.svg
+2025-01-19 00:04:24,062 - INFO - Capturing response: https://coody.it/img/menu_icons/wkrotce.svg 200 
+2025-01-19 00:04:24,123 - INFO - Capturing request: https://coody.it/img/menu_icons/zebra.svg
+2025-01-19 00:04:24,125 - INFO - Capturing request: https://www.googletagmanager.com/gtm.js?id=GTM-M9FF6KMD
+2025-01-19 00:04:24,201 - INFO - Capturing response: https://coody.it/img/menu_icons/microsoft-365.svg 200 
+2025-01-19 00:04:24,213 - INFO - Capturing request: https://use.typekit.net/af/5d97ff/00000000000000007735f999/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3
+2025-01-19 00:04:24,243 - INFO - Capturing request: https://use.typekit.net/af/262452/00000000000000007735f99a/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n6&v=3
+2025-01-19 00:04:24,245 - INFO - Capturing request: https://use.typekit.net/af/b718ff/00000000000000007735f98d/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n4&v=3
+2025-01-19 00:04:24,258 - INFO - Capturing request: https://use.typekit.net/af/2e2409/00000000000000007735f990/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n3&v=3
+2025-01-19 00:04:24,261 - INFO - Capturing request: https://use.typekit.net/af/19ced7/00000000000000007735f992/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n5&v=3
+2025-01-19 00:04:24,275 - INFO - Capturing response: https://www.googletagmanager.com/gtm.js?id=GTM-M9FF6KMD 200 
+2025-01-19 00:04:24,292 - INFO - Capturing response: https://coody.it/img/menu_icons/zebra.svg 200 
+2025-01-19 00:04:24,387 - INFO - Capturing response: https://use.typekit.net/af/5d97ff/00000000000000007735f999/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3 200 
+2025-01-19 00:04:24,446 - INFO - Capturing response: https://use.typekit.net/af/262452/00000000000000007735f99a/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n6&v=3 200 
+2025-01-19 00:04:24,464 - INFO - Capturing response: https://use.typekit.net/af/2e2409/00000000000000007735f990/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n3&v=3 200 
+2025-01-19 00:04:24,468 - INFO - Capturing request: https://www.googletagmanager.com/gtag/js?id=G-3DQ4Y8C71V&l=dataLayer&cx=c&gtm=45He51g0v9186885451za200
+2025-01-19 00:04:24,493 - INFO - Capturing response: https://use.typekit.net/af/b718ff/00000000000000007735f98d/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n4&v=3 200 
+2025-01-19 00:04:24,521 - INFO - Capturing response: https://use.typekit.net/af/19ced7/00000000000000007735f992/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n5&v=3 200 
+2025-01-19 00:04:24,721 - INFO - Capturing response: https://www.googletagmanager.com/gtag/js?id=G-3DQ4Y8C71V&l=dataLayer&cx=c&gtm=45He51g0v9186885451za200 200 
+2025-01-19 00:04:25,204 - INFO - Capturing request: https://www.clarity.ms/tag/mn7ek7mr8h?ref=gtm2
+2025-01-19 00:04:25,469 - INFO - Capturing response: https://www.clarity.ms/tag/mn7ek7mr8h?ref=gtm2 200 
+2025-01-19 00:04:25,561 - INFO - Capturing request: https://region1.google-analytics.com/g/collect?v=2&tid=G-3DQ4Y8C71V&gtm=45je51g0v9186895614z89186885451za200zb9186885451&_p=1737241460410&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&tag_exp=102067555~102067808~102081485~102123608&cid=1267260976.1737241465&ul=pl-pl&sr=1536x864&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B8.0.0.0%7CChromium%3B132.0.6834.84%7CGoogle%2520Chrome%3B132.0.6834.84&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=denied&_s=1&sid=1737241464&sct=1&seg=0&dl=https%3A%2F%2Fcoody.it%2F&dt=Modu%C5%82y%2C%20sklepy%20internetowe%20i%20integracje&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=5841
+2025-01-19 00:04:25,593 - INFO - Capturing request: https://www.clarity.ms/s/0.7.63/clarity.js
+2025-01-19 00:04:25,736 - INFO - Capturing response: https://region1.google-analytics.com/g/collect?v=2&tid=G-3DQ4Y8C71V&gtm=45je51g0v9186895614z89186885451za200zb9186885451&_p=1737241460410&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&tag_exp=102067555~102067808~102081485~102123608&cid=1267260976.1737241465&ul=pl-pl&sr=1536x864&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B8.0.0.0%7CChromium%3B132.0.6834.84%7CGoogle%2520Chrome%3B132.0.6834.84&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=denied&_s=1&sid=1737241464&sct=1&seg=0&dl=https%3A%2F%2Fcoody.it%2F&dt=Modu%C5%82y%2C%20sklepy%20internetowe%20i%20integracje&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=5841 204 
+2025-01-19 00:04:25,795 - INFO - Capturing response: https://www.clarity.ms/s/0.7.63/clarity.js 200 
+2025-01-19 00:04:26,078 - INFO - Capturing request: https://coody.it/themes/default/assets/img/icons/favicon-32x32.png
+2025-01-19 00:04:32,470 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "[32mPOST /screenshots HTTP/1.1[0m" 302 -
+2025-01-19 00:04:32,478 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:04:32,516 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-19 00:04:32,518 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "GET /static/screenshots/coody.it_.png HTTP/1.1" 200 -
+2025-01-19 00:04:32,520 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "[36mGET /static/screenshots/Ffocus.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:04:32,526 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-19 00:04:32,528 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "[36mGET /static/screenshots/images.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:04:32,535 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-19 00:04:32,537 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-19 00:04:32,577 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:32] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:04:41,657 - INFO - 127.0.0.1 - - [19/Jan/2025 00:04:41] "[31m[1mGET /screenshots/delete/2 HTTP/1.1[0m" 405 -
+2025-01-19 00:06:38,654 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:38] "GET / HTTP/1.1" 200 -
+2025-01-19 00:06:38,715 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:38] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-19 00:06:40,583 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:40] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:06:40,699 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:40] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-19 00:06:40,699 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:40] "[36mGET /static/screenshots/Ffocus.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:06:40,700 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:40] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-19 00:06:40,702 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:40] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-19 00:06:40,704 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:40] "[36mGET /static/screenshots/images.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:06:40,714 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:40] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-19 00:06:40,715 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:40] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-19 00:06:40,769 - INFO - 127.0.0.1 - - [19/Jan/2025 00:06:40] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:06:44,821 - INFO - ====== WebDriver manager ======
+2025-01-19 00:06:46,991 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:06:47,233 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-19 00:06:47,485 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.83\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-19 00:06:47,488 - INFO - Using default request storage
+2025-01-19 00:06:47,523 - INFO - Created proxy listening on 127.0.0.1:57001
+2025-01-19 00:06:50,359 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+2025-01-19 00:06:50,577 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
+2025-01-19 00:06:50,650 - INFO - Capturing request: https://bitcoinwisdom.com/pl/
+2025-01-19 00:06:51,051 - INFO - Capturing response: https://bitcoinwisdom.com/pl/ 200 
+2025-01-19 00:06:52,780 - INFO - Capturing request: https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2
+2025-01-19 00:06:52,782 - INFO - Capturing request: https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2
+2025-01-19 00:06:52,802 - INFO - Capturing request: https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2
+2025-01-19 00:06:52,814 - INFO - Capturing request: https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2
+2025-01-19 00:06:52,828 - INFO - Capturing request: https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2
+2025-01-19 00:06:52,839 - INFO - Capturing request: https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2
+2025-01-19 00:06:52,876 - INFO - Capturing request: https://nitroscripts.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo
+2025-01-19 00:06:52,988 - INFO - Capturing response: https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2 200 
+2025-01-19 00:06:53,004 - INFO - Capturing response: https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2 200 
+2025-01-19 00:06:53,024 - INFO - Capturing response: https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2 200 
+2025-01-19 00:06:53,040 - INFO - Capturing response: https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2 200 
+2025-01-19 00:06:53,045 - INFO - Capturing response: https://nitroscripts.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo 200 
+2025-01-19 00:06:53,062 - INFO - Capturing response: https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2 200 
+2025-01-19 00:06:53,080 - INFO - Capturing response: https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2 200 
+2025-01-19 00:06:53,256 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/source/rev-785dd56/bitcoinwisdom.com/wp-includes/fonts/cc26977e9557edbbc60f1255fb1de6ee.dashicons.ttf
+2025-01-19 00:06:53,272 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTMyLjAuNjgzNC44NBIZCb-crvT7DLVVEgUNEzQKziH5LbKOf5k7iw==?alt=proto
+2025-01-19 00:06:53,274 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/externalFontFace/nitro-min-noimport-d50a671f137ccb0d9e889ebda3240403-stylesheet.css
+2025-01-19 00:06:53,304 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-85466e4a9ad7c3e925c633950f23f881-stylesheet.css
+2025-01-19 00:06:53,307 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-bb1c7df7e17f1c54a3c5f9d2285847cf-stylesheet.css
+2025-01-19 00:06:53,320 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-d414fb8a756eb9ac99a9a99d25afd93f-stylesheet.css
+2025-01-19 00:06:53,333 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/arrowMenu.svg
+2025-01-19 00:06:53,349 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTMyLjAuNjgzNC44NBIZCb-crvT7DLVVEgUNEzQKziH5LbKOf5k7iw==?alt=proto 200 
+2025-01-19 00:06:53,354 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/right-arrow.svg
+2025-01-19 00:06:53,358 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/05/cropped-Bitcoin-Wisdom-3.png
+2025-01-19 00:06:53,369 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pl_PL.png
+2025-01-19 00:06:53,372 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/searchIconHeader.svg
+2025-01-19 00:06:53,380 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/externalFontFace/nitro-min-noimport-d50a671f137ccb0d9e889ebda3240403-stylesheet.css 200 
+2025-01-19 00:06:53,418 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/right-arrow.svg 200 
+2025-01-19 00:06:53,439 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/05/cropped-Bitcoin-Wisdom-3.png 200 
+2025-01-19 00:06:53,446 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/searchIconHeader.svg 200 
+2025-01-19 00:06:53,457 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/source/rev-785dd56/bitcoinwisdom.com/wp-includes/fonts/cc26977e9557edbbc60f1255fb1de6ee.dashicons.ttf 200 
+2025-01-19 00:06:53,489 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-85466e4a9ad7c3e925c633950f23f881-stylesheet.css 200 
+2025-01-19 00:06:53,502 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/arrowMenu.svg 200 
+2025-01-19 00:06:53,534 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-d414fb8a756eb9ac99a9a99d25afd93f-stylesheet.css 200 
+2025-01-19 00:06:53,538 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pl_PL.png 200 
+2025-01-19 00:06:53,544 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-bb1c7df7e17f1c54a3c5f9d2285847cf-stylesheet.css 200 
+2025-01-19 00:06:53,565 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-news.svg
+2025-01-19 00:06:53,581 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-bitcoin-wallet.svg
+2025-01-19 00:06:53,595 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-bitcoin.svg
+2025-01-19 00:06:53,599 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-startshere.svg
+2025-01-19 00:06:53,625 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-trading.svg
+2025-01-19 00:06:53,629 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-to-buy.svg
+2025-01-19 00:06:53,647 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2023/01/Binance-1-500x330.jpg
+2025-01-19 00:06:53,662 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-news.svg 200 
+2025-01-19 00:06:53,677 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2023/12/Coinbase-500x330.jpg
+2025-01-19 00:06:53,689 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-startshere.svg 200 
+2025-01-19 00:06:53,696 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-d414fb8a756eb9ac99a9a99d25afd93f-stylesheet.css
+2025-01-19 00:06:53,700 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-85466e4a9ad7c3e925c633950f23f881-stylesheet.css
+2025-01-19 00:06:53,710 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-bitcoin.svg 200 
+2025-01-19 00:06:53,714 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/advanced-ads/public/assets/js/nitro-min-c92c608a1235f66b22cdc7d36a4dcefa.advanced.min.js
+2025-01-19 00:06:53,719 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-bb1c7df7e17f1c54a3c5f9d2285847cf-stylesheet.css
+2025-01-19 00:06:53,726 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-includes/js/jquery/nitro-min-f43b551b749a36845288913120943cc6.jquery.min.js
+2025-01-19 00:06:53,742 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-to-buy.svg 200 
+2025-01-19 00:06:53,745 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/externalFontFace/nitro-min-noimport-d50a671f137ccb0d9e889ebda3240403-stylesheet.css
+2025-01-19 00:06:53,749 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/translatepress-multilingual/assets/js/nitro-min-5b0a12b834d05301e4d5d8712de7d9a4.trp-translate-dom-changes.js
+2025-01-19 00:06:53,758 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/advanced-ads-pro/assets/js/nitro-min-5d9bab8c30e6062dfaa42d44fd5f159b.advanced-ads-pro.min.js
+2025-01-19 00:06:53,762 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/responsive-menu/v4.0.0/assets/js/nitro-min-268fc2714413e0078cabedbf5ead71a1.rmp-menu.min.js
+2025-01-19 00:06:53,776 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-trading.svg 200 
+2025-01-19 00:06:53,782 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.navigation.js
+2025-01-19 00:06:53,786 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.jquery.sticky.js
+2025-01-19 00:06:53,798 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2023/01/Binance-1-500x330.jpg 200 
+2025-01-19 00:06:53,803 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.jquery.timeago.js
+2025-01-19 00:06:53,808 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/advanced-ads-tracking/public/assets/js/dist/nitro-min-1102675f8c58fe775275efbc5bd69591.tracking.min.js
+2025-01-19 00:06:53,814 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.main.js
+2025-01-19 00:06:53,822 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/js/nitro-min-53b7264b23429738f9b719d701622c21.selectize.min.js
+2025-01-19 00:06:53,825 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/js/nitro-min-3c942a55681b6545c29b6678f9bc387a.socket.io.js
+2025-01-19 00:06:53,829 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/js/nitro-min-26ef3e9333573137ee6c7fc59337f162.common.min.js
+2025-01-19 00:06:53,841 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2023/12/Coinbase-500x330.jpg 200 
+2025-01-19 00:06:53,851 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/plausible.io/js/nitro-min-plausible.js
+2025-01-19 00:06:53,861 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/source/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/03/ico-bitcoin-wallet.svg 200 
+2025-01-19 00:06:53,870 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-d414fb8a756eb9ac99a9a99d25afd93f-stylesheet.css 200 
+2025-01-19 00:06:53,885 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/advanced-ads/public/assets/js/nitro-min-c92c608a1235f66b22cdc7d36a4dcefa.advanced.min.js 200 
+2025-01-19 00:06:53,897 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-85466e4a9ad7c3e925c633950f23f881-stylesheet.css 200 
+2025-01-19 00:06:53,920 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/combinedCss/nitro-min-noimport-bb1c7df7e17f1c54a3c5f9d2285847cf-stylesheet.css 200 
+2025-01-19 00:06:53,937 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/externalFontFace/nitro-min-noimport-d50a671f137ccb0d9e889ebda3240403-stylesheet.css 200 
+2025-01-19 00:06:53,945 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/translatepress-multilingual/assets/js/nitro-min-5b0a12b834d05301e4d5d8712de7d9a4.trp-translate-dom-changes.js 200 
+2025-01-19 00:06:53,963 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-includes/js/jquery/nitro-min-f43b551b749a36845288913120943cc6.jquery.min.js 200 
+2025-01-19 00:06:53,986 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/responsive-menu/v4.0.0/assets/js/nitro-min-268fc2714413e0078cabedbf5ead71a1.rmp-menu.min.js 200 
+2025-01-19 00:06:53,995 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.navigation.js 200 
+2025-01-19 00:06:54,002 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/advanced-ads-pro/assets/js/nitro-min-5d9bab8c30e6062dfaa42d44fd5f159b.advanced-ads-pro.min.js 200 
+2025-01-19 00:06:54,006 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.jquery.sticky.js 200 
+2025-01-19 00:06:54,019 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/js/nitro-min-53b7264b23429738f9b719d701622c21.selectize.min.js 200 
+2025-01-19 00:06:54,028 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/advanced-ads-tracking/public/assets/js/dist/nitro-min-1102675f8c58fe775275efbc5bd69591.tracking.min.js 200 
+2025-01-19 00:06:54,033 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.jquery.timeago.js 200 
+2025-01-19 00:06:54,043 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.main.js 200 
+2025-01-19 00:06:54,049 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/js/nitro-min-3c942a55681b6545c29b6678f9bc387a.socket.io.js 200 
+2025-01-19 00:06:54,063 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/bitcoinwisdom.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/js/nitro-min-26ef3e9333573137ee6c7fc59337f162.common.min.js 200 
+2025-01-19 00:06:54,072 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/optimized/rev-785dd56/plausible.io/js/nitro-min-plausible.js 200 
+2025-01-19 00:06:54,090 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/07/USDC-circle-500x330.jpg
+2025-01-19 00:06:54,092 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2023/11/Paxos-1-500x330.jpg
+2025-01-19 00:06:54,176 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/source/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/fonts/forkawesome.woff2
+2025-01-19 00:06:54,231 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2023/11/Paxos-1-500x330.jpg 200 
+2025-01-19 00:06:54,307 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/07/USDC-circle-500x330.jpg 200 
+2025-01-19 00:06:54,499 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/static/source/rev-785dd56/bitcoinwisdom.com/wp-content/themes/bitcoinwisdom/fonts/forkawesome.woff2 200 
+2025-01-19 00:06:54,780 - INFO - Capturing request: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/05/bitcoinwisdom-favicon.png
+2025-01-19 00:06:54,971 - INFO - Capturing response: https://cdn-ilcaeol.nitrocdn.com/UfHKBSmLsPkkzYHeVZxjqIukZYJzQtIo/assets/images/optimized/rev-934e33c/bitcoinwisdom.com/wp-content/uploads/2022/05/bitcoinwisdom-favicon.png 200 
+2025-01-19 00:07:01,441 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "[32mPOST /screenshots HTTP/1.1[0m" 302 -
+2025-01-19 00:07:01,474 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "GET /screenshots HTTP/1.1" 200 -
+2025-01-19 00:07:01,601 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "GET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1" 200 -
+2025-01-19 00:07:01,604 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-19 00:07:01,605 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-19 00:07:01,644 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "[36mGET /static/screenshots/Ffocus.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:07:01,657 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-19 00:07:01,659 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-19 00:07:01,659 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "[36mGET /static/screenshots/images.jpg HTTP/1.1[0m" 304 -
+2025-01-19 00:07:01,661 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-19 00:07:01,700 - INFO - 127.0.0.1 - - [19/Jan/2025 00:07:01] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:49:09,385 - INFO - Application started
+2025-01-20 08:49:09,432 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 08:49:09,432 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 08:49:09,480 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-20 08:49:11,473 - INFO - Application started
+2025-01-20 08:49:11,491 - WARNING -  * Debugger is active!
+2025-01-20 08:49:11,501 - INFO -  * Debugger PIN: 942-584-997
+2025-01-20 08:49:15,005 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:15] "GET / HTTP/1.1" 200 -
+2025-01-20 08:49:15,197 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:15] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:49:15,829 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-20 08:49:19,867 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:19] "GET /manage_pages HTTP/1.1" 200 -
+2025-01-20 08:49:19,993 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:19] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:49:22,089 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:22] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:49:22,232 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:22] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:49:22,237 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:22] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:22,245 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:22] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:22,249 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:22] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:22,256 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:22] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:22,260 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:22] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-20 08:49:22,364 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:22] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:49:28,596 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:28] "GET /gallery HTTP/1.1" 200 -
+2025-01-20 08:49:28,724 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:28] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:49:28,726 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:28] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:28,728 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:28] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:28,734 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:28] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:28,737 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:28] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:59,217 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:59] "GET /gallery HTTP/1.1" 200 -
+2025-01-20 08:49:59,328 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:59] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:59,330 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:59] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:49:59,331 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:59] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:59,346 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:59] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:49:59,347 - INFO - 127.0.0.1 - - [20/Jan/2025 08:49:59] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:02,960 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:02] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:50:03,021 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:03] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:50:03,024 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:03] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:03,028 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:03] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:03,030 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:03] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:03,038 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:03] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:03,046 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:03] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-20 08:50:03,112 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:03] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:50:08,006 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:08] "GET /manage_pages HTTP/1.1" 200 -
+2025-01-20 08:50:08,153 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:08] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:50:09,427 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:09] "GET / HTTP/1.1" 200 -
+2025-01-20 08:50:09,568 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:09] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:50:11,831 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:11] "GET /gallery HTTP/1.1" 200 -
+2025-01-20 08:50:11,972 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:11] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:50:11,983 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:11] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:11,987 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:11] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:11,989 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:11] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:11,991 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:11] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:12,570 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:12] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:50:12,727 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:12] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:50:12,731 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:12] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:12,734 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:12] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:12,739 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:12] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:12,745 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:12] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:12,747 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:12] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-20 08:50:12,809 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:12] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:50:27,901 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:27] "GET /manage_pages HTTP/1.1" 200 -
+2025-01-20 08:50:27,972 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:27] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:50:31,518 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:31] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:50:31,663 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:31] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:50:31,669 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:31] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:31,673 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:31] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:31,674 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:31] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:31,679 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:31] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:31,682 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:31] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-20 08:50:31,750 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:31] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:50:32,355 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:32] "GET /gallery HTTP/1.1" 200 -
+2025-01-20 08:50:32,515 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:32] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:50:32,519 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:32] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:32,522 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:32] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:32,526 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:32] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:32,526 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:32] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:50:34,816 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:34] "GET / HTTP/1.1" 200 -
+2025-01-20 08:50:34,988 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:34] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:50:38,426 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:38] "GET / HTTP/1.1" 200 -
+2025-01-20 08:50:38,467 - INFO - 127.0.0.1 - - [20/Jan/2025 08:50:38] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:52:04,614 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\get_gallery_images.py', reloading
+2025-01-20 08:52:04,615 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\get_gallery_images.py', reloading
+2025-01-20 08:52:04,616 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\get_gallery_images.py', reloading
+2025-01-20 08:52:05,744 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-20 08:52:07,371 - INFO - Application started
+2025-01-20 08:52:07,383 - WARNING -  * Debugger is active!
+2025-01-20 08:52:07,390 - INFO -  * Debugger PIN: 942-584-997
+2025-01-20 08:52:07,431 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:07] "GET / HTTP/1.1" 200 -
+2025-01-20 08:52:07,653 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:07] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:52:09,258 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:09] "GET /gallery HTTP/1.1" 200 -
+2025-01-20 08:52:09,308 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:09] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:52:09,313 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:09] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:09,316 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:09] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:09,320 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:09] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:09,322 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:09] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:16,998 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:16] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:52:17,105 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:52:17,108 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:17] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:17,112 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:17] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:17,117 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:17] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:17,123 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:17] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:17,127 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:17] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-20 08:52:17,168 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:17] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:52:21,973 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:21] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:52:22,105 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:22] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:52:22,113 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:22] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:22,116 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:22] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:22,138 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:22] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:22,142 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:22] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:52:22,143 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:22] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-20 08:52:22,235 - INFO - 127.0.0.1 - - [20/Jan/2025 08:52:22] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:54:56,331 - INFO - Application started
+2025-01-20 08:54:56,349 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 08:54:56,349 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 08:54:56,359 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-20 08:54:57,814 - INFO - Application started
+2025-01-20 08:54:57,825 - WARNING -  * Debugger is active!
+2025-01-20 08:54:57,831 - INFO -  * Debugger PIN: 942-584-997
+2025-01-20 08:55:01,661 - INFO - ====== WebDriver manager ======
+2025-01-20 08:55:04,049 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-20 08:55:04,222 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-20 08:55:04,352 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-20 08:55:04,630 - INFO - WebDriver version 132.0.6834.83 selected
+2025-01-20 08:55:04,633 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.83/win32/chromedriver-win32.zip
+2025-01-20 08:55:04,633 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.83/win32/chromedriver-win32.zip
+2025-01-20 08:55:04,851 - INFO - Driver downloading response is 200
+2025-01-20 08:55:05,187 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-20 08:55:05,835 - INFO - Driver has been saved in cache [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.83]
+2025-01-20 08:55:05,838 - INFO - Using default request storage
+2025-01-20 08:55:05,887 - INFO - Created proxy listening on 127.0.0.1:61405
+2025-01-20 08:55:08,544 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+2025-01-20 08:55:08,758 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
+2025-01-20 08:55:08,894 - INFO - Capturing request: https://wp.pl/
+2025-01-20 08:55:09,019 - INFO - Capturing response: https://wp.pl/ 301 
+2025-01-20 08:55:09,670 - INFO - Capturing request: https://www.wp.pl/
+2025-01-20 08:55:09,972 - INFO - Capturing response: https://www.wp.pl/ 200 
+2025-01-20 08:55:10,153 - INFO - Capturing request: https://www.wp.pl/Lm1pbi5qYwxQEhRaGgpuMhNKQDZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02F11uGBNKQEZTXn5CAEFMUA1fe0JTHxYdWhxhHlICCxlBAmIAWB5MA0ZTMQ
+2025-01-20 08:55:10,157 - INFO - Capturing request: https://www.wp.pl/d3AucGwuS1IgFxV0WA5GR2NPQSQHHTtANRFBa1UqRgljKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKkYfYwBBfVVaBVc3WgAoGRMNVG4cDSseGwEcJRAQLAMaFB42BU03G1sOQGMI
+2025-01-20 08:55:10,171 - INFO - Capturing request: https://www.wp.pl/c2dhcC5qTFMFChVwGgpBRkZSQSBFGTxBEAxBbxcuQQhGNzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG1GREE2F0tBHRMYCTBZGAEESx8TKUYdClBJGwQiRV8JQUYV
+2025-01-20 08:55:10,185 - INFO - Capturing response: https://www.wp.pl/Lm1pbi5qYwxQEhRaGgpuMhNKQDZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02F11uGBNKQEZTXn5CAEFMUA1fe0JTHxYdWhxhHlICCxlBAmIAWB5MA0ZTMQ 200 
+2025-01-20 08:55:10,192 - INFO - Capturing request: https://www.wp.pl/LmVzNi5qYww3GDhaGgpuGXRAbApFGRMCOB8iBlIYIk96WBFLD1MTMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhNPelg7Sw9TYwI4HyIGUhgiQjkWOQBRFikZewk6CFsVLR8yVCsaA18mHnQH
+2025-01-20 08:55:10,198 - INFO - Capturing request: https://www.wp.pl/bW1vbi5jTTZQFBRaGhFACBNMQDZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT11HVQXSw9ITTEeRE1YBERbbx9BTQpaBw84X1gBGkZIHw
+2025-01-20 08:55:10,209 - INFO - Capturing response: https://www.wp.pl/d3AucGwuS1IgFxV0WA5GR2NPQSQHHTtANRFBa1UqRgljKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKjtsHio8GCgqO2weKjwYKCo7bB4qPBgoKkYfYwBBfVVaBVc3WgAoGRMNVG4cDSseGwEcJRAQLAMaFB42BU03G1sOQGMI 200 
+2025-01-20 08:55:10,211 - INFO - Capturing request: https://www.wp.pl/bWluLmNzTTYNFzpeYQFACE5PbjIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqbkFsD0BtTloqQnxVU2ZCTHRDeVUGMh8eOAI-VA8-AlsvHj1YHw
+2025-01-20 08:55:10,217 - INFO - Capturing request: https://www.wp.pl/cy5taW4uTBhUFhdkGw5BJhdOQwhrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4IaypBVRcBQ20WWgVWB1tQZhpMW1cCWwkyVRFOClYGCCdABk0UXBpPPUdXHg
+2025-01-20 08:55:10,288 - INFO - Capturing response: https://www.wp.pl/bWluLmNzTTYNFzpeYQFACE5PbjIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqEzIRJT0IMyoTMhElPQgzKhMyESU9CDMqbkFsD0BtTloqQnxVU2ZCTHRDeVUGMh8eOAI-VA8-AlsvHj1YHw 200 
+2025-01-20 08:55:10,355 - INFO - Capturing request: https://www.wp.pl/NTV2cGw2YTU3UBV0WElsIHQIQTUcEGJ2CRBZZShtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJEE9lAhB0dnlVAiFZWD1rJERedVFBPj04DwEtA1E6NSNFRTUSWScwJQ9UcEIFaCQkVwUrDg9_cjdWFRQbXTonawJTcVIADWRnAkUkA0s-MWtbDSMSSmg3IFsGMEoULSE1Rl5hFFEvIDNVDDUOD2gGE3kXJhBbc3IiXxd6UVEnNTQPRTcfRiM4a0UUMFlFPnomXkE6/?pvid=df472043afad0dc15922&PWA_adbd=2&sn=sg&abtest=application%7CSGWP25-59%7CA
+2025-01-20 08:55:10,390 - INFO - Capturing response: https://www.wp.pl/bW1vbi5jTTZQFBRaGhFACBNMQDZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT0Ibik9Nmo1PQhuKT02ajU9CG4pPTZqNT11HVQXSw9ITTEeRE1YBERbbx9BTQpaBw84X1gBGkZIHw 200 
+2025-01-20 08:55:10,394 - INFO - Capturing response: https://www.wp.pl/NTV2cGw2YTU3UBV0WElsIHQIQTUcEGJ2CRBZZShtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJbTwYKG0RCwltPBgobRELCW08GChtEQsJEE9lAhB0dnlVAiFZWD1rJERedVFBPj04DwEtA1E6NSNFRTUSWScwJQ9UcEIFaCQkVwUrDg9_cjdWFRQbXTonawJTcVIADWRnAkUkA0s-MWtbDSMSSmg3IFsGMEoULSE1Rl5hFFEvIDNVDDUOD2gGE3kXJhBbc3IiXxd6UVEnNTQPRTcfRiM4a0UUMFlFPnomXkE6/?pvid=df472043afad0dc15922&PWA_adbd=2&sn=sg&abtest=application%7CSGWP25-59%7CA 200 
+2025-01-20 08:55:10,402 - INFO - Capturing response: https://www.wp.pl/cy5taW4uTBhUFhdkGw5BJhdOQwhrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4Iayo8JmorPghrKjwmais-CGsqPCZqKz4IaypBVRcBQ20WWgVWB1tQZhpMW1cCWwkyVRFOClYGCCdABk0UXBpPPUdXHg 200 
+2025-01-20 08:55:10,424 - INFO - Capturing response: https://www.wp.pl/LmVzNi5qYww3GDhaGgpuGXRAbApFGRMCOB8iBlIYIk96WBFLD1MTMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhMyCSURNmouEzIJJRE2ai4TMgklETZqLhNPelg7Sw9TYwI4HyIGUhgiQjkWOQBRFikZewk6CFsVLR8yVCsaA18mHnQH 200 
+2025-01-20 08:55:10,439 - INFO - Capturing response: https://www.wp.pl/c2dhcC5qTFMFChVwGgpBRkZSQSBFGTxBEAxBbxcuQQhGNzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG07Nzwcai48bTs3PBxqLjxtOzc8HGouPG1GREE2F0tBHRMYCTBZGAEESx8TKUYdClBJGwQiRV8JQUYV 200 
+2025-01-20 08:55:10,556 - INFO - Capturing request: https://www.wp.pl/Lm1pbi5qYwxQEhRaGgpuMhNKQDZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMyE1xAHBdLbkJXX1BGBEBiVAleVUZXFWIAWB5MA0ZTMQ
+2025-01-20 08:55:10,580 - INFO - Capturing response: https://www.wp.pl/Lm1pbi5qYwxQEhRaGgpuMhNKQDZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMybi89NmouEzJuLz02ai4TMm4vPTZqLhMyE1xAHBdLbkJXX1BGBEBiVAleVUZXFWIAWB5MA0ZTMQ 200 
+2025-01-20 08:55:10,852 - INFO - Capturing request: https://www.wp.pl/v1/hash
+2025-01-20 08:55:10,874 - INFO - Capturing response: https://www.wp.pl/v1/hash 200 
+2025-01-20 08:55:10,996 - INFO - Capturing request: https://www.wp.pl/Y2s5ZHM0dlMSVyx7Ykt7RlEPeCwiEnUQLBdgahJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sF3ZqOBJjEFxHYnl-AWECQwdrf2JUNkZdUjMucmA2QU5BNThrYxcPAFJ8OzoNaAtBBXw7JQ1oAkAHfDgqDTFGB0UpbX5xfAA1EGgOOkcuHARFdDghFWt0VUc8bj9VMlsXCG1_eAd_QgVcPnUpVm0FQQVueyxWOFZDUTl5eAlrAFVCKiRwAH9fEQhqbileZAJVQ2d9YwR7Tw
+2025-01-20 08:55:11,192 - INFO - Capturing request: https://www.wp.pl/auth/v1/sso/userdata
+2025-01-20 08:55:11,227 - INFO - Capturing response: https://www.wp.pl/Y2s5ZHM0dlMSVyx7Ykt7RlEPeCwiEnUQLBdgahJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sagUXEm8GbSxqBRcSbwZtLGoFFxJvBm0sF3ZqOBJjEFxHYnl-AWECQwdrf2JUNkZdUjMucmA2QU5BNThrYxcPAFJ8OzoNaAtBBXw7JQ1oAkAHfDgqDTFGB0UpbX5xfAA1EGgOOkcuHARFdDghFWt0VUc8bj9VMlsXCG1_eAd_QgVcPnUpVm0FQQVueyxWOFZDUTl5eAlrAFVCKiRwAH9fEQhqbileZAJVQ2d9YwR7Tw 307 
+2025-01-20 08:55:11,257 - INFO - Capturing request: https://www.wp.pl/41690624G1BXW0YFHU8WRBQDEmodRgUGBQ4DAwsDBQBqFlRZRloLVVgEABBheglCUR9DQQ8FDQMGH0NeDwUEAgQfQFEPXEBFRkoVBXMRBncTC3ZBRUMaRkYXQFoXBnIXRF8WRFdfXVULDgcDBRJkXkUERFlCEkRHX10NUlQAAwMGDQNXVFVQAVJaAQMLBgYXQAQFGAYSQ0FaBAAQX1YJARBNWVtXVlFFQVxVWERdR1hCSg0UHhZAEwwbVFkQSQ==/
+2025-01-20 08:55:11,316 - INFO - Capturing response: https://www.wp.pl/auth/v1/sso/userdata 403 
+2025-01-20 08:55:11,487 - INFO - Capturing response: https://www.wp.pl/41690624G1BXW0YFHU8WRBQDEmodRgUGBQ4DAwsDBQBqFlRZRloLVVgEABBheglCUR9DQQ8FDQMGH0NeDwUEAgQfQFEPXEBFRkoVBXMRBncTC3ZBRUMaRkYXQFoXBnIXRF8WRFdfXVULDgcDBRJkXkUERFlCEkRHX10NUlQAAwMGDQNXVFVQAVJaAQMLBgYXQAQFGAYSQ0FaBAAQX1YJARBNWVtXVlFFQVxVWERdR1hCSg0UHhZAEwwbVFkQSQ==/ 204 
+2025-01-20 08:55:11,542 - INFO - Capturing request: https://www.wp.pl/OWh1bG00YDYJUxR0H0ttI0oLQCNfEmN1NxNYZW9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAINxNOZUUSdXVHQ1ZyBwd9ZloBUXQfRy4hDR8FLlYPHBlVQgVhUVM7PgdfXzNCUSkxAVJENEcNfm5aAUQ0WA1-Z1sDRDdXDScjHEERYgNxamUuFFABR0c4eR9BTDdcFX0RTkMEYUJVJD4MDFVwBQdpJx5YBnpUVntgWgFWdFFWLjNYVQF2BQl9ZU5GEisNAGk6CgxSYVRecmdOR19yHgRtKg
+2025-01-20 08:55:11,578 - INFO - Capturing request: https://v.wpimg.pl/cmF5LnBuTAwnVzpdbQ5BGWQPbgcrV09PMxd2TG1MVV0-Gj8JNQVNGjZWKABsBQ9CNUEtGisWTBo2aiAHNBBMCjRUNUAyGwRPOw
+2025-01-20 08:55:11,582 - INFO - Capturing request: https://fonts.wpcdn.pl/roboto/woff2/Roboto-Bold.woff2
+2025-01-20 08:55:11,594 - INFO - Capturing request: https://fonts.wpcdn.pl/roboto/woff2/RobotoCondensed-Regular.woff2
+2025-01-20 08:55:11,617 - INFO - Capturing request: https://v.wpimg.pl/M2ZlNjcwYlM7DjhZTAxvRnhWbAMKVWEQL050SExEfQIiXXZaTBEkXj8eKxoMWSpALxwvHRNZPV51DT4DTAF8HT4FPRoPFjQdPwEsDwdYdFFtDSpfVhZgBGNfLEdXRCxRdw53XlVaeQA5CX0MBkF6AjhabBc
+2025-01-20 08:55:11,626 - INFO - Capturing request: https://fonts.wpcdn.pl/roboto/woff2/RobotoCondensed-Bold.woff2
+2025-01-20 08:55:11,639 - INFO - Capturing response: https://fonts.wpcdn.pl/roboto/woff2/RobotoCondensed-Regular.woff2 200 
+2025-01-20 08:55:11,641 - INFO - Capturing request: https://fonts.wpcdn.pl/roboto/woff2/Roboto-Regular.woff2
+2025-01-20 08:55:11,658 - INFO - Capturing response: https://v.wpimg.pl/cmF5LnBuTAwnVzpdbQ5BGWQPbgcrV09PMxd2TG1MVV0-Gj8JNQVNGjZWKABsBQ9CNUEtGisWTBo2aiAHNBBMCjRUNUAyGwRPOw 200 
+2025-01-20 08:55:11,661 - INFO - Capturing request: https://v.wpimg.pl/ZXJfd3AudTkrBBIAbg54LGhcRlAxHQUrPgJGH2MAeGJoSQ1eIBI_K2UHAEVuBTY5KQMMXC0RPyoVERQdMgM9ejc
+2025-01-20 08:55:11,673 - INFO - Capturing request: https://v.wpimg.pl/ZTUxNDRmdTU0Gjh3fRZ4IHdCbC07T3Z2IFp0Zn1baGQtS3Z0fQszODAKKzQ9Qz0mIAgvMyJDKjh6GT4tfRtrezERPTQ-DCN7MBUsITZCbWwwS3hwZ1l3MGZPeGlmXW1jeBoqfWtAaGBjGitxY1luMmBIbDk
+2025-01-20 08:55:11,686 - INFO - Capturing request: https://v.wpimg.pl/L21vb24uY1NQFBQBGw5uRhNMQFFEHRNBVgESEBhXORALVE1BQBQ4W1JZC19VEilBHgUUVRsYI11fWBFEU1cx
+2025-01-20 08:55:11,692 - INFO - Capturing response: https://v.wpimg.pl/M2ZlNjcwYlM7DjhZTAxvRnhWbAMKVWEQL050SExEfQIiXXZaTBEkXj8eKxoMWSpALxwvHRNZPV51DT4DTAF8HT4FPRoPFjQdPwEsDwdYdFFtDSpfVhZgBGNfLEdXRCxRdw53XlVaeQA5CX0MBkF6AjhabBc 200 
+2025-01-20 08:55:11,700 - INFO - Capturing request: https://v.wpimg.pl/N2MwYWE5YVMsFS9kak5sRm9Nez4sF2IQOFVjdWoEfQA1T2l4I1wiVz8SKThrUjxHPRYuJ2tFIh0sBzB4MwRhViQEKTskTGFXIBU8M2oCfgN0T2tlfBh6Cn8RdGMjBnYfLEJpYGhXeFR9QG40dVQvCy5VJA
+2025-01-20 08:55:11,711 - INFO - Capturing response: https://fonts.wpcdn.pl/roboto/woff2/Roboto-Regular.woff2 200 
+2025-01-20 08:55:11,717 - INFO - Capturing response: https://fonts.wpcdn.pl/roboto/woff2/RobotoCondensed-Bold.woff2 200 
+2025-01-20 08:55:11,736 - INFO - Capturing response: https://www.wp.pl/OWh1bG00YDYJUxR0H0ttI0oLQCNfEmN1NxNYZW9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAIN249GG9vEAg3bj0Yb28QCDduPRhvbxAINxNOZUUSdXVHQ1ZyBwd9ZloBUXQfRy4hDR8FLlYPHBlVQgVhUVM7PgdfXzNCUSkxAVJENEcNfm5aAUQ0WA1-Z1sDRDdXDScjHEERYgNxamUuFFABR0c4eR9BTDdcFX0RTkMEYUJVJD4MDFVwBQdpJx5YBnpUVntgWgFWdFFWLjNYVQF2BQl9ZU5GEisNAGk6CgxSYVRecmdOR19yHgRtKg 204 
+2025-01-20 08:55:11,741 - INFO - Capturing request: https://v.wpimg.pl/NmYxN2E5YQw4GjgBak5sGXtCbFssF2JPLFp0EGoGfl0hSXYCalMnATwKK0IqGykfLAgvRTUbPgF2GT5bakN_Qj0RPUIpVDdCPBUsVyEaLV5pTyxRJ1RjCzoefx9xDXZVdBl5BXcYfQ5gTnhUdAIvVD8bbE8
+2025-01-20 08:55:11,760 - INFO - Capturing request: https://v.wpimg.pl/MGI0ODgwYiYoUjl3SAxvM2sKbS0OVWFlPBJ1ZkhGfnUxCH9rAR4hIjtVPytJED8yOVE4NEkHIWgoQCZrEUZiIyBDPygGDmIiJFIqIEhBfHR7Byt2UVouf3sHYnBXEXxqKFJ2ckpPLH5wBX8mU091dy8SMg
+2025-01-20 08:55:11,772 - INFO - Capturing response: https://fonts.wpcdn.pl/roboto/woff2/Roboto-Bold.woff2 200 
+2025-01-20 08:55:11,788 - INFO - Capturing request: https://v.wpimg.pl/L3N1bi5zY1IvUxRaGgFuR2wLQApFEhNAKUYSSxlYORF0E00aQRs4Wi0eCwRUHSlAYUIUDhoJOV1gQhQOFwc
+2025-01-20 08:55:11,824 - INFO - Capturing response: https://v.wpimg.pl/ZXJfd3AudTkrBBIAbg54LGhcRlAxHQUrPgJGH2MAeGJoSQ1eIBI_K2UHAEVuBTY5KQMMXC0RPyoVERQdMgM9ejc 200 
+2025-01-20 08:55:11,827 - INFO - Capturing request: https://v.wpimg.pl/ZURNLnN2dTQzLDpdYUl4IXB0bg0-WgUmNTk8TGIQL3dobGMdOlMuPDFhJQMvVT8mfT06CWFhPzQgLSQpIV09OTcKAUA9RD13Lw
+2025-01-20 08:55:11,854 - INFO - Capturing request: https://v.wpimg.pl/b2dsZS5zTVMFESxgGgFARkZJeDBFEj1BAwQqcRlYFxBeUXUgQRsWWwdcMz5UHQdBSwAsNBopB1MWEDIUWhUFXgFdKSVSWB8
+2025-01-20 08:55:11,864 - INFO - Capturing request: https://www.wp.pl/M2ZrMHZxYlM7EDt7dQNvRnhIbyw1WmEQBVB3agUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBSdvHngHb3J4Vz8KbUB5cGxOdQNrXT4gNQ9jVTMUcjsoDnBBPVQsKy4RIlxnFSk4KCcrXSgfGyE_DwFdOxZrOy1FfAtoQms7MkV8AmlAazg9RSVGLgI-bWk5aAAcV38OLQ86HC0CYzg2XX90fAArbigdJls-T3p_b09rQiwbKXU-HnkFaEJ5ezseLFZqFi55b0F_AHwFPSRnSGtfOE99bj4WcAJ8BHB9dExvTw
+2025-01-20 08:55:11,881 - INFO - Capturing response: https://v.wpimg.pl/ZTUxNDRmdTU0Gjh3fRZ4IHdCbC07T3Z2IFp0Zn1baGQtS3Z0fQszODAKKzQ9Qz0mIAgvMyJDKjh6GT4tfRtrezERPTQ-DCN7MBUsITZCbWwwS3hwZ1l3MGZPeGlmXW1jeBoqfWtAaGBjGitxY1luMmBIbDk 200 
+2025-01-20 08:55:11,919 - INFO - Capturing response: https://v.wpimg.pl/N2MwYWE5YVMsFS9kak5sRm9Nez4sF2IQOFVjdWoEfQA1T2l4I1wiVz8SKThrUjxHPRYuJ2tFIh0sBzB4MwRhViQEKTskTGFXIBU8M2oCfgN0T2tlfBh6Cn8RdGMjBnYfLEJpYGhXeFR9QG40dVQvCy5VJA 200 
+2025-01-20 08:55:11,926 - INFO - Capturing response: https://v.wpimg.pl/L21vb24uY1NQFBQBGw5uRhNMQFFEHRNBVgESEBhXORALVE1BQBQ4W1JZC19VEilBHgUUVRsYI11fWBFEU1cx 200 
+2025-01-20 08:55:11,928 - INFO - Capturing request: https://v.wpimg.pl/MDVlMTVkYiU3DjtneRBvMHRWbz0_SWFmI053dnlafnYuVH17MAIhISQJPTt4DD8xJg06JHgbIWs3HCR7IFpiID8fPTg3EmIhOw4oMHlYeyBvVH1sM0Z4cDBbYGA1WSxpb115ZnsPL3NuXH1hM1p4IGNOMA
+2025-01-20 08:55:11,941 - INFO - Capturing request: https://v.wpimg.pl/NjhjMWNhYQsJCDtkYRNsHkpQbz4nSmJIHUh3dWFZfVgQUn14KAEiDxoPPThgDzwfGAs6J2AYIkUJGiR4OFlhDgEZPTsvEWEPBQgoM2EMLw9ZUigxL0V6X1pcYGN7CipHUA5-YmMMe1pdWXtvLVktC1tIMA
+2025-01-20 08:55:11,955 - INFO - Capturing response: https://v.wpimg.pl/NmYxN2E5YQw4GjgBak5sGXtCbFssF2JPLFp0EGoGfl0hSXYCalMnATwKK0IqGykfLAgvRTUbPgF2GT5bakN_Qj0RPUIpVDdCPBUsVyEaLV5pTyxRJ1RjCzoefx9xDXZVdBl5BXcYfQ5gTnhUdAIvVD8bbE8 200 
+2025-01-20 08:55:11,957 - INFO - Capturing request: https://v.wpimg.pl/MmE0ZGY4YgwkUix0dk9vGWcKeC4wFmFPMBJgZXYFfl89CGpoP10hCDdVKih3Uz8YNVEtN3dEIUIkQDNoLwViCSxDKis4TWIIKFI_I3YGKVsjBmpwYRl0VSYJd3M_DSlAJAlic3QCdQtwVGgmbVArVXQSJw
+2025-01-20 08:55:11,988 - INFO - Capturing response: https://v.wpimg.pl/MGI0ODgwYiYoUjl3SAxvM2sKbS0OVWFlPBJ1ZkhGfnUxCH9rAR4hIjtVPytJED8yOVE4NEkHIWgoQCZrEUZiIyBDPygGDmIiJFIqIEhBfHR7Byt2UVouf3sHYnBXEXxqKFJ2ckpPLH5wBX8mU091dy8SMg 200 
+2025-01-20 08:55:12,002 - INFO - Capturing response: https://v.wpimg.pl/ZURNLnN2dTQzLDpdYUl4IXB0bg0-WgUmNTk8TGIQL3dobGMdOlMuPDFhJQMvVT8mfT06CWFhPzQgLSQpIV09OTcKAUA9RD13Lw 200 
+2025-01-20 08:55:12,012 - INFO - Capturing request: https://v.wpimg.pl/dHlwZS5zSykNFSxgGgFGPE5NeDBFEjs7CwAqcRlYEWpWVXUgQRsQIQ9YMz5UHQE7QwQsNBotNBgFGzUneRUDJxgOKjYbCRIvTgo
+2025-01-20 08:55:12,017 - INFO - Capturing request: https://www.wp.pl/dGlvbi5qSyYNFBRaGgpGM05MQApFGTs0GBJARRcuRn1OKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmpTSGUZVFhLGgYULR8aCwsDXlZpWVhQXQdeEzcGBQ4AV1wHLxkYCURGFgU3QRgNHVwXDSQNAgsGW18ONE4L
+2025-01-20 08:55:12,025 - INFO - Capturing request: https://www.wp.pl/cmViaWQuTAw3Cxdkfg5BGXRTQzQhHTweIg1De3MqQVd0Nj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8MnRFQyJzT0FCIRkRNTsGTB0kDAM-NVsJHnQU
+2025-01-20 08:55:12,055 - INFO - Capturing response: https://v.wpimg.pl/MDVlMTVkYiU3DjtneRBvMHRWbz0_SWFmI053dnlafnYuVH17MAIhISQJPTt4DD8xJg06JHgbIWs3HCR7IFpiID8fPTg3EmIhOw4oMHlYeyBvVH1sM0Z4cDBbYGA1WSxpb115ZnsPL3NuXH1hM1p4IGNOMA 200 
+2025-01-20 08:55:12,063 - INFO - Capturing request: https://v.wpimg.pl/Y29uLnN2dlNYFzpdYUl7RhtPbg0-WgZBXgI8TGIQLBADV2MdOlMtW1paJQMvVTxBFgY6CWFlCWJQGSMaB1E2XBcGOglsTw
+2025-01-20 08:55:12,118 - INFO - Capturing response: https://v.wpimg.pl/NjhjMWNhYQsJCDtkYRNsHkpQbz4nSmJIHUh3dWFZfVgQUn14KAEiDxoPPThgDzwfGAs6J2AYIkUJGiR4OFlhDgEZPTsvEWEPBQgoM2EMLw9ZUigxL0V6X1pcYGN7CipHUA5-YmMMe1pdWXtvLVktC1tIMA 200 
+2025-01-20 08:55:12,121 - INFO - Capturing request: https://v.wpimg.pl/dHlwZS5zSykNFSxgGgFGPE5NeDBFEjs7CwAqcRlYEWpWVXUgQRsQIQ9YMz5UHQE7QwQsNBo7Bis2Eyg8QhMBBAMQNSdMCgFmHwE9cUg
+2025-01-20 08:55:12,137 - INFO - Capturing response: https://www.wp.pl/M2ZrMHZxYlM7EDt7dQNvRnhIbyw1WmEQBVB3agUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBScSbQUtEhcFJxJtBS0SFwUnEm0FLRIXBSdvHngHb3J4Vz8KbUB5cGxOdQNrXT4gNQ9jVTMUcjsoDnBBPVQsKy4RIlxnFSk4KCcrXSgfGyE_DwFdOxZrOy1FfAtoQms7MkV8AmlAazg9RSVGLgI-bWk5aAAcV38OLQ86HC0CYzg2XX90fAArbigdJls-T3p_b09rQiwbKXU-HnkFaEJ5ezseLFZqFi55b0F_AHwFPSRnSGtfOE99bj4WcAJ8BHB9dExvTw 204 
+2025-01-20 08:55:12,139 - INFO - Capturing request: https://v.wpimg.pl/eXBlLnN2SjkjDjpdYUlHLGBWbg0-WjorJRs8TGIQEHp4TmMdOlMRMSFDJQMvVQArbR86CWF9FT0sKgEiIVUKLDscKUA9RAJ6Pw
+2025-01-20 08:55:12,153 - INFO - Capturing response: https://v.wpimg.pl/L3N1bi5zY1IvUxRaGgFuR2wLQApFEhNAKUYSSxlYORF0E00aQRs4Wi0eCwRUHSlAYUIUDhoJOV1gQhQOFwc 200 
+2025-01-20 08:55:12,157 - INFO - Capturing request: https://v.wpimg.pl/TUljb24uezQNCBQBGw52IU5QQFFEHQsmCx0SEBhXIXdWSE1BQBQgPA9FC19VEjEmQxkUVRs6JDACLC97Vxo6ex8cBRBJ
+2025-01-20 08:55:12,176 - INFO - Capturing response: https://v.wpimg.pl/MmE0ZGY4YgwkUix0dk9vGWcKeC4wFmFPMBJgZXYFfl89CGpoP10hCDdVKih3Uz8YNVEtN3dEIUIkQDNoLwViCSxDKis4TWIIKFI_I3YGKVsjBmpwYRl0VSYJd3M_DSlAJAlic3QCdQtwVGgmbVArVXQSJw 200 
+2025-01-20 08:55:12,204 - INFO - Capturing response: https://v.wpimg.pl/b2dsZS5zTVMFESxgGgFARkZJeDBFEj1BAwQqcRlYFxBeUXUgQRsWWwdcMz5UHQdBSwAsNBopB1MWEDIUWhUFXgFdKSVSWB8 200 
+2025-01-20 08:55:12,208 - INFO - Capturing request: https://v.wpimg.pl/Y29uLnN2dlNYFzpdYUl7RhtPbg0-WgZBXgI8TGIQLBADV2MdOlMtW1paJQMvVTxBFgY6CWFzO1FjET4BOVs8e1oaIkA9RD4QRA
+2025-01-20 08:55:12,212 - INFO - Capturing request: https://v.wpimg.pl/ZURNLnN2dTQzLDpdYUl4IXB0bg0-WgUmNTk8TGIQL3dobGMdOlMuPDFhJQMvVT8mfT06CWFzODYIKj4BOVs_GT0pIxo3Qj8RH2A_GCkQJw
+2025-01-20 08:55:12,221 - INFO - Capturing request: https://v.wpimg.pl/b3R5cGUuTVIzVxV0eg5AR3APQSQlHT1ANUITZXlXFxFoF0w0IRQWWjEaCio0EgdAfUYVIHoiMnw5VBktMDkNVD1BGjcwWxFFNRce
+2025-01-20 08:55:12,240 - INFO - Capturing response: https://www.wp.pl/dGlvbi5qSyYNFBRaGgpGM05MQApFGTs0GBJARRcuRn1OKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmouOxgzKT02ai47GDMpPTZqLjsYMyk9NmpTSGUZVFhLGgYULR8aCwsDXlZpWVhQXQdeEzcGBQ4AV1wHLxkYCURGFgU3QRgNHVwXDSQNAgsGW18ONE4L 200 
+2025-01-20 08:55:12,244 - INFO - Capturing request: https://v.wpimg.pl/SWNvbi5zfDYvFBRaGgFxI2xMQApFEgwkKQESSxlYJnV0VE0aQRsnPi1ZCwRUHTYkYQUUDhotAxglFxgDUDMwOCBYER9SWC4
+2025-01-20 08:55:12,250 - INFO - Capturing request: https://v.wpimg.pl/cGVETS5zTCY3JyJgGgFBM3R_djBFEjw0MTIkcRlYFmVsZ3sgQRsXLjVqPT5UHQY0eTYiNBotMwg9JC45UDYMIDkxLSNQPi5pJTMzcUg
+2025-01-20 08:55:12,280 - INFO - Capturing response: https://v.wpimg.pl/dHlwZS5zSykNFSxgGgFGPE5NeDBFEjs7CwAqcRlYEWpWVXUgQRsQIQ9YMz5UHQE7QwQsNBotNBgFGzUneRUDJxgOKjYbCRIvTgo 200 
+2025-01-20 08:55:12,293 - INFO - Capturing response: https://www.wp.pl/cmViaWQuTAw3Cxdkfg5BGXRTQzQhHTweIg1De3MqQVd0Nj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8Mgk2PggOKjwyCTY-CA4qPDIJNj4IDio8MnRFQyJzT0FCIRkRNTsGTB0kDAM-NVsJHnQU 200 
+2025-01-20 08:55:12,318 - INFO - Capturing response: https://v.wpimg.pl/Y29uLnN2dlNYFzpdYUl7RhtPbg0-WgZBXgI8TGIQLBADV2MdOlMtW1paJQMvVTxBFgY6CWFlCWJQGSMaB1E2XBcGOglsTw 200 
+2025-01-20 08:55:12,330 - INFO - Capturing response: https://v.wpimg.pl/eXBlLnN2SjkjDjpdYUlHLGBWbg0-WjorJRs8TGIQEHp4TmMdOlMRMSFDJQMvVQArbR86CWF9FT0sKgEiIVUKLDscKUA9RAJ6Pw 200 
+2025-01-20 08:55:12,344 - INFO - Capturing response: https://v.wpimg.pl/dHlwZS5zSykNFSxgGgFGPE5NeDBFEjs7CwAqcRlYEWpWVXUgQRsQIQ9YMz5UHQE7QwQsNBo7Bis2Eyg8QhMBBAMQNSdMCgFmHwE9cUg 200 
+2025-01-20 08:55:12,346 - INFO - Capturing request: https://v.wpimg.pl/ZUljb24udTQNCBQBGw54IU5QQFFEHQUmCx0SEBhXL3dWSE1BQBQuPA9FC19VEj8mQxkUVRs9NScDGQFdRBATNgMETEFCEngo
+2025-01-20 08:55:12,376 - INFO - Capturing response: https://v.wpimg.pl/TUljb24uezQNCBQBGw52IU5QQFFEHQsmCx0SEBhXIXdWSE1BQBQgPA9FC19VEjEmQxkUVRs6JDACLC97Vxo6ex8cBRBJ 200 
+2025-01-20 08:55:12,390 - INFO - Capturing request: https://v.wpimg.pl/SWNvbi5zfDYvFBRaGgFxI2xMQApFEgwkKQESSxlYJnV0VE0aQRsnPi1ZCwRUHTYkYQUUDhouJQc8GQUbVBc-MgcVDQcbCSUwbAs
+2025-01-20 08:55:12,399 - INFO - Capturing request: https://v.wpimg.pl/b29rLnN2TVNYEDpdYUlARhtIbg0-Wj1BXgU8TGIQFxADUGMdOlMWW1pdJQMvVQdBFgE6CWFUA1FcECMBJRwRRF5QMQ
+2025-01-20 08:55:12,404 - INFO - Capturing request: https://v.wpimg.pl/Z3JhbS5zdVIrChRgGgF4R2hSQDBFEgVALR8ScRlYLxFwSk0gQRsuWilHCz5UHT9AZRsUNBoTNEA-CQUhVBd0QDwPQC4
+2025-01-20 08:55:12,418 - INFO - Capturing response: https://v.wpimg.pl/Y29uLnN2dlNYFzpdYUl7RhtPbg0-WgZBXgI8TGIQLBADV2MdOlMtW1paJQMvVTxBFgY6CWFzO1FjET4BOVs8e1oaIkA9RD4QRA 200 
+2025-01-20 08:55:12,422 - INFO - Capturing request: https://v.wpimg.pl/dXR1YmUuSzkzUy9eeg5GLHALew4lHTsrNUYpT3lXEXpoE3YeIRQQMTEeMAA0EgErfUIvCnoMCy0mRDsIewYSP3BM
+2025-01-20 08:55:12,436 - INFO - Capturing request: https://v.wpimg.pl/a3Rvay5zTlIzFBdKGgFDR3BMQxpFEj5ANQERWxlYFBFoVE4KQRsVWjFZCBRUHQRAfQUXHhoOCFgmGQpXRgwGES8
+2025-01-20 08:55:12,452 - INFO - Capturing response: https://v.wpimg.pl/cGVETS5zTCY3JyJgGgFBM3R_djBFEjw0MTIkcRlYFmVsZ3sgQRsXLjVqPT5UHQY0eTYiNBotMwg9JC45UDYMIDkxLSNQPi5pJTMzcUg 200 
+2025-01-20 08:55:12,458 - INFO - Capturing response: https://v.wpimg.pl/ZURNLnN2dTQzLDpdYUl4IXB0bg0-WgUmNTk8TGIQL3dobGMdOlMuPDFhJQMvVT8mfT06CWFzODYIKj4BOVs_GT0pIxo3Qj8RH2A_GCkQJw 200 
+2025-01-20 08:55:12,464 - INFO - Capturing response: https://v.wpimg.pl/b3R5cGUuTVIzVxV0eg5AR3APQSQlHT1ANUITZXlXFxFoF0w0IRQWWjEaCio0EgdAfUYVIHoiMnw5VBktMDkNVD1BGjcwWxFFNRce 200 
+2025-01-20 08:55:12,470 - INFO - Capturing response: https://v.wpimg.pl/SWNvbi5zfDYvFBRaGgFxI2xMQApFEgwkKQESSxlYJnV0VE0aQRsnPi1ZCwRUHTYkYQUUDhotAxglFxgDUDMwOCBYER9SWC4 200 
+2025-01-20 08:55:12,474 - INFO - Capturing request: https://v.wpimg.pl/N2JiODBhYVMrCzl3bRNsRmhTbS0rSmIQP0t1Zm1ZfQAyUX9rJAEiVzgMPytsDzxHOgg4NGwYIh0rGSZrNFlhViMaPygjEWFXJwsqIG1dLAt5DS4mI0UsVy9fYnB6WnYfc1l7J29YeAB7XHgmIFB-UyhLMg
+2025-01-20 08:55:12,482 - INFO - Capturing request: https://v.wpimg.pl/NmQ0NzA1YQwwUjhJbkpsGXMKbBMoE2JPJBJ0WG4AelkpCX5VJ1giCCNVPhVvVjwYIVE5Cm9BIkIwQCdVNwBhCThDPhYgSGEIPFIrHm5TLV81AXofcBx2X2gDY053VXZAMAV4TWwEelVhVHgedQZ-WDISMw
+2025-01-20 08:55:12,495 - INFO - Capturing request: https://v.wpimg.pl/MTUwYzYwYjU0FS9JdgxvIHdNexMwVWF2IFVjWHZEfWQtRGFKdhEkODAFPAo2WSomIAc4DSlZPTh6FikTdgF8ezEeKgo1FjR7MBo7Hz1YLzVgEzwfak5gN2RGb1dtFi9teE46HD1adDZtE2hPaRR7ZGBDewc
+2025-01-20 08:55:12,502 - INFO - Capturing request: https://v.wpimg.pl/NjFlODQ2YQsnDjl3fklsHmRWbS04EGJIM051Zn4Bflo-XXd0flQnBiMeKjQ-HCkYMxwuMyEcPgZpDT8tfkR_RSIFPDQ9UzdFIwEtITUdfg52WHp3YwZjXSVbLmllBCgJaw57cWkfKgl1CXl1NAp6XCVZbTk
+2025-01-20 08:55:12,511 - INFO - Capturing request: https://v.wpimg.pl/OWQ2ZjU0YDYwUCxZekttI3MIeAM8EmN1JBBgSHoDf2cpA2JaelYmOzRAPxo6HiglJEI7HSUePzt-UyoDekZ-eDVbKRo5UTZ4NF84DzEfeDVlBWsOMFJiZDcEY0dhVnlufApvC20dLW9nUWMOY1Z6YzRWeBc
+2025-01-20 08:55:12,525 - INFO - Capturing response: https://v.wpimg.pl/ZUljb24udTQNCBQBGw54IU5QQFFEHQUmCx0SEBhXL3dWSE1BQBQuPA9FC19VEj8mQxkUVRs9NScDGQFdRBATNgMETEFCEngo 200 
+2025-01-20 08:55:12,533 - INFO - Capturing response: https://v.wpimg.pl/SWNvbi5zfDYvFBRaGgFxI2xMQApFEgwkKQESSxlYJnV0VE0aQRsnPi1ZCwRUHTYkYQUUDhouJQc8GQUbVBc-MgcVDQcbCSUwbAs 200 
+2025-01-20 08:55:12,544 - INFO - Capturing response: https://v.wpimg.pl/b29rLnN2TVNYEDpdYUlARhtIbg0-Wj1BXgU8TGIQFxADUGMdOlMWW1pdJQMvVQdBFgE6CWFUA1FcECMBJRwRRF5QMQ 200 
+2025-01-20 08:55:12,555 - INFO - Capturing response: https://v.wpimg.pl/Z3JhbS5zdVIrChRgGgF4R2hSQDBFEgVALR8ScRlYLxFwSk0gQRsuWilHCz5UHT9AZRsUNBoTNEA-CQUhVBd0QDwPQC4 200 
+2025-01-20 08:55:12,557 - INFO - Capturing request: https://v.wpimg.pl/ZTBiYTlhdTUjCy9nQxN4IGBTez0FSnZ2N0tjdkNbamQ6WGFkQw4zOCcbPCQDRj0mNxk4IxxGKjhtCCk9Qx5reyYAKiQACSN7JwQ7MQhHYmx7DTxsXAx3NyYMOnlYDmo2bwtqYA5FPjV3DzxkDgljNSFceyk
+2025-01-20 08:55:12,561 - INFO - Capturing request: https://www.wp.pl/cnMuanNvTA8sFxddYQ1BGm9PQw0-HjwdORFDQmwpQVRvKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDFvWUMbbExBQSoRERxhGRcGKAdMHi8EFwAoBxJAJAUMAG8I
+2025-01-20 08:55:12,569 - INFO - Capturing request: https://v.wpimg.pl/MzhlNTFiYhsJDjhnaRJvDkpWbD0vS2FYHU50dmlafUoQXXZkaQ8kFg0eKyQpRyoIHRwvIzZHPRZHDT49aR98VQwFPSQqCDRVDQEsMSJGfR4LDi0xcltgTFkJfnlyXitORQ13NydELElcCn1sI1x8GAkPbCk
+2025-01-20 08:55:12,574 - INFO - Capturing request: https://v.wpimg.pl/OTAxYmEzYDUgGi9eagFtIGNCewQsWGN2NFpjT2pJf2Q5SWFdahwmOCQKPB0qVCgmNAg4GjVUPzhuGSkEagx-eyURKh0pGzZ7JBU7CCFVdmxwSm9aIRxiYCQZOEBxQyoybBphCSRXKWJxTmBddBguZyQcexA
+2025-01-20 08:55:12,580 - INFO - Capturing request: https://www.wp.pl/djMuanNvSwssFxddYQ1GHm9PQw0-HjsZORFDQmwpRlBvKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MRFUSEg4V1tMYREAGj9aFwsgEgsYYBkIHTpbFAZgA1JAJAULBG8I
+2025-01-20 08:55:12,594 - INFO - Capturing response: https://v.wpimg.pl/dXR1YmUuSzkzUy9eeg5GLHALew4lHTsrNUYpT3lXEXpoE3YeIRQQMTEeMAA0EgErfUIvCnoMCy0mRDsIewYSP3BM 200 
+2025-01-20 08:55:12,599 - INFO - Capturing request: https://v.wpimg.pl/OGI3N2ZhYCYoUTgBdRNtM2sJbFszSmNlPBF0EHVbf3cxAnYCdQ4mKyxBK0I1Rig1PEMvRSpGPytmUj5bdR5-aC1aPUI2CTZoLF4sVz5HeH95Vn4Hb1tiISwHLR9uXH4lZAp6VzlFKiMoBHZQbV8pJi9RbE8
+2025-01-20 08:55:12,612 - INFO - Capturing request: https://v.wpimg.pl/YTViNDYydjU3Czh3dgJ7IHRTbC0wW3V2I0t0ZnZKaWQuWHZ0dh8wODMbKzQ2Vz4mIxkvMylXKTh5CD4tdg9oezIAPTQ1GCB7MwQsIT1WYGxnCH51PEh0YDNQe2ltHThtewt-IjpUa2Y1Ci9xO01vZjVbbDk
+2025-01-20 08:55:12,617 - INFO - Capturing request: https://v.wpimg.pl/YTAzZDExdjUgGCx3agN7IGNAeC0sWnV2NFhgZmpLaWQ5S2J0ah4wOCQIPzQqVj4mNAo7MzVWKThuGyotag5oeyUTKTQpGSB7JBc4ISFXbDZwG2l2JEF0Y3RKOWlxSj9mbEJvdyZVaGAnHzt0dhxoZXEYeDk
+2025-01-20 08:55:12,628 - INFO - Capturing request: https://v.wpimg.pl/MjgxMDkxYgsGGjt3RANvHkVCby0CWmFIElp3ZkRLfVofSXV0RB4kBgIKKDQEVioYEggsMxtWPQZIGT0tRA58RQMRPjQHGTRFAhUvIQ9XelxVT3l2UxlgCQVBL2lfG34OShp8Jl1VLw4BSn98Wkh0WwMbbzk
+2025-01-20 08:55:12,634 - INFO - Capturing request: https://v.wpimg.pl/ZTM3NmQydTUsUThefgJ4IG8JbAQ4W3Z2OBF0T35KamQ1AnZdfh8zOChBKx0-Vz0mOEMvGiFXKjhiUj4Efg9reylaPR09GCN7KF4sCDVWYjF7VnhYYxt3YysAeEBlSDllYFF_WGBUbWV4ByteZk8-ZnQKbBA
+2025-01-20 08:55:12,652 - INFO - Capturing response: https://v.wpimg.pl/a3Rvay5zTlIzFBdKGgFDR3BMQxpFEj5ANQERWxlYFBFoVE4KQRsVWjFZCBRUHQRAfQUXHhoOCFgmGQpXRgwGES8 200 
+2025-01-20 08:55:12,660 - INFO - Capturing request: https://v.wpimg.pl/NzkxNjhlYRsKGjhZRxdsDklCbAMBTmJYHlp0SEdffkoTSXZaRwonFg4KKxoHQikIHggvHRhCPhZEGT4DRxp_VQ8RPRoEDTdVDhUsDwxDdkNYQH1TXl9jTFweKEdcWy8fRkB5CQlBeBhdHHlTWVp2H1NObBc
+2025-01-20 08:55:12,665 - INFO - Capturing request: https://v.wpimg.pl/MTI2OTIzYjUoUDlnZgFvIGsIbT0gWGF2PBB1dmZJfWQxA3dkZhwkOCxAKiQmVComPEIuIzlUPThmUz89Zgx8ey1bPCQlGzR7LF8tMS1VfGxxBnhgeEpgZipXdnl9TSg3ZAt4MSpXKGUoBH5mf0N_Z3oDbSk
+2025-01-20 08:55:12,674 - INFO - Capturing response: https://v.wpimg.pl/N2JiODBhYVMrCzl3bRNsRmhTbS0rSmIQP0t1Zm1ZfQAyUX9rJAEiVzgMPytsDzxHOgg4NGwYIh0rGSZrNFlhViMaPygjEWFXJwsqIG1dLAt5DS4mI0UsVy9fYnB6WnYfc1l7J29YeAB7XHgmIFB-UyhLMg 200 
+2025-01-20 08:55:12,682 - INFO - Capturing response: https://v.wpimg.pl/NmQ0NzA1YQwwUjhJbkpsGXMKbBMoE2JPJBJ0WG4AelkpCX5VJ1giCCNVPhVvVjwYIVE5Cm9BIkIwQCdVNwBhCThDPhYgSGEIPFIrHm5TLV81AXofcBx2X2gDY053VXZAMAV4TWwEelVhVHgedQZ-WDISMw 200 
+2025-01-20 08:55:12,687 - INFO - Capturing response: https://v.wpimg.pl/MTUwYzYwYjU0FS9JdgxvIHdNexMwVWF2IFVjWHZEfWQtRGFKdhEkODAFPAo2WSomIAc4DSlZPTh6FikTdgF8ezEeKgo1FjR7MBo7Hz1YLzVgEzwfak5gN2RGb1dtFi9teE46HD1adDZtE2hPaRR7ZGBDewc 200 
+2025-01-20 08:55:12,690 - INFO - Capturing request: https://v.wpimg.pl/MTg0OGU1YjUGUjl0ekpvIEUKbS48E2F2EhJ1ZXoCfWQfAXd3elckOAJCKjc6HyomEkAuMCUfPThIUT8uekd8ewNZPDc5UDR7Al0tIjEefzJQAC4jN1JgYVFRKWphCHUxSlJ8dWccKDBTVH5_YQkoYVMGbTo
+2025-01-20 08:55:12,705 - INFO - Capturing response: https://www.wp.pl/cnMuanNvTA8sFxddYQ1BGm9PQw0-HjwdORFDQmwpQVRvKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDESKj4xESk8MRIqPjERKTwxEio-MREpPDFvWUMbbExBQSoRERxhGRcGKAdMHi8EFwAoBxJAJAUMAG8I 200 
+2025-01-20 08:55:12,724 - INFO - Capturing response: https://v.wpimg.pl/NjFlODQ2YQsnDjl3fklsHmRWbS04EGJIM051Zn4Bflo-XXd0flQnBiMeKjQ-HCkYMxwuMyEcPgZpDT8tfkR_RSIFPDQ9UzdFIwEtITUdfg52WHp3YwZjXSVbLmllBCgJaw57cWkfKgl1CXl1NAp6XCVZbTk 200 
+2025-01-20 08:55:12,726 - INFO - Capturing request: https://v.wpimg.pl/NWM2ZDUzYTYsUCx3egFsI28IeC08WGJ1OBBgZnpJfmc1A2J0ehwnOyhAPzQ6VCklOEI7MyVUPjtiUyotegx_eClbKTQ5Gzd4KF84ITFVezV6BGJxYUljNXxTbGlhTncyYFBqImxXd299Vm8nYx57ZH8GeDk
+2025-01-20 08:55:12,753 - INFO - Capturing response: https://v.wpimg.pl/ZTBiYTlhdTUjCy9nQxN4IGBTez0FSnZ2N0tjdkNbamQ6WGFkQw4zOCcbPCQDRj0mNxk4IxxGKjhtCCk9Qx5reyYAKiQACSN7JwQ7MQhHYmx7DTxsXAx3NyYMOnlYDmo2bwtqYA5FPjV3DzxkDgljNSFceyk 200 
+2025-01-20 08:55:12,758 - INFO - Capturing response: https://v.wpimg.pl/OWQ2ZjU0YDYwUCxZekttI3MIeAM8EmN1JBBgSHoDf2cpA2JaelYmOzRAPxo6HiglJEI7HSUePzt-UyoDekZ-eDVbKRo5UTZ4NF84DzEfeDVlBWsOMFJiZDcEY0dhVnlufApvC20dLW9nUWMOY1Z6YzRWeBc 200 
+2025-01-20 08:55:12,761 - INFO - Capturing request: https://v.wpimg.pl/MjVjNGUwYgs3CDh0egxvHnRQbC48VWFII0h0ZXpEfVouWXZ3ehEkBjMYKzc6WSoYIxovMCVZPQZ5Cz4uegF8RTIDPTc5FjRFMwcsIjFYf183D35-YU9gCWYIK2phQSxcewh_IWVafl4zD3xyNkMoWjcObDo
+2025-01-20 08:55:12,766 - INFO - Capturing request: https://www.wp.pl/aHp4MHozTikRVjt7QAFDPFIObywAWE1qLxZ3ajAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XLxZhahpYW2pfRn19XkpZe0AGfXFADQA-FRoqIQlFMgZNRypuDhkVIR9acDwdGwcuGVdrOxhHUHFCBGs7B0dQeEMGazgIRwk8BEQ-bVw7RHo2EX8OGA0WZgdEYzgDX1MOVkYrbh0fCiEUCXp_Wk1HOAZdKXULHFV_QgR5ew4cACxAUC55WkNTelZDPSRSSkclEgl9bgsUXHhWQnB9QU5DNQ
+2025-01-20 08:55:12,773 - INFO - Capturing request: https://v.wpimg.pl/NDgwZWMzYSUGFSxkYgFsMEVNeD4kWGJmElVgdWJJfnQfRmJnYhwnKAIFPyciVCk2Egc7ID1UPihIFio-Ygx_awMeKSchGzdrAho4MilVd3cCRWk1dUljd14TOXp5TngiShZuNHRXLX1WFW5vfR8tdwNOeCo
+2025-01-20 08:55:12,778 - INFO - Capturing request: https://v.wpimg.pl/MzNmZjY0YhsvDyxZdktvDmxXeAMwEmFYO09gSHYDfUo2XGJadlYkFisfPxo2HioIOx07HSkePRZhDCoDdkZ8VSoEKRo1UTRVKwA4Dz0fL0stD2oMYVVgTHxaP0dtUiseY1RiDGAdKEJ-W2lZP1Z7TndaeBc
+2025-01-20 08:55:12,788 - INFO - Capturing request: https://v.wpimg.pl/NDgyMDg4YSUGGzt3SE9sMEVDby0OFmJmElt3ZkgHfnQfSHV0SFInKAILKDQIGik2EgksMxcaPihIGD0tSEJ_awMQPjQLVTdrAhQvIQMbKHEDGi4iXgBjdwNOe2lTUXYhSkF6JwYZKn0GTHl8VQR2fFQYbzk
+2025-01-20 08:55:12,801 - INFO - Capturing response: https://www.wp.pl/djMuanNvSwssFxddYQ1GHm9PQw0-HjsZORFDQmwpRlBvKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MREpOzUSKj4xESk7NRIqPjERKTs1Eio-MRFUSEg4V1tMYREAGj9aFwsgEgsYYBkIHTpbFAZgA1JAJAULBG8I 200 
+2025-01-20 08:55:12,809 - INFO - Capturing response: https://v.wpimg.pl/OGI3N2ZhYCYoUTgBdRNtM2sJbFszSmNlPBF0EHVbf3cxAnYCdQ4mKyxBK0I1Rig1PEMvRSpGPytmUj5bdR5-aC1aPUI2CTZoLF4sVz5HeH95Vn4Hb1tiISwHLR9uXH4lZAp6VzlFKiMoBHZQbV8pJi9RbE8 200 
+2025-01-20 08:55:12,823 - INFO - Capturing request: https://v.wpimg.pl/MmIzNTRlYgwoGDhnfRdvGWtAbD07TmFPPFh0dn1ffV0xS3ZkfQokASwIKyQ9QiofPAovIyJCPQFmGz49fRp8Qi0TPSQ-DTRCLBcsMTZDfA99TC8yZg9gWXkee3lmCCsMZBsrZmNBeV55TXw2YVl5CH4cbCk
+2025-01-20 08:55:12,847 - INFO - Capturing response: https://v.wpimg.pl/YTAzZDExdjUgGCx3agN7IGNAeC0sWnV2NFhgZmpLaWQ5S2J0ah4wOCQIPzQqVj4mNAo7MzVWKThuGyotag5oeyUTKTQpGSB7JBc4ISFXbDZwG2l2JEF0Y3RKOWlxSj9mbEJvdyZVaGAnHzt0dhxoZXEYeDk 200 
+2025-01-20 08:55:12,850 - INFO - Capturing request: https://v.wpimg.pl/YzRhNWJmdhszCjhkZRZ7DnBSbD4jT3VYJ0p0dWVeaUoqWXZnZQswFjcaKyclQz4IJxgvIDpDKRZ9CT4-ZRtoVTYBPScmDCBVNwUsMi5COx9rW3ozelR0SGJQKnp-D20bf1F3ZnNAPE5lXi1jK1g7HGMJbCo
+2025-01-20 08:55:12,853 - INFO - Capturing request: https://v.wpimg.pl/MjI0YzY5YgsoUi9Jdk5vHmsKexMwF2FIPBJjWHYGfVoxAWFKdlMkBixCPAo2GyoYPEA4DSkbPQZmUSkTdkN8RS1ZKgo1VDRFLF07Hz0afFxxBDhIbQZgCCgCOldtUXgLZAhhGDoYeVwvBWtIbVZ7U3hWewc
+2025-01-20 08:55:12,861 - INFO - Capturing request: https://v.wpimg.pl/NGNmNDY1YSYvDzh3dkpsM2xXbC0wE2JlO090ZnYCfnc2XHZ0dlcnKysfKzQ2Hyk1Ox0vMykfPithDD4tdkd_aCoEPTQ1UDdoKwAsIT0efHV3XHZ8aghjJS8MfWltBi9_Y1V5JjgceCQsVXonPwV4cnsJbDk
+2025-01-20 08:55:12,866 - INFO - Capturing request: https://v.wpimg.pl/YzVhYmJhdhs3Ci9eZRN7DnRSewQjSnVYI0pjT2VbaUouWWFdZQ4wFjMaPB0lRj4IIxg4GjpGKRZ5CSkEZR5oVTIBKh0mCSBVMwU7CC5HOEgzDW1Zc1x0SmBcakB-DGFCewo9XylFbRlnWTpYKwo7G2NcexA
+2025-01-20 08:55:12,875 - INFO - Capturing response: https://v.wpimg.pl/MzhlNTFiYhsJDjhnaRJvDkpWbD0vS2FYHU50dmlafUoQXXZkaQ8kFg0eKyQpRyoIHRwvIzZHPRZHDT49aR98VQwFPSQqCDRVDQEsMSJGfR4LDi0xcltgTFkJfnlyXitORQ13NydELElcCn1sI1x8GAkPbCk 200 
+2025-01-20 08:55:12,881 - INFO - Capturing response: https://v.wpimg.pl/OTAxYmEzYDUgGi9eagFtIGNCewQsWGN2NFpjT2pJf2Q5SWFdahwmOCQKPB0qVCgmNAg4GjVUPzhuGSkEagx-eyURKh0pGzZ7JBU7CCFVdmxwSm9aIRxiYCQZOEBxQyoybBphCSRXKWJxTmBddBguZyQcexA 200 
+2025-01-20 08:55:12,887 - INFO - Capturing request: https://v.wpimg.pl/YjYxOWFkdgs4GjlkaRB7HntCbT4vSXVILFp1dWlYaVohSXdnaQ0wBjwKKicpRT4YLAguIDZFKQZ2GT8-aR1oRT0RPCcqCiBFPBUtMiJEO1NpQC5iJ1N0DGFLenpyXW5TdEB_NnRGb1I6Ti1hd1I4Dj9LbSo
+2025-01-20 08:55:12,896 - INFO - Capturing request: https://v.wpimg.pl/Y29uLnN2dlNYFzpdYUl7RhtPbg0-WgZBXgI8TGIQLBADV2MdOlMtW1paJQMvVTxBFgY6CWFiNVNAPC8BIBwqRF5XMQ
+2025-01-20 08:55:12,902 - INFO - Capturing response: https://v.wpimg.pl/YTViNDYydjU3Czh3dgJ7IHRTbC0wW3V2I0t0ZnZKaWQuWHZ0dh8wODMbKzQ2Vz4mIxkvMylXKTh5CD4tdg9oezIAPTQ1GCB7MwQsIT1WYGxnCH51PEh0YDNQe2ltHThtewt-IjpUa2Y1Ci9xO01vZjVbbDk 200 
+2025-01-20 08:55:12,911 - INFO - Capturing request: https://v.wpimg.pl/MDNkZDk3YiUvCSx3REhvMGxReC0CEWFmO0lgZkQAfXQ2WmJ0RFUkKCsZPzQEHSo2Oxs7MxsdPShhCiotREV8ayoCKTQHUjRrKwY4IQ8cKXJ9Xm4iUwJgIipdYmlfVXUmYwk7cVoefSIoUmp3D1d0cywNeDk
+2025-01-20 08:55:12,916 - INFO - Capturing request: https://v.wpimg.pl/NGNhOGUzYSYvCjl0egFsM2xSbS48WGJlO0p1ZXpJfnc2WXd3ehwnKysaKjc6VCk1OxguMCVUPithCT8uegx_aCoBPDc5GzdoKwUtIjFVdyV3CXZyMxxjcipRfGphGS8mYwordGZXKnYtW3skNEIrdC9YbTo
+2025-01-20 08:55:12,925 - INFO - Capturing request: https://v.wpimg.pl/b2dvLnN2TVMFFDpdYUlARkZMbg0-Wj1BAwE8TGIQFxBeVGMdOlMWWwdZJQMvVQdBSwU6CWFlEn8FES0UJ1wHfgsRI0A9RAUQGQ
+2025-01-20 08:55:12,939 - INFO - Capturing request: https://v.wpimg.pl/ZmY5Mjc4dQw4VztZTE94GXsPbwMKFnZPLBd3SEwHal0hBnVaTFIzATxHKBoMGj0fLEUsHRMaKgF2VD0DTEJrQj1cPhoPVSNCPFgvDwcbOFQ4UXlaVQJ3WjgBLkdXUj8MdFcoWQUZbQlgDCsMWgZtVT0Gbxc
+2025-01-20 08:55:12,942 - INFO - Capturing request: https://v.wpimg.pl/MWE4MDgxYjYkVjt3SANvI2cOby0OWmF1MBZ3ZkhLfWc9BXV0SB4kOyBGKDQIViolMEQsMxdWPTtqVT0tSA58eCFdPjQLGTR4IFkvIQNXL29xBn4nA0hgZSRRKWlTTnUyaFYrdF9VfzNwBnwlX0h1ZnYHbzk
+2025-01-20 08:55:12,944 - INFO - Capturing request: https://v.wpimg.pl/YjdkMDI2dgsFCTt3Zkl7HkZRby0gEHVIEUl3ZmYBaVocWnV0ZlQwBgEZKDQmHD4YERssMzkcKQZLCj0tZkRoRQACPjQlUyBFAQYvIS0dYQldWSknfAR0UlUJdWl9UWsPSVModX8fbg4CWC9zLQJrXFYIbzk
+2025-01-20 08:55:12,952 - INFO - Capturing response: https://www.wp.pl/aHp4MHozTikRVjt7QAFDPFIObywAWE1qLxZ3ajAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XL2sSFzAlPhcvaxIXMCU-Fy9rEhcwJT4XLxZhahpYW2pfRn19XkpZe0AGfXFADQA-FRoqIQlFMgZNRypuDhkVIR9acDwdGwcuGVdrOxhHUHFCBGs7B0dQeEMGazgIRwk8BEQ-bVw7RHo2EX8OGA0WZgdEYzgDX1MOVkYrbh0fCiEUCXp_Wk1HOAZdKXULHFV_QgR5ew4cACxAUC55WkNTelZDPSRSSkclEgl9bgsUXHhWQnB9QU5DNQ 204 
+2025-01-20 08:55:12,969 - INFO - Capturing request: https://v.wpimg.pl/MzliN2Y1YhsNCzgBdkpvDk5TbFswE2FYGUt0EHYCfUoUWHYCdlckFgkbK0I2HyoIGRkvRSkfPRZDCD5bdkd8VQgAPUI1UDRVCQQsVz0ef0xcXy8AOFVgGw4LLx9tBSgbQVF4AGscexheDX0LOwYrTw8MbE8
+2025-01-20 08:55:12,972 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTMyLjAuNjgzNC44NBIZCdzbSJ_QWPNuEgUNPR9TPCFe9AoQLobLRg==?alt=proto
+2025-01-20 08:55:12,975 - INFO - Capturing request: https://v.wpimg.pl/YjA5Y2JmdgsgVy8BZRZ7HmMPe1sjT3VINBdjEGVeaVo5BGECZQswBiRHPEIlQz4YNEU4RTpDKQZuVClbZRtoRSVcKkImDCBFJFg7Vy5CPwgkBGgHLl50DCIBPx9-D2oMbAxhA3pAYFpwBTsCcw47DHYNe08
+2025-01-20 08:55:12,986 - INFO - Capturing request: https://v.wpimg.pl/aWRlby5wTjYzDhRKGgxDI3BWQBpFHz4kNRsSWxlVFHVoTk0ORQQVNiYFAQoaBAYIIRw9A1QEDTIiBwMmQh4FMj1CEhdSVRw
+2025-01-20 08:55:12,991 - INFO - Capturing request: https://v.wpimg.pl/Yjc5YWYzdgsCVy9kdgF7HkEPez4wWHVIFhdjdXZLaFIbAm14PxM1DxFQKTh3HSsfE1QuJ3cKNUUCRTB4L0t2DgpGKTs4A3YPDlc8M3ZJPAxWBDhjPFc_XVEFdGNtSWFHAgBrNHQeaAtVADtgYBs_WVoXJA
+2025-01-20 08:55:12,995 - INFO - Capturing response: https://v.wpimg.pl/ZTM3NmQydTUsUThefgJ4IG8JbAQ4W3Z2OBF0T35KamQ1AnZdfh8zOChBKx0-Vz0mOEMvGiFXKjhiUj4Efg9reylaPR09GCN7KF4sCDVWYjF7VnhYYxt3YysAeEBlSDllYFF_WGBUbWV4ByteZk8-ZnQKbBA 200 
+2025-01-20 08:55:13,005 - INFO - Capturing response: https://v.wpimg.pl/MjgxMDkxYgsGGjt3RANvHkVCby0CWmFIElp3ZkRLfVofSXV0RB4kBgIKKDQEVioYEggsMxtWPQZIGT0tRA58RQMRPjQHGTRFAhUvIQ9XelxVT3l2UxlgCQVBL2lfG34OShp8Jl1VLw4BSn98Wkh0WwMbbzk 200 
+2025-01-20 08:55:13,016 - INFO - Capturing response: https://v.wpimg.pl/MTI2OTIzYjUoUDlnZgFvIGsIbT0gWGF2PBB1dmZJfWQxA3dkZhwkOCxAKiQmVComPEIuIzlUPThmUz89Zgx8ey1bPCQlGzR7LF8tMS1VfGxxBnhgeEpgZipXdnl9TSg3ZAt4MSpXKGUoBH5mf0N_Z3oDbSk 200 
+2025-01-20 08:55:13,025 - INFO - Capturing response: https://v.wpimg.pl/NzkxNjhlYRsKGjhZRxdsDklCbAMBTmJYHlp0SEdffkoTSXZaRwonFg4KKxoHQikIHggvHRhCPhZEGT4DRxp_VQ8RPRoEDTdVDhUsDwxDdkNYQH1TXl9jTFweKEdcWy8fRkB5CQlBeBhdHHlTWVp2H1NObBc 200 
+2025-01-20 08:55:13,039 - INFO - Capturing response: https://v.wpimg.pl/NWM2ZDUzYTYsUCx3egFsI28IeC08WGJ1OBBgZnpJfmc1A2J0ehwnOyhAPzQ6VCklOEI7MyVUPjtiUyotegx_eClbKTQ5Gzd4KF84ITFVezV6BGJxYUljNXxTbGlhTncyYFBqImxXd299Vm8nYx57ZH8GeDk 200 
+2025-01-20 08:55:13,048 - INFO - Capturing response: https://v.wpimg.pl/NGNhOGUzYSYvCjl0egFsM2xSbS48WGJlO0p1ZXpJfnc2WXd3ehwnKysaKjc6VCk1OxguMCVUPithCT8uegx_aCoBPDc5GzdoKwUtIjFVdyV3CXZyMxxjcipRfGphGS8mYwordGZXKnYtW3skNEIrdC9YbTo 200 
+2025-01-20 08:55:13,058 - INFO - Capturing response: https://v.wpimg.pl/MjVjNGUwYgs3CDh0egxvHnRQbC48VWFII0h0ZXpEfVouWXZ3ehEkBjMYKzc6WSoYIxovMCVZPQZ5Cz4uegF8RTIDPTc5FjRFMwcsIjFYf183D35-YU9gCWYIK2phQSxcewh_IWVafl4zD3xyNkMoWjcObDo 200 
+2025-01-20 08:55:13,067 - INFO - Capturing response: https://v.wpimg.pl/MTg0OGU1YjUGUjl0ekpvIEUKbS48E2F2EhJ1ZXoCfWQfAXd3elckOAJCKjc6HyomEkAuMCUfPThIUT8uekd8ewNZPDc5UDR7Al0tIjEefzJQAC4jN1JgYVFRKWphCHUxSlJ8dWccKDBTVH5_YQkoYVMGbTo 200 
+2025-01-20 08:55:13,090 - INFO - Capturing response: https://v.wpimg.pl/MzNmZjY0YhsvDyxZdktvDmxXeAMwEmFYO09gSHYDfUo2XGJadlYkFisfPxo2HioIOx07HSkePRZhDCoDdkZ8VSoEKRo1UTRVKwA4Dz0fL0stD2oMYVVgTHxaP0dtUiseY1RiDGAdKEJ-W2lZP1Z7TndaeBc 200 
+2025-01-20 08:55:13,098 - INFO - Capturing response: https://v.wpimg.pl/MmIzNTRlYgwoGDhnfRdvGWtAbD07TmFPPFh0dn1ffV0xS3ZkfQokASwIKyQ9QiofPAovIyJCPQFmGz49fRp8Qi0TPSQ-DTRCLBcsMTZDfA99TC8yZg9gWXkee3lmCCsMZBsrZmNBeV55TXw2YVl5CH4cbCk 200 
+2025-01-20 08:55:13,103 - INFO - Capturing response: https://v.wpimg.pl/NDgyMDg4YSUGGzt3SE9sMEVDby0OFmJmElt3ZkgHfnQfSHV0SFInKAILKDQIGik2EgksMxcaPihIGD0tSEJ_awMQPjQLVTdrAhQvIQMbKHEDGi4iXgBjdwNOe2lTUXYhSkF6JwYZKn0GTHl8VQR2fFQYbzk 200 
+2025-01-20 08:55:13,113 - INFO - Capturing response: https://v.wpimg.pl/YzRhNWJmdhszCjhkZRZ7DnBSbD4jT3VYJ0p0dWVeaUoqWXZnZQswFjcaKyclQz4IJxgvIDpDKRZ9CT4-ZRtoVTYBPScmDCBVNwUsMi5COx9rW3ozelR0SGJQKnp-D20bf1F3ZnNAPE5lXi1jK1g7HGMJbCo 200 
+2025-01-20 08:55:13,130 - INFO - Capturing response: https://v.wpimg.pl/NDgwZWMzYSUGFSxkYgFsMEVNeD4kWGJmElVgdWJJfnQfRmJnYhwnKAIFPyciVCk2Egc7ID1UPihIFio-Ygx_awMeKSchGzdrAho4MilVd3cCRWk1dUljd14TOXp5TngiShZuNHRXLX1WFW5vfR8tdwNOeCo 200 
+2025-01-20 08:55:13,166 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:13] "GET / HTTP/1.1" 200 -
+2025-01-20 08:55:13,175 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTMyLjAuNjgzNC44NBIZCdzbSJ_QWPNuEgUNPR9TPCFe9AoQLobLRg==?alt=proto 200 
+2025-01-20 08:55:13,190 - INFO - Capturing response: https://v.wpimg.pl/Y29uLnN2dlNYFzpdYUl7RhtPbg0-WgZBXgI8TGIQLBADV2MdOlMtW1paJQMvVTxBFgY6CWFiNVNAPC8BIBwqRF5XMQ 200 
+2025-01-20 08:55:13,242 - INFO - Capturing response: https://v.wpimg.pl/NGNmNDY1YSYvDzh3dkpsM2xXbC0wE2JlO090ZnYCfnc2XHZ0dlcnKysfKzQ2Hyk1Ox0vMykfPithDD4tdkd_aCoEPTQ1UDdoKwAsIT0efHV3XHZ8aghjJS8MfWltBi9_Y1V5JjgceCQsVXonPwV4cnsJbDk 200 
+2025-01-20 08:55:13,246 - INFO - Capturing response: https://v.wpimg.pl/YjYxOWFkdgs4GjlkaRB7HntCbT4vSXVILFp1dWlYaVohSXdnaQ0wBjwKKicpRT4YLAguIDZFKQZ2GT8-aR1oRT0RPCcqCiBFPBUtMiJEO1NpQC5iJ1N0DGFLenpyXW5TdEB_NnRGb1I6Ti1hd1I4Dj9LbSo 200 
+2025-01-20 08:55:13,251 - INFO - Capturing response: https://v.wpimg.pl/MjI0YzY5YgsoUi9Jdk5vHmsKexMwF2FIPBJjWHYGfVoxAWFKdlMkBixCPAo2GyoYPEA4DSkbPQZmUSkTdkN8RS1ZKgo1VDRFLF07Hz0afFxxBDhIbQZgCCgCOldtUXgLZAhhGDoYeVwvBWtIbVZ7U3hWewc 200 
+2025-01-20 08:55:13,259 - INFO - Capturing response: https://v.wpimg.pl/YzVhYmJhdhs3Ci9eZRN7DnRSewQjSnVYI0pjT2VbaUouWWFdZQ4wFjMaPB0lRj4IIxg4GjpGKRZ5CSkEZR5oVTIBKh0mCSBVMwU7CC5HOEgzDW1Zc1x0SmBcakB-DGFCewo9XylFbRlnWTpYKwo7G2NcexA 200 
+2025-01-20 08:55:13,264 - INFO - Capturing response: https://v.wpimg.pl/ZmY5Mjc4dQw4VztZTE94GXsPbwMKFnZPLBd3SEwHal0hBnVaTFIzATxHKBoMGj0fLEUsHRMaKgF2VD0DTEJrQj1cPhoPVSNCPFgvDwcbOFQ4UXlaVQJ3WjgBLkdXUj8MdFcoWQUZbQlgDCsMWgZtVT0Gbxc 200 
+2025-01-20 08:55:13,269 - INFO - Capturing response: https://v.wpimg.pl/MDNkZDk3YiUvCSx3REhvMGxReC0CEWFmO0lgZkQAfXQ2WmJ0RFUkKCsZPzQEHSo2Oxs7MxsdPShhCiotREV8ayoCKTQHUjRrKwY4IQ8cKXJ9Xm4iUwJgIipdYmlfVXUmYwk7cVoefSIoUmp3D1d0cywNeDk 200 
+2025-01-20 08:55:13,273 - INFO - Capturing response: https://v.wpimg.pl/b2dvLnN2TVMFFDpdYUlARkZMbg0-Wj1BAwE8TGIQFxBeVGMdOlMWWwdZJQMvVQdBSwU6CWFlEn8FES0UJ1wHfgsRI0A9RAUQGQ 200 
+2025-01-20 08:55:13,278 - INFO - Capturing response: https://v.wpimg.pl/YjA5Y2JmdgsgVy8BZRZ7HmMPe1sjT3VINBdjEGVeaVo5BGECZQswBiRHPEIlQz4YNEU4RTpDKQZuVClbZRtoRSVcKkImDCBFJFg7Vy5CPwgkBGgHLl50DCIBPx9-D2oMbAxhA3pAYFpwBTsCcw47DHYNe08 200 
+2025-01-20 08:55:13,284 - INFO - Capturing response: https://v.wpimg.pl/Yjc5YWYzdgsCVy9kdgF7HkEPez4wWHVIFhdjdXZLaFIbAm14PxM1DxFQKTh3HSsfE1QuJ3cKNUUCRTB4L0t2DgpGKTs4A3YPDlc8M3ZJPAxWBDhjPFc_XVEFdGNtSWFHAgBrNHQeaAtVADtgYBs_WVoXJA 200 
+2025-01-20 08:55:13,289 - INFO - Capturing response: https://v.wpimg.pl/YjdkMDI2dgsFCTt3Zkl7HkZRby0gEHVIEUl3ZmYBaVocWnV0ZlQwBgEZKDQmHD4YERssMzkcKQZLCj0tZkRoRQACPjQlUyBFAQYvIS0dYQldWSknfAR0UlUJdWl9UWsPSVModX8fbg4CWC9zLQJrXFYIbzk 200 
+2025-01-20 08:55:13,294 - INFO - Capturing response: https://v.wpimg.pl/MWE4MDgxYjYkVjt3SANvI2cOby0OWmF1MBZ3ZkhLfWc9BXV0SB4kOyBGKDQIViolMEQsMxdWPTtqVT0tSA58eCFdPjQLGTR4IFkvIQNXL29xBn4nA0hgZSRRKWlTTnUyaFYrdF9VfzNwBnwlX0h1ZnYHbzk 200 
+2025-01-20 08:55:13,299 - INFO - Capturing response: https://v.wpimg.pl/MzliN2Y1YhsNCzgBdkpvDk5TbFswE2FYGUt0EHYCfUoUWHYCdlckFgkbK0I2HyoIGRkvRSkfPRZDCD5bdkd8VQgAPUI1UDRVCQQsVz0ef0xcXy8AOFVgGw4LLx9tBSgbQVF4AGscexheDX0LOwYrTw8MbE8 200 
+2025-01-20 08:55:13,312 - INFO - Capturing response: https://v.wpimg.pl/aWRlby5wTjYzDhRKGgxDI3BWQBpFHz4kNRsSWxlVFHVoTk0ORQQVNiYFAQoaBAYIIRw9A1QEDTIiBwMmQh4FMj1CEhdSVRw 200 
+2025-01-20 08:55:13,402 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:13] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:55:13,434 - INFO - Capturing request: https://www.wp.pl/eHRzLXBsSikzGDprbQhHPHBAbjsyGzo7Jh5udGAsR3JwJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNWGB6N1Ffan0NPDIxHwwqZFV-dnddV3xgVTsoKAAJITBXLzA3HQ5lIR0tKG8HADAmCWEoLl0PO3AH
+2025-01-20 08:55:13,559 - INFO - Capturing response: https://www.wp.pl/eHRzLXBsSikzGDprbQhHPHBAbjsyGzo7Jh5udGAsR3JwJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNJRMHHSw6Fw0lEwcdLDoXDSUTBx0sOhcNWGB6N1Ffan0NPDIxHwwqZFV-dnddV3xgVTsoKAAJITBXLzA3HQ5lIR0tKG8HADAmCWEoLl0PO3AH 200 
+2025-01-20 08:55:13,770 - INFO - Capturing request: https://www.wp.pl/dHVuejdoSyk3FxNZSxRGPHRPRw4LTUhqCVdfSDswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MEZkdABHUEZAFn5mRlRYU1hdcGNaFgILGEovPxNaGRYZWTsxUwQJEAYLJmsSARoWMAwnOxBDGRNSVXFkRUMZDFJVeGVHQxoDUgw8IgUWT1cuQXoQUFcsExgTZiEFSxoISlYOcAcDTBYKDyEySFJdUVhCOCAcAVcACVB_ZEVRWQUJBSxmEQZbUVZWenACFQZZX0IlNEhVTAABWXhwA1hfSltGNQ
+2025-01-20 08:55:13,783 - INFO - Capturing request: https://www.wp.pl/bXBqYXNqTTkjEy9rYQpALGBLezwhU056HVNjehEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES5AdGAEe2JsXhBsdEJoYXdHVm9wXiowIQZMPysXZis8B18rJVc4OzoYDTZ_Fj0oPC4ENzAcDzErBjEwLQZ_KzlMU2FwQX8rJkxTaHFDfygpTAosNgEqfX0wR2oEVGseOQYVdjUBdygiVFAeZAM_fjwUCTEmTG5ve0ZEKDQYPWUqF1ZvcEFtay8XAzxyFTppe0hQamQGKTRzQUQ1IExpfiofX2hkB2RtYEVAJQ
+2025-01-20 08:55:13,871 - INFO - Capturing request: https://v.wpimg.pl/X2xvZ28ud1MZFCwBFw56RlpMeFFIHQdBDBJ4HhoAeghaWTNfWRI9QVcRPkJKWi9CJxo1VVdbKFwfVCc
+2025-01-20 08:55:13,919 - INFO - Capturing response: https://www.wp.pl/dHVuejdoSyk3FxNZSxRGPHRPRw4LTUhqCVdfSDswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MDsXCSo6NTswOxcJKjo1OzA7FwkqOjU7MEZkdABHUEZAFn5mRlRYU1hdcGNaFgILGEovPxNaGRYZWTsxUwQJEAYLJmsSARoWMAwnOxBDGRNSVXFkRUMZDFJVeGVHQxoDUgw8IgUWT1cuQXoQUFcsExgTZiEFSxoISlYOcAcDTBYKDyEySFJdUVhCOCAcAVcACVB_ZEVRWQUJBSxmEQZbUVZWenACFQZZX0IlNEhVTAABWXhwA1hfSltGNQ 204 
+2025-01-20 08:55:13,967 - INFO - Capturing response: https://www.wp.pl/bXBqYXNqTTkjEy9rYQpALGBLezwhU056HVNjehEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES49Bx0uBgcRLj0HHS4GBxEuPQcdLgYHES5AdGAEe2JsXhBsdEJoYXdHVm9wXiowIQZMPysXZis8B18rJVc4OzoYDTZ_Fj0oPC4ENzAcDzErBjEwLQZ_KzlMU2FwQX8rJkxTaHFDfygpTAosNgEqfX0wR2oEVGseOQYVdjUBdygiVFAeZAM_fjwUCTEmTG5ve0ZEKDQYPWUqF1ZvcEFtay8XAzxyFTppe0hQamQGKTRzQUQ1IExpfiofX2hkB2RtYEVAJQ 204 
+2025-01-20 08:55:14,000 - INFO - Capturing response: https://v.wpimg.pl/X2xvZ28ud1MZFCwBFw56RlpMeFFIHQdBDBJ4HhoAeghaWTNfWRI9QVcRPkJKWi9CJxo1VVdbKFwfVCc 200 
+2025-01-20 08:55:14,557 - INFO - Capturing request: https://v.wpimg.pl/ZC53b2ZmdSJUURQBdRZ4NxcJQFEqBQUlWl0WQXhBeDYXCUAdKAI4LEFcTUU1CzxxGmENUDUZNW53XA5WdBo1JVMBQE8
+2025-01-20 08:55:14,559 - INFO - Capturing request: https://v.wpimg.pl/ci53b2ZmTAhUURQBdRZBHRcJQFEqBTwPWl0WQXhBQRwXCUAdKAIBBkFcTUU1CwVbGmENUDUZDERnVgVHNgwRR0JcBFRoTx4
+2025-01-20 08:55:14,685 - INFO - Capturing response: https://v.wpimg.pl/ZC53b2ZmdSJUURQBdRZ4NxcJQFEqBQUlWl0WQXhBeDYXCUAdKAI4LEFcTUU1CzxxGmENUDUZNW53XA5WdBo1JVMBQE8 200 
+2025-01-20 08:55:14,700 - INFO - Capturing response: https://v.wpimg.pl/ci53b2ZmTAhUURQBdRZBHRcJQFEqBTwPWl0WQXhBQRwXCUAdKAIBBkFcTUU1CwVbGmENUDUZDERnVgVHNgwRR0JcBFRoTx4 200 
+2025-01-20 08:55:14,870 - INFO - Capturing request: https://www.wp.pl/MzJ4MzIuYhsrVjtJZg5vD2gOb1UvWn9VewVjQ3FbelUsVTsTKhojV3kGNUl7Wz0ULRYw
+2025-01-20 08:55:14,894 - INFO - Capturing response: https://www.wp.pl/MzJ4MzIuYhsrVjtJZg5vD2gOb1UvWn9VewVjQ3FbelUsVTsTKhojV3kGNUl7Wz0ULRYw 200 
+2025-01-20 08:55:21,378 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "[32mPOST /screenshots HTTP/1.1[0m" 302 -
+2025-01-20 08:55:21,392 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:55:21,466 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-01-20 08:55:21,470 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "[36mGET /static/screenshots/bitcoinwisdom.com_pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:55:21,472 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "[36mGET /static/screenshots/coody.it_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:55:21,513 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "[36mGET /static/screenshots/gonzalez.pl_.png HTTP/1.1[0m" 304 -
+2025-01-20 08:55:21,519 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "GET /static/screenshots/wp.pl.png HTTP/1.1" 200 -
+2025-01-20 08:55:21,521 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "[36mGET /static/screenshots/katarzynakobiela.pl.png HTTP/1.1[0m" 304 -
+2025-01-20 08:55:21,529 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "[36mGET /static/js/progress.js HTTP/1.1[0m" 304 -
+2025-01-20 08:55:21,658 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:21] "GET /screenshots HTTP/1.1" 200 -
+2025-01-20 08:55:35,044 - INFO - 127.0.0.1 - - [20/Jan/2025 08:55:35] "[31m[1mGET /screenshots/delete/5 HTTP/1.1[0m" 405 -
