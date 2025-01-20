@@ -3,14 +3,14 @@
 {% block content %}
 <section class="dashboard py-5">
     <div class="container">
-        <h2 class="mb-4">Witamy w panelu administracyjnym!</h2>
-        <p>Oto Twoje statystyki:</p>
+        <h2 class="mb-4">Welcome to the Admin Panel!</h2>
+        <p>Here are your statistics:</p>
 
         <div class="row mb-4">
             <div class="col-md-4">
                 <div class="card bg-light shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Liczba logów</h5>
+                        <h5 class="card-title">Log Count</h5>
                         <p class="card-text">{{ log_count }}</p>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
             <div class="col-md-4">
                 <div class="card bg-light shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Liczba domen</h5>
+                        <h5 class="card-title">Domain Count</h5>
                         <p class="card-text">{{ domain_count }}</p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
             <div class="col-md-4">
                 <div class="card bg-light shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Liczba zrzutów ekranu</h5>
+                        <h5 class="card-title">Screenshot Count</h5>
                         <p class="card-text">{{ screenshot_count }}</p>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
         </div>
 
         <section class="logs mb-5">
-            <h3>Ostatnie logi:</h3>
+            <h3>Recent Logs:</h3>
             <ul class="list-group">
                 {% for log in logs %}
                 <li class="list-group-item">{{ log }}</li>
@@ -43,7 +43,7 @@
         </section>
 
         <section class="screenshots">
-            <h3>Zrzuty ekranu:</h3>
+            <h3>Screenshots:</h3>
             {% for domain, images in screenshots.items() %}
             <h4 class="mt-4">{{ domain }}</h4>
             <div class="row">

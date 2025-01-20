@@ -3,7 +3,8 @@ import logging
 import os
 
 from flask import Flask, render_template, redirect, url_for, flash, request
-
+from flask import send_file
+from manyScreen import take_screenshots
 from forms import AddDomainForm
 from screenshots import get_screenshots, take_screenshot
 
@@ -17,6 +18,7 @@ GALLERY_DIR = 'static/gallery'
 SCREENSHOT_DIR = 'static/screenshots'
 
 # Configure logging
+os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Example log message
@@ -123,6 +125,7 @@ def gallery():
 
 @app.route('/screenshots', methods=['GET', 'POST'])
 def screenshots():
+    domains = load_domains()
     if request.method == 'POST':
         url = request.form.get('url')
         if url:
@@ -134,7 +137,7 @@ def screenshots():
 
     screenshots_dir = os.path.join(app.static_folder, 'screenshots')
     images = [f for f in os.listdir(screenshots_dir) if os.path.isfile(os.path.join(screenshots_dir, f))]
-    return render_template('screenshots.html', screenshots=images)
+    return render_template('screenshots.html', screenshots=images, domains=domains)
 
 
 @app.route('/screenshots/delete/<int:screenshot_id>', methods=['POST'])
@@ -150,6 +153,24 @@ def delete_screenshot(screenshot_id):
     else:
         flash('Invalid screenshot ID.', 'danger')
     return redirect(url_for('screenshots'))
+
+
+@app.route('/logs')
+def view_logs():
+    if not os.path.exists(LOG_FILE):
+        flash('Log file does not exist.', 'danger')
+        return redirect(url_for('dashboard'))
+    return send_file(LOG_FILE, as_attachment=True)
+
+
+@app.route('/logs/delete', methods=['POST'])
+def delete_logs():
+    if os.path.exists(LOG_FILE):
+        os.remove(LOG_FILE)
+        flash('Log file deleted successfully!', 'success')
+    else:
+        flash('Log file does not exist.', 'danger')
+    return redirect(url_for('dashboard'))
 
 
 if __name__ == '__main__':

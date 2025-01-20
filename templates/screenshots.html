@@ -6,7 +6,12 @@
         <h2 class="mb-4">Screenshots</h2>
         <form action="{{ url_for('screenshots') }}" method="post" class="mb-4">
             <div class="input-group">
-                <input type="text" name="url" class="form-control" placeholder="Enter website URL" required>
+                <select name="url" class="form-control" required>
+                    <option value="" disabled selected>Select a domain</option>
+                    {% for domain in domains %}
+                    <option value="{{ domain }}">{{ domain }}</option>
+                    {% endfor %}
+                </select>
                 <div class="input-group-append">
                     <button class="btn btn-primary" type="submit">Take Screenshot</button>
                 </div>

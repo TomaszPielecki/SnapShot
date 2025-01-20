@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="screenshots py-5">
+    <div class="container">
+        <h2 class="mb-4">Screenshot Folders</h2>
+        <ul class="list-group">
+            {% for dir in screenshot_dirs %}
+            <li class="list-group-item">
+                <a href="{{ url_for('static', filename='screenshots/' ~ dir) }}">{{ dir }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endblock %}
