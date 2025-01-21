@@ -28,9 +28,17 @@
             {% for screenshot in screenshots %}
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="{{ url_for('static', filename='screenshots/' ~ folder ~ '/' ~ screenshot) }}" class="card-img-top" alt="Screenshot">
+                    <img src="{{ url_for('static', filename='screenshots/' ~ folder ~ '/' ~ screenshot) }}"
+                         class="card-img-top" alt="Screenshot">
                     <div class="card-body">
-                        <a href="{{ url_for('static', filename='screenshots/' ~ folder ~ '/' ~ screenshot) }}" target="_blank" class="btn btn-primary">View Full Size</a>
+                        <a href="{{ url_for('static', filename='screenshots/' ~ folder ~ '/' ~ screenshot) }}"
+                           target="_blank" class="btn btn-primary">View Full Size</a>
+                        <a href="{{ url_for('static', filename='screenshots/' ~ folder ~ '/' ~ screenshot) }}" download
+                           class="btn btn-primary">Download</a>
+                        <form action="{{ url_for('delete_screenshot_from_folder', folder=folder, screenshot=screenshot) }}"
+                              method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -42,7 +50,7 @@
             <div class="col-md-4">
                 <div class="card mb-4">
                     <div class="card-body">
-                        <h5 class="card-title">{{ dir.split('_')[0] }} ({{ dir.split('_')[1] }})</h5>
+                        <h5 class="card-title">{{ dir }}</h5>
                         <a href="{{ url_for('many_screen', folder=dir) }}" class="btn btn-primary">View Screenshots</a>
                     </div>
                 </div>

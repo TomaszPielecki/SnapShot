@@ -1,5 +1,13 @@
 # screenshots.py
 import os
+from urllib.parse import urlparse, urljoin
+
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from seleniumwire import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 def get_screenshots(screenshot_dir):
@@ -13,14 +21,6 @@ def get_screenshots(screenshot_dir):
 
 
 def take_screenshots(url, save_dir='static/screenshots'):
-    from urllib.parse import urlparse, urljoin
-    from selenium.webdriver.chrome.service import Service
-    from selenium.webdriver.common.by import By
-    from selenium.webdriver.support import expected_conditions as EC
-    from selenium.webdriver.support.ui import WebDriverWait
-    from seleniumwire import webdriver
-    from webdriver_manager.chrome import ChromeDriverManager
-
     def is_valid_url(url):
         parsed_url = urlparse(url)
         if not parsed_url.scheme:

@@ -1,14 +1,9 @@
 {
-  "domains": [
-    "www.investopedia.com",
-    "www.kartuzy.pl",
-    "www.filmpolski.pl",
-    "www.kartuzy.info",
-    "www.coody.it",
-    "www.katarzynakobiela.pl",
-    "www.freecodecamp.org",
-    "www.bloomfinance.pl",
-    "www.alicjaserowik.com",
-    "www.akademiaroslin.pl"
-  ]
+    "domains": [
+        "www.katarzynakobiela.pl",
+        "www.coody.it",
+        "www.akademiaroslin.pl",
+        "www.bloomfinance.pl",
+        "www.alicjaserowik.com"
+    ]
 }

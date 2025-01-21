@@ -3,7 +3,6 @@ import logging
 import os
 
 from flask import Flask, render_template, redirect, url_for, flash, request
-from flask import send_file
 
 from forms import AddDomainForm
 from manyScreen import take_screenshots as take_many_screenshots
@@ -13,7 +12,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
 # Paths to files
-LOG_FILE = 'logs/app.log'
+LOG_FILE = 'path/to/your/logfile.log'
 DOMAINS_FILE = 'data.json'
 GALLERY_DIR = 'static/gallery'
 SCREENSHOT_DIR = 'static/screenshots'
@@ -22,15 +21,14 @@ SCREENSHOT_DIR = 'static/screenshots'
 os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Example log message
-logging.info('Application started')
-
 
 def get_logs():
-    if not os.path.exists(LOG_FILE):
-        return []
-    with open(LOG_FILE, 'r') as f:
-        return f.readlines()
+    if os.path.exists(LOG_FILE):
+        with open(LOG_FILE, 'r') as file:
+            logs = file.readlines()
+    else:
+        logs = []
+    return logs
 
 
 def load_domains():
@@ -117,11 +115,11 @@ def edit_domain(old_domain):
     return render_template('edit_domain.html', form=form, old_domain=old_domain)
 
 
-@app.route('/gallery')
-def gallery():
-    screenshots_dir = os.path.join(app.static_folder, 'screenshots')
-    images = [f for f in os.listdir(screenshots_dir) if os.path.isfile(os.path.join(screenshots_dir, f))]
-    return render_template('gallery.html', images=images)
+# @app.route('/gallery')
+# def gallery():
+#     screenshots_dir = os.path.join(app.static_folder, 'screenshots')
+#     images = [f for f in os.listdir(screenshots_dir) if os.path.isfile(os.path.join(screenshots_dir, f))]
+#     return render_template('gallery.html', images=images)
 
 
 def take_screenshot(url, SCREENSHOT_DIR):
@@ -145,27 +143,32 @@ def screenshots():
     return render_template('screenshots.html', screenshots=images, domains=domains)
 
 
-@app.route('/screenshots/delete/<int:screenshot_id>', methods=['POST'])
-def delete_screenshot(screenshot_id):
-    screenshot_files = [f for f in os.listdir(SCREENSHOT_DIR) if os.path.isfile(os.path.join(SCREENSHOT_DIR, f))]
-    if 0 <= screenshot_id < len(screenshot_files):
-        screenshot_path = os.path.join(SCREENSHOT_DIR, screenshot_files[screenshot_id])
-        if os.path.exists(screenshot_path):
-            os.remove(screenshot_path)
-            flash('Screenshot deleted successfully!', 'success')
-        else:
-            flash('Screenshot does not exist.', 'danger')
+@app.route('/screenshots/delete/<folder>/<screenshot>', methods=['POST'])
+def delete_screenshot_from_folder(folder, screenshot):
+    screenshot_path = os.path.join(SCREENSHOT_DIR, folder, screenshot)
+    if os.path.exists(screenshot_path):
+        os.remove(screenshot_path)
+        flash('Screenshot deleted successfully!', 'success')
     else:
-        flash('Invalid screenshot ID.', 'danger')
+        flash('Screenshot does not exist.', 'danger')
+    return redirect(url_for('many_screen', folder=folder))
+
+
+@app.route('/screenshots/delete/<screenshot>', methods=['POST'])
+def delete_screenshot(screenshot):
+    screenshot_path = os.path.join(SCREENSHOT_DIR, screenshot)
+    if os.path.exists(screenshot_path):
+        os.remove(screenshot_path)
+        flash('Screenshot deleted successfully!', 'success')
+    else:
+        flash('Screenshot does not exist.', 'danger')
     return redirect(url_for('screenshots'))
 
 
-@app.route('/logs')
-def view_logs():
-    if not os.path.exists(LOG_FILE):
-        flash('Log file does not exist.', 'danger')
-        return redirect(url_for('dashboard'))
-    return send_file(LOG_FILE, as_attachment=True)
+@app.route('/fetch_logs')
+def fetch_logs():
+    logs = get_logs()
+    return {'logs': logs[-20:]}  # Return the last 20 logs
 
 
 @app.route('/logs/delete', methods=['POST'])

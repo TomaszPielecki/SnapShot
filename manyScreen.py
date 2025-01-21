@@ -15,13 +15,14 @@ def is_valid_url(url):
     Adds 'http://' if the protocol is missing.
     """
     parsed_url = urlparse(url)
-    if not parsed_url.scheme:
+    if parsed_url.scheme in ['http', 'https']:
+        return url
+    elif not parsed_url.scheme:
         url = 'http://' + url
         parsed_url = urlparse(url)
-    if all([parsed_url.scheme, parsed_url.netloc]):
-        return url
-    else:
-        raise ValueError(f"Invalid URL: {url}")
+        if all([parsed_url.scheme, parsed_url.netloc]):
+            return url
+    raise ValueError(f"Invalid URL: {url}")
 
 
 def take_screenshots(url, save_dir='static/screenshots'):
@@ -29,6 +30,8 @@ def take_screenshots(url, save_dir='static/screenshots'):
     Takes screenshots of the given URL and its internal links, saving them to the specified directory.
     """
     url = is_valid_url(url)
+    domain = urlparse(url).netloc.replace('www.', '')
+    domain_dir = os.path.join(save_dir, domain)
 
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
@@ -44,12 +47,12 @@ def take_screenshots(url, save_dir='static/screenshots'):
         # Wait for the page to load
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
 
-        # Create directory if it doesn't exist
-        if not os.path.exists(save_dir):
-            os.makedirs(save_dir)
+        # Create domain directory if it doesn't exist
+        if not os.path.exists(domain_dir):
+            os.makedirs(domain_dir)
 
         # Take screenshot of the main page
-        main_screenshot_path = os.path.join(save_dir, f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}.png")
+        main_screenshot_path = os.path.join(domain_dir, f"{domain}.png")
         driver.save_screenshot(main_screenshot_path)
 
         # Add the main page screenshot to the dictionary
@@ -73,7 +76,7 @@ def take_screenshots(url, save_dir='static/screenshots'):
                 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
 
                 subpage_screenshot_name = f"{subpage_url.replace('http://', '').replace('https://', '').replace('/', '_')}.png"
-                subpage_screenshot_path = os.path.join(save_dir, subpage_screenshot_name)
+                subpage_screenshot_path = os.path.join(domain_dir, subpage_screenshot_name)
                 driver.save_screenshot(subpage_screenshot_path)
 
                 # Add subpage screenshot to the dictionary
