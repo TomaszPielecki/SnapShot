@@ -1,61 +1,92 @@
 import os
-import time
-from datetime import datetime
+from urllib.parse import urlparse, urljoin
 
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from seleniumwire import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
-# Directory to save screenshots
-SCREENSHOT_DIR = 'static/screenshots'
+
+def is_valid_url(url):
+    """
+    Validates the URL to ensure it includes the protocol and is properly formatted.
+    Adds 'http://' if the protocol is missing.
+    """
+    parsed_url = urlparse(url)
+    if not parsed_url.scheme:
+        url = 'http://' + url
+        parsed_url = urlparse(url)
+    if all([parsed_url.scheme, parsed_url.netloc]):
+        return url
+    else:
+        raise ValueError(f"Invalid URL: {url}")
 
 
-def take_screenshots(url):
-    # Create a timestamped directory for the screenshots
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    save_dir = os.path.join(SCREENSHOT_DIR, timestamp)
-    os.makedirs(save_dir, exist_ok=True)
+def take_screenshots(url, save_dir='static/screenshots'):
+    """
+    Takes screenshots of the given URL and its internal links, saving them to the specified directory.
+    """
+    url = is_valid_url(url)
 
-    # Set up Chrome options
-    chrome_options = Options()
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    # Initialize the WebDriver
-    service = Service('path/to/chromedriver')
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    screenshots_dict = {}  # Initialize a dictionary to hold directories and their screenshots
 
     try:
-        # Open the main URL
         driver.get(url)
-        time.sleep(2)  # Wait for the page to load
 
-        # Take a screenshot of the main page
-        main_screenshot_path = os.path.join(save_dir, 'main_page.png')
+        # Wait for the page to load
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+
+        # Create directory if it doesn't exist
+        if not os.path.exists(save_dir):
+            os.makedirs(save_dir)
+
+        # Take screenshot of the main page
+        main_screenshot_path = os.path.join(save_dir, f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}.png")
         driver.save_screenshot(main_screenshot_path)
 
-        # Find all links on the main page
-        links = driver.find_elements(By.TAG_NAME, 'a')
-        visited_links = set()
+        # Add the main page screenshot to the dictionary
+        screenshots_dict[os.path.basename(main_screenshot_path)] = [os.path.basename(main_screenshot_path)]
+
+        # Find all internal links (anchors) on the page
+        links = driver.find_elements(By.TAG_NAME, "a")
+        subpages = set()  # To avoid duplicate URLs
 
         for link in links:
-            href = link.get_attribute('href')
-            if href and href not in visited_links and url in href:
-                visited_links.add(href)
-                driver.get(href)
-                time.sleep(2)  # Wait for the page to load
+            href = link.get_attribute("href")
+            if href:
+                full_url = urljoin(url, href)
+                if is_valid_url(full_url) and urlparse(full_url).netloc == urlparse(url).netloc:
+                    subpages.add(full_url)
 
-                # Take a screenshot of the subpage
-                subpage_screenshot_path = os.path.join(save_dir, f'{href.split("/")[-1]}.png')
+        # Take screenshots of subpages and update the dictionary
+        for subpage_url in subpages:
+            try:
+                driver.get(subpage_url)
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+
+                subpage_screenshot_name = f"{subpage_url.replace('http://', '').replace('https://', '').replace('/', '_')}.png"
+                subpage_screenshot_path = os.path.join(save_dir, subpage_screenshot_name)
                 driver.save_screenshot(subpage_screenshot_path)
 
-                # Go back to the main page
-                driver.back()
-                time.sleep(2)  # Wait for the page to load
+                # Add subpage screenshot to the dictionary
+                if subpage_screenshot_name not in screenshots_dict:
+                    screenshots_dict[subpage_screenshot_name] = []
+                screenshots_dict[subpage_screenshot_name].append(subpage_screenshot_name)
 
+            except Exception as e:
+                print(f"An error occurred while taking a screenshot of {subpage_url}: {e}")
+
+    except Exception as e:
+        print(f"An error occurred while taking a screenshot of {url}: {e}")
     finally:
         driver.quit()
 
-    return save_dir
+    return screenshots_dict  # Return the dictionary of screenshots

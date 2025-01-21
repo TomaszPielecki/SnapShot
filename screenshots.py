@@ -1,37 +1,37 @@
+# screenshots.py
 import os
-from urllib.parse import urlparse
-
-from selenium.webdriver.chrome.service import Service
-from seleniumwire import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 
 
-def is_valid_url(url):
-    """
-    Validates the URL to ensure it includes the protocol and is properly formatted.
-    Adds 'http://' if the protocol is missing.
+def get_screenshots(screenshot_dir):
+    screenshots = {}
+    for dirpath, dirnames, filenames in os.walk(screenshot_dir):
+        for dirname in dirnames:
+            dir_full_path = os.path.join(dirpath, dirname)
+            screenshots[dirname] = [f for f in os.listdir(dir_full_path) if
+                                    os.path.isfile(os.path.join(dir_full_path, f))]
+    return screenshots
 
-    :param url: URL to validate
-    :return: Validated URL with protocol
-    """
-    parsed_url = urlparse(url)
-    if not parsed_url.scheme:
-        url = 'http://' + url
+
+def take_screenshots(url, save_dir='static/screenshots'):
+    from urllib.parse import urlparse, urljoin
+    from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.webdriver.support.ui import WebDriverWait
+    from seleniumwire import webdriver
+    from webdriver_manager.chrome import ChromeDriverManager
+
+    def is_valid_url(url):
         parsed_url = urlparse(url)
-    if all([parsed_url.scheme, parsed_url.netloc]):
-        return url
-    else:
-        raise ValueError(f"Invalid URL: {url}")
+        if not parsed_url.scheme:
+            url = 'http://' + url
+            parsed_url = urlparse(url)
+        if all([parsed_url.scheme, parsed_url.netloc]):
+            return url
+        else:
+            raise ValueError(f"Invalid URL: {url}")
 
-def take_screenshot(url, save_dir):
-    """
-    Takes a screenshot of the given URL and saves it to the specified directory.
-
-    :param url: URL of the website to take a screenshot of
-    :param save_dir: Directory to save the screenshot
-    """
     url = is_valid_url(url)
-
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     options.add_argument('--no-sandbox')
@@ -40,32 +40,36 @@ def take_screenshot(url, save_dir):
 
     try:
         driver.get(url)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
-        screenshot_path = os.path.join(save_dir,
-                                       f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}.png")
-        driver.save_screenshot(screenshot_path)
+
+        main_screenshot_path = os.path.join(save_dir,
+                                            f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}.png")
+        driver.save_screenshot(main_screenshot_path)
+
+        links = driver.find_elements(By.TAG_NAME, "a")
+        subpages = set()
+
+        for link in links:
+            href = link.get_attribute("href")
+            if href:
+                full_url = urljoin(url, href)
+                if is_valid_url(full_url) and urlparse(full_url).netloc == urlparse(url).netloc:
+                    subpages.add(full_url)
+
+        for subpage_url in subpages:
+            try:
+                driver.get(subpage_url)
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+                subpage_screenshot_path = os.path.join(save_dir,
+                                                       f"{subpage_url.replace('http://', '').replace('https://', '').replace('/', '_')}.png")
+                driver.save_screenshot(subpage_screenshot_path)
+            except Exception as e:
+                print(f"An error occurred while taking a screenshot of {subpage_url}: {e}")
+
     except Exception as e:
         print(f"An error occurred while taking a screenshot of {url}: {e}")
     finally:
         driver.quit()
-
-def get_screenshots(directory='static/screenshots'):
-    """
-    Pobiera zrzuty ekranu dla każdej domeny.
-
-    :param directory: Ścieżka do katalogu zrzutów
-    :return: Słownik {domena: [ścieżki_do_plików]}
-    """
-    screenshots = {}
-    if not os.path.exists(directory):
-        return screenshots
-
-    for domain_folder in os.listdir(directory):
-        domain_path = os.path.join(directory, domain_folder)
-        if os.path.isdir(domain_path):
-            screenshots[domain_folder] = []
-            for file in os.listdir(domain_path):
-                if file.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp')):
-                    screenshots[domain_folder].append(os.path.join(domain_path, file))
-    return screenshots

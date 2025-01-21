@@ -4,9 +4,10 @@ import os
 
 from flask import Flask, render_template, redirect, url_for, flash, request
 from flask import send_file
-from manyScreen import take_screenshots
+
 from forms import AddDomainForm
-from screenshots import get_screenshots, take_screenshot
+from manyScreen import take_screenshots as take_many_screenshots
+from screenshots import get_screenshots, take_screenshots
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -123,13 +124,17 @@ def gallery():
     return render_template('gallery.html', images=images)
 
 
+def take_screenshot(url, SCREENSHOT_DIR):
+    pass
+
+
 @app.route('/screenshots', methods=['GET', 'POST'])
 def screenshots():
     domains = load_domains()
     if request.method == 'POST':
         url = request.form.get('url')
         if url:
-            take_screenshot(url, SCREENSHOT_DIR)
+            take_screenshots(url, SCREENSHOT_DIR)
             flash('Screenshot taken successfully!', 'success')
         else:
             flash('Please provide a valid URL.', 'danger')
@@ -171,6 +176,46 @@ def delete_logs():
     else:
         flash('Log file does not exist.', 'danger')
     return redirect(url_for('dashboard'))
+
+
+@app.route('/take_screenshots', methods=['POST'])
+def trigger_screenshots():
+    url = request.form.get('url')
+    if url:
+        save_dir = take_screenshots(url)
+        flash(f'Screenshots saved in {save_dir}', 'success')
+    else:
+        flash('Please provide a valid URL.', 'danger')
+    return redirect(url_for('dashboard'))
+
+
+@app.route('/take_many_screenshots', methods=['POST'])  # Zmieniony routing
+def trigger_many_screenshots():
+    domains = load_domains()
+    if domains:
+        save_dir = take_many_screenshots(domains)  # Wywołanie funkcji `take_many_screenshots`
+        flash(f'Many screenshots saved in {save_dir}', 'success')
+    else:
+        flash('No domains available to take screenshots.', 'danger')
+    return redirect(url_for('dashboard'))
+
+
+@app.route('/manyScreen')
+@app.route('/manyScreen/<folder>')
+def many_screen(folder=None):
+    if folder:
+        folder_path = os.path.join(SCREENSHOT_DIR, folder)
+        if os.path.exists(folder_path) and os.path.isdir(folder_path):
+            screenshots = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
+        else:
+            screenshots = []
+        return render_template('manyScreen.html', folder=folder, screenshots=screenshots)
+    else:
+        screenshot_dirs = [d for d in os.listdir(SCREENSHOT_DIR) if os.path.isdir(os.path.join(SCREENSHOT_DIR, d))]
+        domains = load_domains()
+        screenshots = get_screenshots(SCREENSHOT_DIR)
+        return render_template('manyScreen.html', screenshot_dirs=screenshot_dirs, domains=domains,
+                               screenshots=screenshots)
 
 
 if __name__ == '__main__':
