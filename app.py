@@ -1,11 +1,12 @@
 import json
 import logging
 import os
+from urllib.parse import urlparse
 
-from flask import Flask, render_template, redirect, url_for, flash, request
+from flask import Flask, render_template, redirect, url_for, flash, request, jsonify
 
 from forms import AddDomainForm
-from manyScreen import take_screenshots as take_many_screenshots
+from manyScreen import is_valid_url, visit_links_and_take_screenshots, create_directory_for_domain
 from screenshots import get_screenshots, take_screenshots
 
 app = Flask(__name__)
@@ -126,21 +127,29 @@ def take_screenshot(url, SCREENSHOT_DIR):
     pass
 
 
-@app.route('/screenshots', methods=['GET', 'POST'])
-def screenshots():
-    domains = load_domains()
-    if request.method == 'POST':
-        url = request.form.get('url')
-        if url:
-            take_screenshots(url, SCREENSHOT_DIR)
-            flash('Screenshot taken successfully!', 'success')
-        else:
-            flash('Please provide a valid URL.', 'danger')
-        return redirect(url_for('screenshots'))
+@app.route('/screenshot', methods=['POST'])
+def screenshot():
+    data = request.get_json()
+    if not data or 'urls' not in data or 'deviceType' not in data:
+        return jsonify({"error": "Invalid input data"}), 400
 
-    screenshots_dir = os.path.join(app.static_folder, 'screenshots')
-    images = [f for f in os.listdir(screenshots_dir) if os.path.isfile(os.path.join(screenshots_dir, f))]
-    return render_template('screenshots.html', screenshots=images, domains=domains)
+    urls = data['urls']
+    device_type = data['deviceType']
+    screenshots = []
+
+    for url in urls:
+        try:
+            url = is_valid_url(url)
+            visit_links_and_take_screenshots(url, device_type)
+            domain_name = urlparse(url).netloc.replace('www.', '').replace(':', '_')
+            domain_folder = create_directory_for_domain(domain_name)
+            screenshots.extend([os.path.join(domain_folder, f) for f in os.listdir(domain_folder) if
+                                os.path.isfile(os.path.join(domain_folder, f))])
+        except Exception as e:
+            print(f"Error processing {url}: {e}")
+            return jsonify({"error": f"Error processing {url}: {str(e)}"}), 500
+
+    return jsonify({"screenshots": screenshots}), 200
 
 
 @app.route('/screenshots/delete/<folder>/<screenshot>', methods=['POST'])
@@ -192,15 +201,15 @@ def trigger_screenshots():
     return redirect(url_for('dashboard'))
 
 
-@app.route('/take_many_screenshots', methods=['POST'])  # Zmieniony routing
-def trigger_many_screenshots():
-    domains = load_domains()
-    if domains:
-        save_dir = take_many_screenshots(domains)  # Wywołanie funkcji `take_many_screenshots`
-        flash(f'Many screenshots saved in {save_dir}', 'success')
-    else:
-        flash('No domains available to take screenshots.', 'danger')
-    return redirect(url_for('dashboard'))
+# @app.route('/take_many_screenshots', methods=['POST'])  # Zmieniony routing
+# def trigger_many_screenshots():
+#     domains = load_domains()
+#     if domains:
+#         save_dir = take_many_screenshots(domains)  # Wywołanie funkcji `take_many_screenshots`
+#         flash(f'Many screenshots saved in {save_dir}', 'success')
+#     else:
+#         flash('No domains available to take screenshots.', 'danger')
+#     return redirect(url_for('dashboard'))
 
 
 @app.route('/manyScreen')
@@ -219,6 +228,47 @@ def many_screen(folder=None):
         screenshots = get_screenshots(SCREENSHOT_DIR)
         return render_template('manyScreen.html', screenshot_dirs=screenshot_dirs, domains=domains,
                                screenshots=screenshots)
+
+
+@app.route('/screenshots', methods=['GET', 'POST'])
+def screenshots_route():
+    domains = load_domains()
+    if request.method == 'POST':
+        url = request.form.get('url')
+        if url:
+            take_screenshots(url)
+            flash('Screenshot taken successfully!', 'success')
+        else:
+            flash('Please provide a valid URL.', 'danger')
+        return redirect(url_for('screenshots'))
+
+    screenshots_dir = os.path.join(app.static_folder, 'screenshots')
+    images = [f for f in os.listdir(screenshots_dir) if os.path.isfile(os.path.join(screenshots_dir, f))]
+    return render_template('screenshots.html', screenshots=images, domains=domains)
+
+
+@app.route('/screenshots', methods=['GET', 'POST'])
+def many_screenshots():
+    domains = load_domains()
+    if request.method == 'POST':
+        url = request.form.get('url')
+        if url:
+            screenshots_info = take_screenshots(url, SCREENSHOT_DIR)
+            with open(os.path.join(SCREENSHOT_DIR, 'screenshots_info.json'), 'w') as f:
+                json.dump(screenshots_info, f, indent=4)
+            flash('Screenshot taken successfully!', 'success')
+        else:
+            flash('Please provide a valid URL.', 'danger')
+        return redirect(url_for('screenshots'))
+
+    screenshots_info_path = os.path.join(SCREENSHOT_DIR, 'screenshots_info.json')
+    if os.path.exists(screenshots_info_path):
+        with open(screenshots_info_path, 'r') as f:
+            screenshots_info = json.load(f)
+    else:
+        screenshots_info = []
+
+    return render_template('screenshots.html', screenshots=screenshots_info, domains=domains)
 
 
 if __name__ == '__main__':

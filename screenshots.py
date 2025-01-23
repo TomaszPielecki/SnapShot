@@ -45,9 +45,20 @@ def take_screenshots(url, save_dir='static/screenshots'):
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
 
-        main_screenshot_path = os.path.join(save_dir,
-                                            f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}.png")
-        driver.save_screenshot(main_screenshot_path)
+        # Capture desktop view
+        desktop_screenshot_path = os.path.join(save_dir,
+                                               f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}_desktop.png")
+        driver.save_screenshot(desktop_screenshot_path)
+
+        # Capture mobile view
+        mobile_emulation = {"deviceName": "iPhone X"}
+        options.add_experimental_option("mobileEmulation", mobile_emulation)
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        driver.get(url)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+        mobile_screenshot_path = os.path.join(save_dir,
+                                              f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}_mobile.png")
+        driver.save_screenshot(mobile_screenshot_path)
 
         links = driver.find_elements(By.TAG_NAME, "a")
         subpages = set()
@@ -63,9 +74,20 @@ def take_screenshots(url, save_dir='static/screenshots'):
             try:
                 driver.get(subpage_url)
                 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-                subpage_screenshot_path = os.path.join(save_dir,
-                                                       f"{subpage_url.replace('http://', '').replace('https://', '').replace('/', '_')}.png")
-                driver.save_screenshot(subpage_screenshot_path)
+
+                # Capture desktop view of subpage
+                subpage_desktop_screenshot_path = os.path.join(save_dir,
+                                                               f"{subpage_url.replace('http://', '').replace('https://', '').replace('/', '_')}_desktop.png")
+                driver.save_screenshot(subpage_desktop_screenshot_path)
+
+                # Capture mobile view of subpage
+                driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+                driver.get(subpage_url)
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+                subpage_mobile_screenshot_path = os.path.join(save_dir,
+                                                              f"{subpage_url.replace('http://', '').replace('https://', '').replace('/', '_')}_mobile.png")
+                driver.save_screenshot(subpage_mobile_screenshot_path)
+
             except Exception as e:
                 print(f"An error occurred while taking a screenshot of {subpage_url}: {e}")
 
