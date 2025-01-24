@@ -1,26 +1,48 @@
 {% extends "base.html" %}
 
-{% block title %}Gallery{% endblock %}
-
 {% block content %}
-<h1>Gallery</h1>
+<section class="search-screenshots py-5">
+    <div class="container">
 
-<!-- Slider -->
-<div id="gallerySlider" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        {% for image in images %}
-        <div class="carousel-item {% if loop.first %}active{% endif %}">
-            <img src="{{ url_for('static', filename='screenshots/' ~ image) }}" class="d-block w-100 gallery-image" alt="Image">
-        </div>
-        {% endfor %}
+        <h2 class="mb-4">Search Screenshots by Date</h2>
+        <form action="{{ url_for('search_screenshots') }}" method="post" class="mb-4">
+            <div class="input-group">
+                <input type="date" name="date" class="form-control" required>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+
+        {% if screenshots is defined %}
+        {% if screenshots|length > 0 %}
+        <section class="search-results py-5">
+            <div class="container">
+                <h2 class="mb-4">Search Results for {{ date }}</h2>
+                <div class="row">
+                    {% for screenshot in screenshots %}
+                    <div class="col-md-3">
+                        <div class="card mb-4">
+                            <img src="{{ url_for('static', filename='screenshots/' ~ screenshot) }}"
+                                 class="card-img-top" alt="Screenshot">
+                            <div class="card-body">
+                                <a href="{{ url_for('static', filename='screenshots/' ~ screenshot) }}"
+                                   target="_blank" class="btn btn-primary">View Full Size</a>
+                                <a href="{{ url_for('static', filename='screenshots/' ~ screenshot) }}"
+                                   download class="btn btn-primary">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        {% else %}
+        <p>No screenshots found for the specified date.</p>
+        {% endif %}
+        {% else %}
+        <p>No search results yet. Please enter a date and search.</p>
+        {% endif %}
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#gallerySlider" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#gallerySlider" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+</section>
 {% endblock %}

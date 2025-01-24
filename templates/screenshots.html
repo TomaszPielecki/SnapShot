@@ -4,7 +4,7 @@
 <section class="screenshots py-5">
     <div class="container">
         <h2 class="mb-4">Screenshots</h2>
-        <form action="{{ url_for('screenshots') }}" method="post" class="mb-4">
+        <form action="{{ url_for('screenshots_route') }}" method="post" class="mb-4">
             <div class="input-group">
                 <select name="url" class="form-control" required>
                     <option value="" disabled selected>Select a domain</option>
@@ -18,13 +18,14 @@
             </div>
         </form>
         <div class="progress mb-4">
-            <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
-                 aria-valuemin="0" aria-valuemax="100">0%
+            <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                 style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%
             </div>
         </div>
+
         <div class="row">
             {% for screenshot in screenshots %}
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card mb-4">
                     <img src="{{ url_for('static', filename='screenshots/' ~ screenshot) }}" class="card-img-top"
                          alt="Screenshot">
@@ -33,8 +34,8 @@
                            target="_blank" class="btn btn-primary">View Full Size</a>
                         <a href="{{ url_for('static', filename='screenshots/' ~ folder ~ '/' ~ screenshot) }}" download
                            class="btn btn-primary">Download</a>
-                        <form action="{{ url_for('delete_screenshot_from_folder', folder=folder, screenshot=screenshot) }}"
-                              method="post" style="display:inline;">
+                        <form action="{{ url_for('delete_screenshot', screenshot=screenshot) }}" method="post"
+                              style="display:inline;">
                             <button type="submit" class="btn btn-danger">Delete</button>
                         </form>
                     </div>

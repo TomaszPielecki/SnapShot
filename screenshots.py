@@ -31,12 +31,18 @@ def take_screenshots(url, save_dir='static/screenshots'):
         else:
             raise ValueError(f"Invalid URL: {url}")
 
+    def capture_screenshot(driver, path):
+        driver.save_screenshot(path)
+
+    def setup_driver(options):
+        return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
     url = is_valid_url(url)
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    driver = setup_driver(options)
 
     try:
         driver.get(url)
@@ -45,9 +51,18 @@ def take_screenshots(url, save_dir='static/screenshots'):
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
 
-        main_screenshot_path = os.path.join(save_dir,
-                                            f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}.png")
-        driver.save_screenshot(main_screenshot_path)
+        desktop_screenshot_path = os.path.join(save_dir,
+                                               f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}_desktop.png")
+        capture_screenshot(driver, desktop_screenshot_path)
+
+        mobile_emulation = {"deviceName": "iPhone X"}
+        options.add_experimental_option("mobileEmulation", mobile_emulation)
+        driver = setup_driver(options)
+        driver.get(url)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+        mobile_screenshot_path = os.path.join(save_dir,
+                                              f"{url.replace('http://', '').replace('https://', '').replace('/', '_')}_mobile.png")
+        capture_screenshot(driver, mobile_screenshot_path)
 
         links = driver.find_elements(By.TAG_NAME, "a")
         subpages = set()
@@ -63,9 +78,18 @@ def take_screenshots(url, save_dir='static/screenshots'):
             try:
                 driver.get(subpage_url)
                 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-                subpage_screenshot_path = os.path.join(save_dir,
-                                                       f"{subpage_url.replace('http://', '').replace('https://', '').replace('/', '_')}.png")
-                driver.save_screenshot(subpage_screenshot_path)
+
+                subpage_desktop_screenshot_path = os.path.join(save_dir,
+                                                               f"{subpage_url.replace('http://', '').replace('https://', '').replace('/', '_')}_desktop.png")
+                capture_screenshot(driver, subpage_desktop_screenshot_path)
+
+                driver = setup_driver(options)
+                driver.get(subpage_url)
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+                subpage_mobile_screenshot_path = os.path.join(save_dir,
+                                                              f"{subpage_url.replace('http://', '').replace('https://', '').replace('/', '_')}_mobile.png")
+                capture_screenshot(driver, subpage_mobile_screenshot_path)
+
             except Exception as e:
                 print(f"An error occurred while taking a screenshot of {subpage_url}: {e}")
 
