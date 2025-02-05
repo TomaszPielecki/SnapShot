@@ -25,10 +25,24 @@
                         <button type="submit" class="btn btn-danger btn-sm">Usuń</button>
                     </form>
                     <a href="{{ url_for('edit_domain', old_domain=domain) }}" class="btn btn-warning btn-sm">Edytuj</a>
+
+                    <!-- Copy domain button -->
+                    <button type="button" class="btn btn-info btn-sm" onclick="copyToClipboard('{{ domain }}')">Kopiuj</button>
                 </div>
             </li>
             {% endfor %}
         </ul>
     </div>
 </section>
+
+<script>
+function copyToClipboard(domain) {
+    const el = document.createElement('textarea');
+    el.value = domain;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+}
+</script>
 {% endblock %}

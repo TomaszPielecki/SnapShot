@@ -17,6 +17,7 @@
             </select>
         </div>
         <button type="submit" class="btn btn-primary">Take Screenshots</button>
+        <button type="button" id="stop_screenshots_route" class="btn btn-danger">Stop Screen</button>
     </form>
 
     <div id="result" class="result"></div>
@@ -60,7 +61,6 @@
             }
 
             const data = await response.json();
-            console.log(data);
 
             if (!Array.isArray(data.screenshots)) {
                 resultDiv.innerHTML = '<div class="alert alert-danger">No screenshots were generated.</div>';
@@ -80,6 +80,28 @@
         } catch (error) {
             console.error(error);
             resultDiv.innerHTML = `<div class="alert alert-danger">An error occurred: ${error.message}</div>`;
+        }
+    });
+
+    document.getElementById('stopButton').addEventListener('click', async () => {
+        try {
+            const response = await fetch('/stop_screenshots', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`Server returned an error: ${errorText}`);
+            }
+
+            const data = await response.json();
+            alert('Stopping screenshots...');
+        } catch (error) {
+            console.error(error);
+            alert(`An error occurred: ${error.message}`);
         }
     });
 </script>

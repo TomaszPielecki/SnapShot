@@ -5,13 +5,19 @@ from datetime import datetime
 from urllib.parse import urlparse
 
 from flask import Flask, render_template, redirect, url_for, flash, request, jsonify
+from flask import send_file
+from flask import send_from_directory
+from flask_socketio import SocketIO
 
+from filterScreen import find_screenshots_by_date
 from forms import AddDomainForm
 from manyScreen import is_valid_url, visit_links_and_take_screenshots, create_directory_for_domain
+from manyScreen import kill_screenshot_process
 from screenshots import get_screenshots, take_screenshots
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
+socketio = SocketIO(app)
 
 # Paths to files
 LOG_FILE = 'path/to/your/logfile.log'
@@ -42,7 +48,6 @@ def load_domains():
 
 
 def save_domains(domains):
-    # Remove duplicates by converting the list to a set and back to a list
     unique_domains = list(set(domains))
     with open(DOMAINS_FILE, 'w') as f:
         json.dump({'domains': unique_domains}, f, indent=4)
@@ -50,6 +55,7 @@ def save_domains(domains):
 
 @app.route('/')
 def dashboard():
+    write_log("Accessed dashboard")
     logs = get_logs()
     domains = load_domains()
     screenshots = get_screenshots(SCREENSHOT_DIR)
@@ -117,15 +123,33 @@ def edit_domain(old_domain):
     return render_template('edit_domain.html', form=form, old_domain=old_domain)
 
 
+@app.route('/copy_domain/<domain>', methods=['POST'])
+def copy_domain(domain):
+    try:
+        domains = load_domains()
+        if domain not in domains:
+            flash("Domain not found!", 'danger')
+            return redirect(url_for('manage_domains'))
+
+        new_domain = f"{domain}_copy"
+        if new_domain in domains:
+            flash(f"Domain '{new_domain}' already exists!", 'danger')
+            return redirect(url_for('manage_domains'))
+
+        domains.append(new_domain)
+        save_domains(domains)
+        flash(f"Domain '{domain}' copied as '{new_domain}'.", 'success')
+    except Exception as e:
+        flash(f"Error copying domain: {str(e)}", 'danger')
+
+    return redirect(url_for('manage_domains'))
+
+
 @app.route('/filtrScreen')
 def gallery():
     screenshots_dir = os.path.join(app.static_folder, 'screenshots')
     images = [f for f in os.listdir(screenshots_dir) if os.path.isfile(os.path.join(screenshots_dir, f))]
     return render_template('FiltrScreen.html', images=images)
-
-
-def take_screenshot(url, SCREENSHOT_DIR):
-    pass
 
 
 @app.route('/screenshot', methods=['POST'])
@@ -143,7 +167,7 @@ def screenshot():
             url = is_valid_url(url)
             visit_links_and_take_screenshots(url, device_type)
             domain_name = urlparse(url).netloc.replace('www.', '').replace(':', '_')
-            domain_folder = create_directory_for_domain(domain_name)
+            domain_folder = create_directory_for_domain(domain_name, datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
             screenshots.extend([os.path.join(domain_folder, f) for f in os.listdir(domain_folder) if
                                 os.path.isfile(os.path.join(domain_folder, f))])
         except Exception as e:
@@ -164,12 +188,6 @@ def delete_screenshot_from_folder(folder, screenshot):
     return redirect(url_for('many_screen', folder=folder))
 
 
-@app.route('/fetch_logs')
-def fetch_logs():
-    logs = get_logs()
-    return {'logs': logs[-20:]}  # Return the last 20 logs
-
-
 @app.route('/logs/delete', methods=['POST'])
 def delete_logs():
     if os.path.exists(LOG_FILE):
@@ -178,6 +196,20 @@ def delete_logs():
     else:
         flash('Log file does not exist.', 'danger')
     return redirect(url_for('dashboard'))
+
+
+def setup_logging():
+    os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
+    logging.basicConfig(
+        filename=LOG_FILE,
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+
+
+def write_log(message, level=logging.INFO):
+    logging.log(level, message)
 
 
 @app.route('/take_screenshots', methods=['POST'])
@@ -189,17 +221,6 @@ def trigger_screenshots():
     else:
         flash('Please provide a valid URL.', 'danger')
     return redirect(url_for('dashboard'))
-
-
-# @app.route('/take_many_screenshots', methods=['POST'])  # Zmieniony routing
-# def trigger_many_screenshots():
-#     domains = load_domains()
-#     if domains:
-#         save_dir = take_many_screenshots(domains)  # Wywołanie funkcji `take_many_screenshots`
-#         flash(f'Many screenshots saved in {save_dir}', 'success')
-#     else:
-#         flash('No domains available to take screenshots.', 'danger')
-#     return redirect(url_for('dashboard'))
 
 
 @app.route('/manyScreen')
@@ -237,49 +258,8 @@ def screenshots_route():
     return render_template('screenshots.html', screenshots=images, domains=domains)
 
 
-@app.route('/screenshots', methods=['GET', 'POST'])
-def screenshots_route_filter():
-    domains = load_domains()
-    if request.method == 'POST':
-        url = request.form.get('url')
-        if url:
-            take_screenshots(url)
-            flash('Screenshot taken successfully!', 'success')
-        else:
-            flash('Please provide a valid URL.', 'danger')
-        return redirect(url_for('screenshots_route'))
-
-    screenshots_dir = os.path.join(app.static_folder, 'screenshots')
-    images = [f for f in os.listdir(screenshots_dir) if os.path.isfile(os.path.join(screenshots_dir, f))]
-    return render_template('filterScreen.html', screenshots=images, domains=domains)
-
-
-@app.route('/screenshots', methods=['GET', 'POST'])
-def many_screenshots():
-    domains = load_domains()
-    if request.method == 'POST':
-        url = request.form.get('url')
-        if url:
-            screenshots_info = take_screenshots(url, SCREENSHOT_DIR)
-            with open(os.path.join(SCREENSHOT_DIR, 'screenshots_info.json'), 'w') as f:
-                json.dump(screenshots_info, f, indent=4)
-            flash('Screenshot taken successfully!', 'success')
-        else:
-            flash('Please provide a valid URL.', 'danger')
-        return redirect(url_for('screenshots'))
-
-    screenshots_info_path = os.path.join(SCREENSHOT_DIR, 'screenshots_info.json')
-    if os.path.exists(screenshots_info_path):
-        with open(screenshots_info_path, 'r') as f:
-            screenshots_info = json.load(f)
-    else:
-        screenshots_info = []
-
-    return render_template('screenshots.html', screenshots=screenshots_info, domains=domains)
-
-
 @app.route('/screenshots/delete/<screenshot>', methods=['POST'])
-def delete_screenshot(screenshot):
+def delete_screenshots(screenshot):
     screenshot_path = os.path.join(SCREENSHOT_DIR, screenshot)
     if os.path.exists(screenshot_path):
         os.remove(screenshot_path)
@@ -294,7 +274,7 @@ def create_domain_folder():
     url = request.form.get('url')
     if url:
         domain_name = urlparse(url).netloc.replace('www.', '').replace(':', '_')
-        create_directory_for_domain(domain_name)
+        create_directory_for_domain(domain_name, datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
         flash('Folder created successfully!', 'success')
     else:
         flash('Please provide a valid URL.', 'danger')
@@ -304,9 +284,14 @@ def create_domain_folder():
 @app.route('/search_screenshots', methods=['GET', 'POST'])
 def search_screenshots():
     if request.method == 'POST':
-        date_str = request.form.get('date')
+        start_date_str = request.form.get('start_date')
+        end_date_str = request.form.get('end_date')
+        domain = request.form.get('domain')
+        device_type = request.form.get('device_type')
+
         try:
-            date = datetime.strptime(date_str, '%Y-%m-%d')
+            start_date = datetime.strptime(start_date_str, '%Y-%m-%d')
+            end_date = datetime.strptime(end_date_str, '%Y-%m-%d')
         except ValueError:
             flash('Invalid date format. Please use YYYY-MM-DD.', 'danger')
             return redirect(url_for('search_screenshots'))
@@ -317,13 +302,18 @@ def search_screenshots():
         for folder in os.listdir(screenshots_dir):
             folder_path = os.path.join(screenshots_dir, folder)
             if os.path.isdir(folder_path):
-                screenshots = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
-                filtered_screenshots += [os.path.join(folder, f) for f in screenshots if datetime.fromtimestamp(
-                    os.path.getmtime(os.path.join(folder_path, f))).date() == date.date()]
+                subfolders = ['desktop', 'mobile'] if not device_type else [device_type]
+                for subfolder in subfolders:
+                    subfolder_path = os.path.join(folder_path, subfolder)
+                    if os.path.exists(subfolder_path) and os.path.isdir(subfolder_path):
+                        screenshots = find_screenshots_by_date(subfolder_path, start_date, domain, device_type)
+                        filtered_screenshots.extend(screenshots)
 
-        return render_template('filtrScreen.html', screenshots=filtered_screenshots, date=date_str)
+        return render_template('filtrScreen.html', screenshots=filtered_screenshots,
+                               start_date=start_date_str, end_date=end_date_str, domain=domain, device_type=device_type)
 
-    return render_template('filtrScreen.html')
+    domains = load_domains()
+    return render_template('filtrScreen.html', domains=domains)
 
 
 @app.route('/get_screenshots', methods=['GET'])
@@ -333,11 +323,101 @@ def get_screenshots_route():
     return jsonify(screenshots)
 
 
+@app.route('/download/<path:filename>')
+def download_file(filename):
+    screenshots_dir = os.path.join(app.static_folder, 'screenshots')
+    return send_from_directory(screenshots_dir, filename, as_attachment=True)
+
+
+@app.route('/api/search_screenshots', methods=['POST'])
+def api_search_screenshots():
+    start_date_str = request.form.get('start_date')
+    end_date_str = request.form.get('end_date')
+    domain = request.form.get('domain')
+
+    try:
+        start_date = datetime.strptime(start_date_str, '%Y-%m-%d')
+        end_date = datetime.strptime(end_date_str, '%Y-%m-%d')
+    except ValueError:
+        return jsonify({"error": "Invalid date format. Please use YYYY-MM-DD."}), 400
+
+    screenshots_dir = os.path.join(app.static_folder, 'screenshots')
+    filtered_screenshots = []
+
+    for folder in os.listdir(screenshots_dir):
+        folder_path = os.path.join(screenshots_dir, folder)
+        if os.path.isdir(folder_path):
+            screenshots = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
+            for screenshot in screenshots:
+                file_path = os.path.join(folder_path, screenshot)
+                file_date = datetime.fromtimestamp(os.path.getmtime(file_path)).date()
+
+                if (start_date.date() <= file_date <= end_date.date()) and (
+                        not domain or domain.lower() in folder.lower()):
+                    filtered_screenshots.append(os.path.join(folder, screenshot))
+
+    return jsonify({"screenshots": filtered_screenshots})
+
+
+@app.route('/screenshots/delete', methods=['POST'])
+def delete_screenshot():
+    screenshot = request.args.get('screenshot')
+    screenshot_path = os.path.join(SCREENSHOT_DIR, screenshot)
+    if os.path.exists(screenshot_path):
+        os.remove(screenshot_path)
+        return jsonify({"success": True})
+    else:
+        return jsonify({"success": False, "error": "Screenshot does not exist."}), 404
+
+
+def ensure_log_directory():
+    log_dir = os.path.dirname(LOG_FILE)
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+
+
+@app.route('/download_logs')
+def download_logs():
+    ensure_log_directory()
+    if os.path.exists(LOG_FILE):
+        return send_file(LOG_FILE, as_attachment=True)
+    else:
+        flash('Log file does not exist.', 'danger')
+        return redirect(url_for('dashboard'))
+
+
+@app.route('/logs', methods=['GET'])
+@app.route('/logs/<domain>/<date_str>', methods=['GET'])
+def fetch_logs(domain=None, date_str=None):
+    if domain and date_str:
+        log_folder = os.path.join(BASE_SCREENSHOT_FOLDER, domain, date_str)
+        log_file = os.path.join(log_folder, 'log.txt')
+        if os.path.exists(log_file):
+            with open(log_file, 'r') as file:
+                logs = file.readlines()
+            return jsonify({"logs": logs})
+        else:
+            return jsonify({"error": "Log file does not exist."}), 404
+    else:
+        logs = get_logs()
+        return jsonify({"logs": logs[-20:]})
+
+
+@app.route('/stop_screenshots', methods=['POST'])
+def stop_screenshots_route():
+    global stop_screenshots
+    stop_screenshots = True
+    kill_screenshot_process()
+    return jsonify({"status": "stopping"})
+
+
 if __name__ == '__main__':
+    setup_logging()
+    write_log("Application started")
     os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
     os.makedirs(SCREENSHOT_DIR, exist_ok=True)
     if not os.path.exists(DOMAINS_FILE):
         with open(DOMAINS_FILE, 'w') as f:
             json.dump({'domains': []}, f)
 
-    app.run(debug=True)
+    socketio.run(app, debug=True)

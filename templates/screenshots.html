@@ -34,8 +34,8 @@
                            target="_blank" class="btn btn-primary">View Full Size</a>
                         <a href="{{ url_for('static', filename='screenshots/' ~ folder ~ '/' ~ screenshot) }}" download
                            class="btn btn-primary">Download</a>
-                        <form action="{{ url_for('delete_screenshot', screenshot=screenshot) }}" method="post"
-                              style="display:inline;">
+                        <form action="{{ url_for('delete_screenshot_from_folder', folder=folder, screenshot=screenshot) }}"
+                              method="post" style="display:inline;">
                             <button type="submit" class="btn btn-danger">Delete</button>
                         </form>
                     </div>

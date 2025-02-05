@@ -3,46 +3,155 @@
 {% block content %}
 <section class="search-screenshots py-5">
     <div class="container">
+        <h2 class="mb-4">Search Screenshots</h2>
 
-        <h2 class="mb-4">Search Screenshots by Date</h2>
-        <form action="{{ url_for('search_screenshots') }}" method="post" class="mb-4">
-            <div class="input-group">
-                <input type="date" name="date" class="form-control" required>
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit">Search</button>
+        <!-- Search Form -->
+        <form id="search-form" class="mb-4">
+            <div class="row">
+                <!-- Start Date Input -->
+                <div class="col-md-3 mb-3">
+                    <label for="start_date" class="form-label">Start Date:</label>
+                    <input
+                            type="date"
+                            id="start_date"
+                            name="start_date"
+                            class="form-control"
+                            required>
+                </div>
+
+                <!-- End Date Input -->
+                <div class="col-md-3 mb-3">
+                    <label for="end_date" class="form-label">End Date:</label>
+                    <input
+                            type="date"
+                            id="end_date"
+                            name="end_date"
+                            class="form-control"
+                            required>
+                </div>
+
+                <!-- Domain Selector -->
+                <div class="col-md-4 mb-3">
+                    <label for="domain" class="form-label">Domain:</label>
+                    <select id="domain" name="domain" class="form-control">
+                        <option value="">All Domains</option>
+                        {% for domain in domains %}
+                        <option value="{{ domain }}">{{ domain }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <!-- Device Type Selector -->
+                <div class="col-md-2 mb-3">
+                    <label for="device_type" class="form-label">Device Type:</label>
+                    <select id="device_type" name="device_type" class="form-control">
+                        <option value="">All</option>
+                        <option value="desktop">Desktop</option>
+                        <option value="mobile">Mobile</option>
+                    </select>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-md-2 mb-3 d-flex align-items-end">
+                    <button class="btn btn-primary w-100" type="submit">Search</button>
                 </div>
             </div>
         </form>
 
-        {% if screenshots is defined %}
-        {% if screenshots|length > 0 %}
-        <section class="search-results py-5">
-            <div class="container">
-                <h2 class="mb-4">Search Results for {{ date }}</h2>
-                <div class="row">
-                    {% for screenshot in screenshots %}
-                    <div class="col-md-3">
-                        <div class="card mb-4">
-                            <img src="{{ url_for('static', filename='screenshots/' ~ screenshot) }}"
-                                 class="card-img-top" alt="Screenshot">
-                            <div class="card-body">
-                                <a href="{{ url_for('static', filename='screenshots/' ~ screenshot) }}"
-                                   target="_blank" class="btn btn-primary">View Full Size</a>
-                                <a href="{{ url_for('static', filename='screenshots/' ~ screenshot) }}"
-                                   download class="btn btn-primary">Download</a>
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
-        {% else %}
-        <p>No screenshots found for the specified date.</p>
-        {% endif %}
-        {% else %}
-        <p>No search results yet. Please enter a date and search.</p>
-        {% endif %}
+        <!-- Search Results -->
+        <div id="search-results" class="row"></div>
     </div>
 </section>
+
+<script>
+    document.getElementById('search-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(this);
+        fetch('{{ url_for("api_search_screenshots") }}', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            const resultsContainer = document.getElementById('search-results');
+            resultsContainer.innerHTML = '';
+
+            if (data.screenshots && data.screenshots.length > 0) {
+                data.screenshots.forEach(screenshot => {
+                    const col = document.createElement('div');
+                    col.className = 'col-md-3 mb-4';
+
+                    const card = document.createElement('div');
+                    card.className = 'card';
+
+                    const img = document.createElement('img');
+                    img.src = `{{ url_for('static', filename='screenshots/') }}${screenshot}`;
+                    img.className = 'card-img-top';
+                    img.alt = 'Screenshot';
+                    img.style = 'object-fit: cover; width: 100%; height: 200px;';
+
+                    const cardBody = document.createElement('div');
+                    cardBody.className = 'card-body';
+
+                    const title = document.createElement('h5');
+                    title.className = 'card-title text-truncate';
+                    title.style = 'font-size: 0.9rem;';
+                    title.textContent = screenshot.split('/').pop();
+
+                    const domain = document.createElement('p');
+                    domain.className = 'card-text';
+                    domain.style = 'font-size: 0.8rem;';
+                    domain.textContent = `Domain: ${screenshot.split('/')[0]}`;
+
+                    const viewButton = document.createElement('a');
+                    viewButton.href = `{{ url_for('static', filename='screenshots/') }}${screenshot}`;
+                    viewButton.target = '_blank';
+                    viewButton.className = 'btn btn-primary btn-sm';
+                    viewButton.textContent = 'View Full Size';
+
+                    const downloadButton = document.createElement('a');
+                    downloadButton.href = `{{ url_for('static', filename='screenshots/') }}${screenshot}`;
+                    downloadButton.download = '';
+                    downloadButton.className = 'btn btn-secondary btn-sm';
+                    downloadButton.textContent = 'Download';
+
+                    const deleteButton = document.createElement('button');
+                    deleteButton.className = 'btn btn-danger btn-sm';
+                    deleteButton.textContent = 'Delete';
+                    deleteButton.addEventListener('click', function() {
+                        fetch(`{{ url_for('delete_screenshot') }}?screenshot=${screenshot}`, {
+                            method: 'POST'
+                        })
+                        .then(response => response.json())
+                        .then(result => {
+                            if (result.success) {
+                                col.remove();
+                            } else {
+                                alert('Failed to delete screenshot');
+                            }
+                        })
+                        .catch(error => console.error('Error:', error));
+                    });
+
+                    cardBody.appendChild(title);
+                    cardBody.appendChild(domain);
+                    cardBody.appendChild(viewButton);
+                    cardBody.appendChild(downloadButton);
+                    cardBody.appendChild(deleteButton);
+                    card.appendChild(img);
+                    card.appendChild(cardBody);
+                    col.appendChild(card);
+                    resultsContainer.appendChild(col);
+                });
+            } else {
+                const noResultsAlert = document.createElement('div');
+                noResultsAlert.className = 'alert alert-info';
+                noResultsAlert.role = 'alert';
+                noResultsAlert.textContent = 'No screenshots found for the specified criteria.';
+                resultsContainer.appendChild(noResultsAlert);
+            }
+        })
+        .catch(error => console.error('Error:', error));
+    });
+</script>
 {% endblock %}

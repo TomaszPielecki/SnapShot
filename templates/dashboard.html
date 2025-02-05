@@ -35,14 +35,14 @@
 
         <section class="logs mb-5">
             <h3>Recent Logs:</h3>
+            <button class="btn btn-primary mb-3" onclick="fetchLogs()">Fetch Logs</button>
+            <a href="{{ url_for('download_logs') }}" class="btn btn-secondary mb-3">Download Logs</a>
             <ul class="list-group" id="log-list">
                 {% for log in logs %}
                 <li class="list-group-item">{{ log }}</li>
                 {% endfor %}
             </ul>
         </section>
-
-
     </div>
 </section>
 
@@ -61,7 +61,5 @@
                 });
             });
     }
-
-    setInterval(fetchLogs, 10000);  // Fetch logs every 10 seconds
 </script>
 {% endblock %}
