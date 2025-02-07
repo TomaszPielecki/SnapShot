@@ -1,0 +1,19 @@
+Flask
+selenium
+selenium-wire
+webdriver-manager
+
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+
+# Install Flask, selenium, selenium-wire, and webdriver-manager
+pip install Flask selenium selenium-wire webdriver-manager
+
+# Verify installation
+pip list

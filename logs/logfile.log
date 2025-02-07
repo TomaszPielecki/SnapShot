@@ -1,0 +1,504 @@
+INFO - Accessed dashboard
+2025-02-07 10:06:01,079 - INFO - Capturing response: https://naturbio.pl/img/favicon.ico?1631595921 200 
+2025-02-07 10:06:01,202 - INFO - Capturing request: https://naturbio.pl/img/favicon.ico?1631595921
+2025-02-07 10:06:01,344 - INFO - Capturing response: https://naturbio.pl/img/favicon.ico?1631595921 200 
+2025-02-07 10:06:03,232 - INFO - 127.0.0.1:17658: HTTP/2 connection terminated by server: error code: 0, last stream id: 81, additional data: b'timeout'
+2025-02-07 10:06:03,258 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+2025-02-07 10:06:03,488 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw 200 
+2025-02-07 10:06:05,187 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737389072&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS
+2025-02-07 10:06:05,190 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION
+2025-02-07 10:06:05,389 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737389072&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS 200 
+2025-02-07 10:06:05,552 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:06:05,648 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:06:05,651 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&target=OPTIMIZATION_TARGET_PAGE_VISIBILITY
+2025-02-07 10:06:05,744 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 10:06:05,747 - INFO - Using default request storage
+2025-02-07 10:06:05,804 - INFO - Created proxy listening on 127.0.0.1:17698
+2025-02-07 10:06:05,829 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION 200 
+2025-02-07 10:06:06,286 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2
+2025-02-07 10:06:06,926 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&target=OPTIMIZATION_TARGET_PAGE_VISIBILITY 200 
+2025-02-07 10:06:07,453 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737389049&target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS
+2025-02-07 10:06:07,918 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737389049&target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS 200 
+2025-02-07 10:06:08,004 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+2025-02-07 10:06:08,106 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
+2025-02-07 10:06:08,213 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737475353&target=OPTIMIZATION_TARGET_CLIENT_SIDE_PHISHING
+2025-02-07 10:06:08,398 - INFO - Capturing request: https://www.naturbio.pl/
+2025-02-07 10:06:08,681 - INFO - Capturing response: https://www.naturbio.pl/ 301 
+2025-02-07 10:06:09,435 - INFO - Capturing request: https://naturbio.pl/
+2025-02-07 10:06:10,046 - INFO - Capturing response: https://naturbio.pl/ 200 
+2025-02-07 10:06:10,268 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/theme.css
+2025-02-07 10:06:10,320 - INFO - Capturing request: https://naturbio.pl/modules/przelewy24/views/css/przelewy24.css
+2025-02-07 10:06:10,323 - INFO - Capturing request: https://naturbio.pl/modules/przelewy24/views/css/p24_blik.css
+2025-02-07 10:06:10,426 - INFO - Capturing request: https://naturbio.pl/themes/default/modules/ps_searchbar/ps_searchbar.css
+2025-02-07 10:06:10,477 - INFO - Capturing request: https://naturbio.pl/modules/notarobot/views/css/front.css
+2025-02-07 10:06:10,549 - INFO - Capturing request: https://naturbio.pl/modules/dotpay/views/css/front.css
+2025-02-07 10:06:10,554 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/theme.css 200 
+2025-02-07 10:06:10,566 - INFO - 127.0.0.1:17710: HTTP/2 connection terminated by server: error code: 0, last stream id: 1, additional data: b'timeout'
+2025-02-07 10:06:10,585 - INFO - Capturing request: https://naturbio.pl/modules/exitpopupmodule/views/css/front/tooltipster.css
+2025-02-07 10:06:10,605 - INFO - Capturing response: https://naturbio.pl/modules/przelewy24/views/css/przelewy24.css 200 
+2025-02-07 10:06:10,688 - INFO - Capturing request: https://naturbio.pl/modules/exitpopupmodule/views/css/front/spin_wheel.css
+2025-02-07 10:06:10,695 - INFO - Capturing response: https://naturbio.pl/modules/przelewy24/views/css/p24_blik.css 200 
+2025-02-07 10:06:10,794 - INFO - Capturing request: https://naturbio.pl/js/jquery/ui/themes/base/minified/jquery-ui.min.css
+2025-02-07 10:06:10,805 - INFO - Capturing response: https://naturbio.pl/modules/notarobot/views/css/front.css 200 
+2025-02-07 10:06:10,819 - INFO - Capturing request: https://naturbio.pl/js/jquery/ui/themes/base/minified/jquery.ui.theme.min.css
+2025-02-07 10:06:10,834 - INFO - Capturing response: https://naturbio.pl/modules/dotpay/views/css/front.css 200 
+2025-02-07 10:06:10,899 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/main.css
+2025-02-07 10:06:10,905 - INFO - Capturing response: https://naturbio.pl/modules/exitpopupmodule/views/css/front/tooltipster.css 200 
+2025-02-07 10:06:11,008 - INFO - Capturing response: https://naturbio.pl/modules/exitpopupmodule/views/css/front/spin_wheel.css 200 
+2025-02-07 10:06:11,010 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/cart.css
+2025-02-07 10:06:11,084 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/product.css
+2025-02-07 10:06:11,097 - INFO - Capturing response: https://naturbio.pl/js/jquery/ui/themes/base/minified/jquery-ui.min.css 200 
+2025-02-07 10:06:11,144 - INFO - Capturing response: https://naturbio.pl/js/jquery/ui/themes/base/minified/jquery.ui.theme.min.css 200 
+2025-02-07 10:06:11,148 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/productlist.css
+2025-02-07 10:06:11,155 - INFO - Capturing response: https://naturbio.pl/themes/default/modules/ps_searchbar/ps_searchbar.css 404 
+2025-02-07 10:06:11,158 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/owl.carousel.min.css
+2025-02-07 10:06:11,194 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/cart.css 200 
+2025-02-07 10:06:11,217 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/main.css 200 
+2025-02-07 10:06:11,221 - INFO - Capturing request: https://naturbio.pl/js/jquery/plugins/fancybox/jquery.fancybox.css
+2025-02-07 10:06:11,254 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/css/homeslider.css
+2025-02-07 10:06:11,289 - INFO - Capturing request: https://naturbio.pl/modules/ph_simpleblog/views/css/ph_simpleblog-17.css
+2025-02-07 10:06:11,297 - INFO - Capturing response: https://naturbio.pl/js/jquery/plugins/fancybox/jquery.fancybox.css 200 
+2025-02-07 10:06:11,307 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/css/homeslider.css 200 
+2025-02-07 10:06:11,349 - INFO - Capturing request: https://naturbio.pl/modules/ph_simpleblog/css/custom.css
+2025-02-07 10:06:11,366 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/product.css 200 
+2025-02-07 10:06:11,384 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/productlist.css 200 
+2025-02-07 10:06:11,385 - INFO - Capturing request: https://naturbio.pl/img/naturbiopl-logo-1631595921.jpg
+2025-02-07 10:06:11,403 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/owl.carousel.min.css 200 
+2025-02-07 10:06:11,425 - INFO - Capturing response: https://naturbio.pl/modules/ph_simpleblog/css/custom.css 200 
+2025-02-07 10:06:11,431 - INFO - Capturing response: https://naturbio.pl/modules/ph_simpleblog/views/css/ph_simpleblog-17.css 200 
+2025-02-07 10:06:11,435 - INFO - Capturing request: https://naturbio.pl/82-home_default/padma-basic-05g-100-kaps.jpg
+2025-02-07 10:06:11,532 - INFO - Capturing response: https://naturbio.pl/img/naturbiopl-logo-1631595921.jpg 200 
+2025-02-07 10:06:11,648 - INFO - Capturing response: https://naturbio.pl/82-home_default/padma-basic-05g-100-kaps.jpg 200 
+2025-02-07 10:06:11,676 - INFO - Capturing request: https://www.googletagmanager.com/gtag/js?id=UA-1099784-9
+2025-02-07 10:06:11,681 - INFO - Capturing request: https://fonts.googleapis.com/css?family=Acme|Bree+Serif|Cinzel|Gloria+Hallelujah|Indie+Flower|Pacifico
+2025-02-07 10:06:11,692 - INFO - Capturing request: https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin-ext
+2025-02-07 10:06:11,695 - INFO - Capturing request: https://naturbio.pl/372-home_default/witamina-c-liposomalna-60-kaps.jpg
+2025-02-07 10:06:11,785 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/78c844df054d59e6c9d46b0a087ed9431c553d3a_slider.jpg
+2025-02-07 10:06:11,791 - INFO - Capturing response: https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin-ext 200 
+2025-02-07 10:06:11,855 - INFO - Capturing response: https://naturbio.pl/372-home_default/witamina-c-liposomalna-60-kaps.jpg 200 
+2025-02-07 10:06:11,870 - INFO - Capturing response: https://fonts.googleapis.com/css?family=Acme|Bree+Serif|Cinzel|Gloria+Hallelujah|Indie+Flower|Pacifico 200 
+2025-02-07 10:06:11,917 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/78c844df054d59e6c9d46b0a087ed9431c553d3a_slider.jpg 200 
+2025-02-07 10:06:11,987 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/312afc19d763ce72fb257a2c74be2ff83b35ffba_naturalne_suplementy_diety.jpg
+2025-02-07 10:06:12,006 - INFO - Capturing response: https://www.googletagmanager.com/gtag/js?id=UA-1099784-9 200 
+2025-02-07 10:06:12,018 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/d215b42ff36adbe499766c01044a6bd4d7dc15b5_witamina_c_liposomalna.jpg
+2025-02-07 10:06:12,022 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/cache/bottom-fac922110.js
+2025-02-07 10:06:12,062 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/f9789a3a3e075199a9c7728203eaece44463ca7f_chlorella_yeaamma.jpg
+2025-02-07 10:06:12,077 - INFO - Capturing request: https://naturbio.pl/256-home_default/witamina-c-liposomalna-180-kaps.jpg
+2025-02-07 10:06:12,093 - INFO - Capturing request: https://naturbio.pl/144-home_default/spirulina-hawajska-pacifica-500mg-600-tabl.jpg
+2025-02-07 10:06:12,096 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/3ca14fcf3073b6ab3aa453f5a843a621c5ac5f4d_suple_od_farmaceuty.jpg
+2025-02-07 10:06:12,109 - INFO - Capturing request: https://naturbio.pl/263-home_default/biomarine-1140-60-kaps.jpg
+2025-02-07 10:06:12,113 - INFO - Capturing request: https://naturbio.pl/221-home_default/kurkuma-micelizowana-licaps-240-kaps.jpg
+2025-02-07 10:06:12,124 - INFO - Capturing request: https://naturbio.pl/modules/blockhome/file//ca63e4fce4fa9f33d8768d634bf4b66ea15facc2_naturalne_terapie.jpg
+2025-02-07 10:06:12,127 - INFO - Capturing request: https://naturbio.pl/108-home_default/kwas-r-ala-bio-enhanced-60-kaps.jpg
+2025-02-07 10:06:12,141 - INFO - Capturing request: https://naturbio.pl/140-home_default/libramed-138-tabl.jpg
+2025-02-07 10:06:12,188 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2 200 
+2025-02-07 10:06:12,267 - INFO - Capturing response: https://naturbio.pl/256-home_default/witamina-c-liposomalna-180-kaps.jpg 200 
+2025-02-07 10:06:12,315 - INFO - Capturing response: https://naturbio.pl/221-home_default/kurkuma-micelizowana-licaps-240-kaps.jpg 200 
+2025-02-07 10:06:12,331 - INFO - Capturing response: https://naturbio.pl/108-home_default/kwas-r-ala-bio-enhanced-60-kaps.jpg 200 
+2025-02-07 10:06:12,351 - INFO - Capturing response: https://naturbio.pl/144-home_default/spirulina-hawajska-pacifica-500mg-600-tabl.jpg 200 
+2025-02-07 10:06:12,507 - INFO - Capturing response: https://naturbio.pl/263-home_default/biomarine-1140-60-kaps.jpg 200 
+2025-02-07 10:06:12,547 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/312afc19d763ce72fb257a2c74be2ff83b35ffba_naturalne_suplementy_diety.jpg 200 
+2025-02-07 10:06:12,577 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/3ca14fcf3073b6ab3aa453f5a843a621c5ac5f4d_suple_od_farmaceuty.jpg 200 
+2025-02-07 10:06:12,610 - INFO - Capturing response: https://naturbio.pl/140-home_default/libramed-138-tabl.jpg 200 
+2025-02-07 10:06:12,617 - INFO - Capturing response: https://naturbio.pl/modules/blockhome/file//ca63e4fce4fa9f33d8768d634bf4b66ea15facc2_naturalne_terapie.jpg 200 
+2025-02-07 10:06:12,762 - INFO - Capturing request: https://www.google.com/recaptcha/api.js?onload=nar_onLoad&render=explicit
+2025-02-07 10:06:12,791 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1696267841&target=OPTIMIZATION_TARGET_OMNIBOX_URL_SCORING
+2025-02-07 10:06:12,815 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/cache/bottom-fac922110.js 200 
+2025-02-07 10:06:12,903 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/f9789a3a3e075199a9c7728203eaece44463ca7f_chlorella_yeaamma.jpg 200 
+2025-02-07 10:06:12,920 - INFO - Capturing response: https://www.google.com/recaptcha/api.js?onload=nar_onLoad&render=explicit 200 
+2025-02-07 10:06:12,959 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/d215b42ff36adbe499766c01044a6bd4d7dc15b5_witamina_c_liposomalna.jpg 200 
+2025-02-07 10:06:12,966 - INFO - Capturing request: https://naturbio.pl/modules/blockhome/file//ea0f04a074ecbd78d3a562e74466d7a198c86b3c_suplementy_diety_farmaceuta.jpg
+2025-02-07 10:06:13,037 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1696267841&target=OPTIMIZATION_TARGET_OMNIBOX_URL_SCORING 200 
+2025-02-07 10:06:13,074 - INFO - Capturing request: https://naturbio.pl/img/platnosci-stopka.png
+2025-02-07 10:06:13,080 - INFO - Capturing request: https://www.googletagmanager.com/gtag/js?id=G-H445KF5J10&l=dataLayer&cx=c&gtm=457e5240za200
+2025-02-07 10:06:13,120 - INFO - Capturing response: https://naturbio.pl/modules/blockhome/file//ea0f04a074ecbd78d3a562e74466d7a198c86b3c_suplementy_diety_farmaceuta.jpg 200 
+2025-02-07 10:06:13,218 - INFO - Capturing response: https://naturbio.pl/img/platnosci-stopka.png 200 
+2025-02-07 10:06:13,300 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/fonts/icomoon.ttf?j5a8zm
+2025-02-07 10:06:13,337 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/fonts/icomoon.ttf?j5a8zm 200 
+2025-02-07 10:06:13,355 - INFO - Capturing response: https://www.googletagmanager.com/gtag/js?id=G-H445KF5J10&l=dataLayer&cx=c&gtm=457e5240za200 200 
+2025-02-07 10:06:13,718 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=240731042075&target=OPTIMIZATION_TARGET_SEGMENTATION_COMPOSE_PROMOTION
+2025-02-07 10:06:14,238 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=240731042075&target=OPTIMIZATION_TARGET_SEGMENTATION_COMPOSE_PROMOTION 200 
+2025-02-07 10:06:14,621 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737475353&target=OPTIMIZATION_TARGET_CLIENT_SIDE_PHISHING 200 
+2025-02-07 10:06:14,726 - INFO - Capturing request: https://www.google-analytics.com/analytics.js
+2025-02-07 10:06:14,783 - INFO - Capturing response: https://www.google-analytics.com/analytics.js 200 
+2025-02-07 10:06:14,869 - INFO - Capturing request: https://www.gstatic.com/recaptcha/releases/PcIQSvk4Y5ANjYUx0f4froA1/recaptcha__pl.js
+2025-02-07 10:06:15,009 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2
+2025-02-07 10:06:15,062 - INFO - Capturing response: https://www.gstatic.com/recaptcha/releases/PcIQSvk4Y5ANjYUx0f4froA1/recaptcha__pl.js 200 
+2025-02-07 10:06:15,070 - INFO - Capturing request: https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1091046645&t=pageview&_s=1&dl=https%3A%2F%2Fnaturbio.pl%2F&ul=pl-pl&de=UTF-8&dt=Naturalne%20suplementy%20diety&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YADAAUABAAAAACAAI~&jid=92998197&gjid=28513162&cid=825837551.1738919174&tid=UA-1099784-9&_gid=1583975580.1738919175&_r=1&gtm=457e5240za200&gcd=13l3l3l2l1l1&dma_cps=syphamo&dma=1&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&jsscut=1&npa=1&z=649792433
+2025-02-07 10:06:15,354 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2
+2025-02-07 10:06:15,406 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmdteamlsPTIRIFDbtXVmohYDu-I5ml1lESGQkZw5TgrL348xIFDYOoWz0hhleZNRy3ErUSGQlBBo6NBk1mFxIFDdqz6YchYDu-I5ml1lE=?alt=proto
+2025-02-07 10:06:15,484 - INFO - 127.0.0.1:17713: HTTP/2 connection terminated by server: error code: 0, last stream id: 77, additional data: b'timeout'
+2025-02-07 10:06:15,587 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2 200 
+2025-02-07 10:06:15,604 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2
+2025-02-07 10:06:15,669 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2
+2025-02-07 10:06:15,714 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2
+2025-02-07 10:06:15,803 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmdteamlsPTIRIFDbtXVmohYDu-I5ml1lESGQlBBo6NBk1mFxIFDdqz6YchYDu-I5ml1lE=?alt=proto
+2025-02-07 10:06:15,889 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2 200 
+2025-02-07 10:06:15,948 - INFO - Capturing response: https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1091046645&t=pageview&_s=1&dl=https%3A%2F%2Fnaturbio.pl%2F&ul=pl-pl&de=UTF-8&dt=Naturalne%20suplementy%20diety&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YADAAUABAAAAACAAI~&jid=92998197&gjid=28513162&cid=825837551.1738919174&tid=UA-1099784-9&_gid=1583975580.1738919175&_r=1&gtm=457e5240za200&gcd=13l3l3l2l1l1&dma_cps=syphamo&dma=1&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&jsscut=1&npa=1&z=649792433 200 
+2025-02-07 10:06:16,048 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmdteamlsPTIRIFDbtXVmohYDu-I5ml1lESGQkZw5TgrL348xIFDYOoWz0hhleZNRy3ErUSGQlBBo6NBk1mFxIFDdqz6YchYDu-I5ml1lE=?alt=proto 200 
+2025-02-07 10:06:16,059 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2 200 
+2025-02-07 10:06:16,087 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2 200 
+2025-02-07 10:06:16,093 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmdteamlsPTIRIFDbtXVmohYDu-I5ml1lESGQlBBo6NBk1mFxIFDdqz6YchYDu-I5ml1lE=?alt=proto 200 
+2025-02-07 10:06:16,099 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2 200 
+2025-02-07 10:06:16,405 - INFO - Capturing request: https://www.chater.biz/static/538/assets/modules/chat/js/chat.js
+2025-02-07 10:06:16,475 - INFO - Capturing request: https://region1.analytics.google.com/g/collect?v=2&tid=G-H445KF5J10&gtm=45je5240v9135590728za200&_p=1738919170289&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&cid=825837551.1738919174&ul=pl-pl&sr=375x812&_ng=1&ir=1&uaa=&uab=&uafvl=&uamb=1&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAI&_s=1&sid=1738919173&sct=1&seg=0&dl=https%3A%2F%2Fnaturbio.pl%2F&dt=Naturalne%20suplementy%20diety&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=6032
+2025-02-07 10:06:16,516 - INFO - Capturing response: https://www.chater.biz/static/538/assets/modules/chat/js/chat.js 200 
+2025-02-07 10:06:16,554 - INFO - Capturing response: https://region1.analytics.google.com/g/collect?v=2&tid=G-H445KF5J10&gtm=45je5240v9135590728za200&_p=1738919170289&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&cid=825837551.1738919174&ul=pl-pl&sr=375x812&_ng=1&ir=1&uaa=&uab=&uafvl=&uamb=1&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAI&_s=1&sid=1738919173&sct=1&seg=0&dl=https%3A%2F%2Fnaturbio.pl%2F&dt=Naturalne%20suplementy%20diety&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=6032 204 
+2025-02-07 10:06:16,662 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwaPGQ3q5d0N7w.woff2
+2025-02-07 10:06:16,704 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwaPGQ3q5d0N7w.woff2 200 
+2025-02-07 10:06:17,792 - INFO - Capturing request: https://www.google.pl/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&_ng=1&tid=G-H445KF5J10&cid=825837551.1738919174&gtm=45je5240v9135590728za200&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&z=1701867011
+2025-02-07 10:06:17,809 - INFO - Capturing request: https://stats.g.doubleclick.net/g/collect?v=2&_ng=1&tid=G-H445KF5J10&cid=825837551.1738919174&gtm=45je5240v9135590728za200&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417
+2025-02-07 10:06:17,886 - INFO - Capturing response: https://www.google.pl/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&_ng=1&tid=G-H445KF5J10&cid=825837551.1738919174&gtm=45je5240v9135590728za200&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&z=1701867011 200 
+2025-02-07 10:06:17,921 - INFO - Capturing response: https://stats.g.doubleclick.net/g/collect?v=2&_ng=1&tid=G-H445KF5J10&cid=825837551.1738919174&gtm=45je5240v9135590728za200&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417 204 
+2025-02-07 10:06:17,993 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+2025-02-07 10:06:18,202 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw 200 
+2025-02-07 10:06:53,346 - INFO - Capturing request: https://update.googleapis.com/service/update2/json?cup2key=14:UsimeXbZiLQakognos98HVy8gB9qgiTXKa2xmZHF0r0&cup2hreq=7b772f3f42a7b422f0258572db377d6c621d158bbe7ed39bc2a65943da843137
+2025-02-07 10:06:53,427 - INFO - Capturing response: https://update.googleapis.com/service/update2/json?cup2key=14:UsimeXbZiLQakognos98HVy8gB9qgiTXKa2xmZHF0r0&cup2hreq=7b772f3f42a7b422f0258572db377d6c621d158bbe7ed39bc2a65943da843137 200 
+2025-02-07 10:06:56,135 - INFO - Capturing request: https://clientservices.googleapis.com/uma/v2
+2025-02-07 10:06:56,302 - INFO - Capturing response: https://clientservices.googleapis.com/uma/v2 200 
+2025-02-07 10:07:01,866 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
+2025-02-07 10:07:02,063 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
+2025-02-07 10:07:39,067 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
+2025-02-07 10:07:39,153 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
+2025-02-07 10:07:43,419 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
+2025-02-07 10:07:43,661 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
+2025-02-07 10:07:52,142 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
+2025-02-07 10:07:52,368 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
+2025-02-07 10:07:57,715 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\forms.py', reloading
+2025-02-07 10:08:04,933 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 10:09:38,892 - WARNING -  * Debugger is active!
+2025-02-07 10:09:38,899 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 10:10:09,358 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
+2025-02-07 10:10:09,359 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
+2025-02-07 10:10:09,359 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
+2025-02-07 10:10:09,360 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
+2025-02-07 10:10:10,378 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 10:10:35,855 - WARNING -  * Debugger is active!
+2025-02-07 10:10:35,862 - INFO -  * Debugger PIN: 313-593-320
+INFO - Accessed dashboard
+INFO - Accessed dashboard
+2025-02-07 10:31:15,907 - WARNING -  * Debugger is active!
+2025-02-07 10:31:15,914 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 10:31:59,456 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:31:59,456 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:31:59,457 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:31:59,457 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:32:00,291 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 10:35:48,343 - WARNING -  * Debugger is active!
+2025-02-07 10:35:48,349 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 10:35:48,439 - INFO - ====== WebDriver manager ======
+2025-02-07 10:35:52,640 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:35:52,745 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:35:52,847 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 10:41:11,196 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
+2025-02-07 10:41:11,204 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:41:11,205 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:41:11,205 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:41:11,206 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:41:11,240 - INFO - ====== WebDriver manager ======
+2025-02-07 10:41:16,527 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 10:43:16,292 - WARNING -  * Debugger is active!
+2025-02-07 10:43:16,299 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 10:44:38,348 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:44:38,349 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:44:38,349 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:44:38,389 - INFO - ====== WebDriver manager ======
+2025-02-07 10:44:39,602 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 10:45:57,066 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 10:46:02,484 - WARNING -  * Debugger is active!
+2025-02-07 10:46:02,490 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 10:46:02,806 - INFO - ====== WebDriver manager ======
+2025-02-07 10:46:08,757 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:46:08,862 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:46:08,959 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 10:49:33,784 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:49:33,784 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:49:33,785 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:49:33,785 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 10:49:34,147 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 10:49:41,938 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 10:50:19,266 - INFO - ====== WebDriver manager ======
+2025-02-07 10:50:23,568 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:50:23,707 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:50:23,838 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 10:52:09,479 - INFO - ====== WebDriver manager ======
+2025-02-07 10:52:13,671 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:52:13,777 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:52:13,881 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 10:54:34,799 - INFO - ====== WebDriver manager ======
+2025-02-07 10:54:39,277 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:54:39,406 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:54:39,518 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 10:57:09,197 - INFO - ====== WebDriver manager ======
+2025-02-07 10:57:13,327 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:57:13,439 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:57:13,557 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 10:59:16,695 - INFO - ====== WebDriver manager ======
+2025-02-07 10:59:20,875 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:59:25,108 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:59:25,214 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 11:04:25,991 - INFO - ====== WebDriver manager ======
+2025-02-07 11:04:30,121 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:04:30,228 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:04:30,351 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 11:08:19,733 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 11:08:19,734 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 11:08:19,734 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 11:08:19,735 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
+2025-02-07 11:08:20,326 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 11:10:25,091 - WARNING -  * Debugger is active!
+2025-02-07 11:10:25,097 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 11:11:24,359 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
+2025-02-07 11:11:24,541 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-07 11:12:42,240 - WARNING -  * Debugger is active!
+2025-02-07 11:12:42,246 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 11:12:46,262 - INFO - ====== WebDriver manager ======
+2025-02-07 11:12:50,749 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:12:50,863 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:12:51,007 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 11:12:51,008 - INFO - Using default request storage
+2025-02-07 11:12:51,023 - INFO - Created proxy listening on 127.0.0.1:58902
+2025-02-07 11:12:53,454 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+2025-02-07 11:12:53,628 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
+2025-02-07 11:12:53,734 - INFO - Capturing request: https://www.katarzynakobiela.pl/
+2025-02-07 11:12:53,872 - INFO - Capturing response: https://www.katarzynakobiela.pl/ 200 
+2025-02-07 11:12:54,030 - INFO - Capturing request: https://www.katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js
+2025-02-07 11:12:54,033 - INFO - Capturing request: https://www.katarzynakobiela.pl/styles-2c8cc638826070126d54.js
+2025-02-07 11:12:54,037 - INFO - Capturing request: https://www.katarzynakobiela.pl/framework-16534ddc5a576711dd15.js
+2025-02-07 11:12:54,047 - INFO - Capturing request: https://www.katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js
+2025-02-07 11:12:54,053 - INFO - Capturing request: https://www.katarzynakobiela.pl/app-ccf113e834caa5869340.js
+2025-02-07 11:12:54,057 - INFO - Capturing request: https://www.katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js
+2025-02-07 11:12:54,065 - INFO - Capturing request: https://www.katarzynakobiela.pl/page-data/index/page-data.json
+2025-02-07 11:12:54,068 - INFO - Capturing request: https://www.katarzynakobiela.pl/page-data/app-data.json
+2025-02-07 11:12:54,099 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg
+2025-02-07 11:12:54,110 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/image005.png
+2025-02-07 11:12:54,115 - INFO - Capturing request: https://www.katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg
+2025-02-07 11:12:54,121 - INFO - Capturing request: https://www.katarzynakobiela.pl/sesja-zdjeciowa.jpg
+2025-02-07 11:12:54,125 - INFO - Capturing request: https://www.katarzynakobiela.pl/o-mnie.jpg
+2025-02-07 11:12:54,128 - INFO - Capturing request: https://www.katarzynakobiela.pl/warsztaty-szkolenia.jpg
+2025-02-07 11:12:54,131 - INFO - Capturing request: https://www.katarzynakobiela.pl/przeglad-szafy.jpg
+2025-02-07 11:12:54,134 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-Aryton.png
+2025-02-07 11:12:54,139 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png
+2025-02-07 11:12:54,142 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png
+2025-02-07 11:12:54,148 - INFO - Capturing response: https://www.katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js 200 
+2025-02-07 11:12:54,150 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/top-logo-300x86.png
+2025-02-07 11:12:54,155 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png
+2025-02-07 11:12:54,158 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png
+2025-02-07 11:12:54,161 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png
+2025-02-07 11:12:54,164 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-dv1.png
+2025-02-07 11:12:54,167 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png
+2025-02-07 11:12:54,175 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-1-200x46.png
+2025-02-07 11:12:54,179 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png
+2025-02-07 11:12:54,186 - INFO - Capturing response: https://www.katarzynakobiela.pl/styles-2c8cc638826070126d54.js 200 
+2025-02-07 11:12:54,189 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png
+2025-02-07 11:12:54,192 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png
+2025-02-07 11:12:54,217 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png
+2025-02-07 11:12:54,249 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png
+2025-02-07 11:12:54,260 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-Aryton.png 200 
+2025-02-07 11:12:54,270 - INFO - Capturing request: https://www.katarzynakobiela.pl/katarzyna-kobiela.jpg
+2025-02-07 11:12:54,281 - INFO - Capturing response: https://www.katarzynakobiela.pl/framework-16534ddc5a576711dd15.js 200 
+2025-02-07 11:12:54,309 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff
+2025-02-07 11:12:54,324 - INFO - Capturing response: https://www.katarzynakobiela.pl/page-data/index/page-data.json 200 
+2025-02-07 11:12:54,328 - INFO - Capturing response: https://www.katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js 200 
+2025-02-07 11:12:54,343 - INFO - Capturing response: https://www.katarzynakobiela.pl/app-ccf113e834caa5869340.js 200 
+2025-02-07 11:12:54,347 - INFO - Capturing response: https://www.katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js 200 
+2025-02-07 11:12:54,348 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff
+2025-02-07 11:12:54,360 - INFO - Capturing response: https://www.katarzynakobiela.pl/page-data/app-data.json 200 
+2025-02-07 11:12:54,388 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg 200 
+2025-02-07 11:12:54,451 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png 200 
+2025-02-07 11:12:54,510 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/top-logo-300x86.png 200 
+2025-02-07 11:12:54,530 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png 200 
+2025-02-07 11:12:54,533 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png 200 
+2025-02-07 11:12:54,537 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-dv1.png 200 
+2025-02-07 11:12:54,543 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png 200 
+2025-02-07 11:12:54,549 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png 200 
+2025-02-07 11:12:54,550 - INFO - Capturing request: https://www.katarzynakobiela.pl/instagram.json
+2025-02-07 11:12:54,560 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png 200 
+2025-02-07 11:12:54,565 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-1-200x46.png 200 
+2025-02-07 11:12:54,578 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/image005.png 200 
+2025-02-07 11:12:54,612 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png 200 
+2025-02-07 11:12:54,620 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png 200 
+2025-02-07 11:12:54,667 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png 200 
+2025-02-07 11:12:54,712 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff 200 
+2025-02-07 11:12:54,726 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff 200 
+2025-02-07 11:12:54,743 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png 200 
+2025-02-07 11:12:54,839 - INFO - Capturing response: https://www.katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg 200 
+2025-02-07 11:12:54,867 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png 200 
+2025-02-07 11:12:54,931 - INFO - Capturing response: https://www.katarzynakobiela.pl/instagram.json 200 
+2025-02-07 11:12:54,978 - INFO - Capturing response: https://www.katarzynakobiela.pl/przeglad-szafy.jpg 200 
+2025-02-07 11:12:55,016 - INFO - Capturing response: https://www.katarzynakobiela.pl/warsztaty-szkolenia.jpg 200 
+2025-02-07 11:12:55,027 - INFO - Capturing response: https://www.katarzynakobiela.pl/katarzyna-kobiela.jpg 200 
+2025-02-07 11:12:55,040 - INFO - Capturing response: https://www.katarzynakobiela.pl/sesja-zdjeciowa.jpg 200 
+2025-02-07 11:12:55,161 - INFO - Capturing response: https://www.katarzynakobiela.pl/o-mnie.jpg 200 
+2025-02-07 11:12:55,175 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgnn_TYMJ-LimxIFDZRU-s8SBQ01KV6sEgUNeG8SGRIFDcZosPwhdYPdkIBbabw=?alt=proto
+2025-02-07 11:12:55,306 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgnn_TYMJ-LimxIFDZRU-s8SBQ01KV6sEgUNeG8SGRIFDcZosPwhdYPdkIBbabw=?alt=proto 200 
+2025-02-07 11:12:55,575 - INFO - Capturing request: https://www.katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59
+2025-02-07 11:12:55,732 - INFO - Capturing response: https://www.katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59 200 
+2025-02-07 11:12:55,895 - INFO - ====== WebDriver manager ======
+2025-02-07 11:13:00,912 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:13:01,018 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:13:01,134 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 11:13:01,135 - INFO - Using default request storage
+2025-02-07 11:13:01,150 - INFO - Created proxy listening on 127.0.0.1:58933
+2025-02-07 11:13:03,124 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+2025-02-07 11:13:03,202 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+2025-02-07 11:13:03,281 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
+2025-02-07 11:13:03,337 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw 200 
+2025-02-07 11:13:03,492 - INFO - Capturing request: https://www.katarzynakobiela.pl/
+2025-02-07 11:13:03,525 - INFO - Capturing response: https://www.katarzynakobiela.pl/ 200 
+2025-02-07 11:13:03,691 - INFO - Capturing request: https://www.katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js
+2025-02-07 11:13:03,695 - INFO - Capturing request: https://www.katarzynakobiela.pl/framework-16534ddc5a576711dd15.js
+2025-02-07 11:13:03,709 - INFO - Capturing request: https://www.katarzynakobiela.pl/app-ccf113e834caa5869340.js
+2025-02-07 11:13:03,713 - INFO - Capturing request: https://www.katarzynakobiela.pl/styles-2c8cc638826070126d54.js
+2025-02-07 11:13:03,726 - INFO - Capturing request: https://www.katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js
+2025-02-07 11:13:03,740 - INFO - Capturing request: https://www.katarzynakobiela.pl/page-data/app-data.json
+2025-02-07 11:13:03,746 - INFO - Capturing request: https://www.katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js
+2025-02-07 11:13:03,753 - INFO - Capturing request: https://www.katarzynakobiela.pl/page-data/index/page-data.json
+2025-02-07 11:13:03,764 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg
+2025-02-07 11:13:03,771 - INFO - Capturing request: https://www.katarzynakobiela.pl/o-mnie.jpg
+2025-02-07 11:13:03,777 - INFO - Capturing request: https://www.katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg
+2025-02-07 11:13:03,794 - INFO - Capturing response: https://www.katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js 200 
+2025-02-07 11:13:03,798 - INFO - Capturing request: https://www.katarzynakobiela.pl/przeglad-szafy.jpg
+2025-02-07 11:13:03,807 - INFO - Capturing request: https://www.katarzynakobiela.pl/warsztaty-szkolenia.jpg
+2025-02-07 11:13:03,815 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-Aryton.png
+2025-02-07 11:13:03,822 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/image005.png
+2025-02-07 11:13:03,826 - INFO - Capturing request: https://www.katarzynakobiela.pl/sesja-zdjeciowa.jpg
+2025-02-07 11:13:03,833 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png
+2025-02-07 11:13:03,839 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png
+2025-02-07 11:13:03,844 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png
+2025-02-07 11:13:03,855 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/top-logo-300x86.png
+2025-02-07 11:13:03,859 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png
+2025-02-07 11:13:03,862 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png
+2025-02-07 11:13:03,894 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-dv1.png
+2025-02-07 11:13:03,899 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png
+2025-02-07 11:13:03,922 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png
+2025-02-07 11:13:03,939 - INFO - Capturing response: https://www.katarzynakobiela.pl/framework-16534ddc5a576711dd15.js 200 
+2025-02-07 11:13:03,957 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-1-200x46.png
+2025-02-07 11:13:03,975 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png
+2025-02-07 11:13:03,978 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png
+2025-02-07 11:13:03,981 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png
+2025-02-07 11:13:03,989 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png
+2025-02-07 11:13:03,993 - INFO - Capturing response: https://www.katarzynakobiela.pl/styles-2c8cc638826070126d54.js 200 
+2025-02-07 11:13:03,996 - INFO - Capturing response: https://www.katarzynakobiela.pl/app-ccf113e834caa5869340.js 200 
+2025-02-07 11:13:04,000 - INFO - Capturing response: https://www.katarzynakobiela.pl/page-data/app-data.json 200 
+2025-02-07 11:13:04,006 - INFO - Capturing response: https://www.katarzynakobiela.pl/page-data/index/page-data.json 200 
+2025-02-07 11:13:04,010 - INFO - Capturing response: https://www.katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js 200 
+2025-02-07 11:13:04,015 - INFO - Capturing response: https://www.katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js 200 
+2025-02-07 11:13:04,023 - INFO - Capturing request: https://www.katarzynakobiela.pl/katarzyna-kobiela.jpg
+2025-02-07 11:13:04,027 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg 200 
+2025-02-07 11:13:04,033 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff
+2025-02-07 11:13:04,037 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff
+2025-02-07 11:13:04,067 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-Aryton.png 200 
+2025-02-07 11:13:04,189 - INFO - Capturing request: https://www.katarzynakobiela.pl/instagram.json
+2025-02-07 11:13:04,286 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/image005.png 200 
+2025-02-07 11:13:04,314 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION
+2025-02-07 11:13:04,316 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png 200 
+2025-02-07 11:13:04,324 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png 200 
+2025-02-07 11:13:04,329 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737389072&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS
+2025-02-07 11:13:04,333 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png 200 
+2025-02-07 11:13:04,339 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png 200 
+2025-02-07 11:13:04,342 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png 200 
+2025-02-07 11:13:04,376 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-dv1.png 200 
+2025-02-07 11:13:04,379 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png 200 
+2025-02-07 11:13:04,393 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/top-logo-300x86.png 200 
+2025-02-07 11:13:04,398 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png 200 
+2025-02-07 11:13:04,502 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png 200 
+2025-02-07 11:13:04,549 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png 200 
+2025-02-07 11:13:04,609 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png 200 
+2025-02-07 11:13:04,612 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff 200 
+2025-02-07 11:13:04,648 - INFO - Capturing response: https://www.katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg 200 
+2025-02-07 11:13:04,653 - INFO - Capturing response: https://www.katarzynakobiela.pl/instagram.json 200 
+2025-02-07 11:13:04,683 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png 200 
+2025-02-07 11:13:04,694 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-1-200x46.png 200 
+2025-02-07 11:13:04,745 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgnn_TYMJ-LimxIFDZRU-s8SBQ01KV6sEgUNeG8SGRIFDcZosPwhdYPdkIBbabw=?alt=proto
+2025-02-07 11:13:04,781 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff 200 
+2025-02-07 11:13:04,857 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgnn_TYMJ-LimxIFDZRU-s8SBQ01KV6sEgUNeG8SGRIFDcZosPwhdYPdkIBbabw=?alt=proto 200 
+2025-02-07 11:13:04,863 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION 200 
+2025-02-07 11:13:04,917 - INFO - Capturing response: https://www.katarzynakobiela.pl/przeglad-szafy.jpg 200 
+2025-02-07 11:13:04,987 - INFO - Capturing response: https://www.katarzynakobiela.pl/katarzyna-kobiela.jpg 200 
+2025-02-07 11:13:05,045 - INFO - Capturing response: https://www.katarzynakobiela.pl/warsztaty-szkolenia.jpg 200 
+2025-02-07 11:13:05,063 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737389072&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS 200 
+2025-02-07 11:13:05,100 - INFO - Capturing response: https://www.katarzynakobiela.pl/sesja-zdjeciowa.jpg 200 
+2025-02-07 11:13:05,216 - INFO - Capturing response: https://www.katarzynakobiela.pl/o-mnie.jpg 200 
+2025-02-07 11:13:05,461 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&target=OPTIMIZATION_TARGET_PAGE_VISIBILITY
+2025-02-07 11:13:05,477 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2
+2025-02-07 11:13:05,521 - INFO - Capturing request: https://www.katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59
+2025-02-07 11:13:05,556 - INFO - Capturing response: https://www.katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59 200 
+2025-02-07 11:13:07,685 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2 200 
+2025-02-07 11:13:08,080 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737389049&target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS
+2025-02-07 11:13:08,380 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737389049&target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS 200 
+2025-02-07 11:13:08,686 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737475353&target=OPTIMIZATION_TARGET_CLIENT_SIDE_PHISHING
+2025-02-07 11:13:09,761 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&target=OPTIMIZATION_TARGET_PAGE_VISIBILITY 200 
+2025-02-07 11:13:10,374 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1696267841&target=OPTIMIZATION_TARGET_OMNIBOX_URL_SCORING
+2025-02-07 11:13:10,644 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1696267841&target=OPTIMIZATION_TARGET_OMNIBOX_URL_SCORING 200 
+2025-02-07 11:13:10,963 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=240731042075&target=OPTIMIZATION_TARGET_SEGMENTATION_COMPOSE_PROMOTION
+2025-02-07 11:13:11,543 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=240731042075&target=OPTIMIZATION_TARGET_SEGMENTATION_COMPOSE_PROMOTION 200 
+2025-02-07 11:13:12,146 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737475353&target=OPTIMIZATION_TARGET_CLIENT_SIDE_PHISHING 200 
+2025-02-07 11:13:53,261 - INFO - Capturing request: https://update.googleapis.com/service/update2/json?cup2key=14:I5CM4C5c197Wj6_TlfwDnWMIAjoEojPpj_xr538Dw8Q&cup2hreq=2d9a76f24f7b21629737aab90d955d54c0144d798e468c0a0ec047746aaaecdf
+2025-02-07 11:13:53,457 - INFO - Capturing response: https://update.googleapis.com/service/update2/json?cup2key=14:I5CM4C5c197Wj6_TlfwDnWMIAjoEojPpj_xr538Dw8Q&cup2hreq=2d9a76f24f7b21629737aab90d955d54c0144d798e468c0a0ec047746aaaecdf 200 
+2025-02-07 11:13:55,946 - INFO - Capturing request: https://clientservices.googleapis.com/uma/v2
+2025-02-07 11:13:56,212 - INFO - Capturing response: https://clientservices.googleapis.com/uma/v2 200 
+2025-02-07 11:13:57,570 - INFO - 127.0.0.1:58914: HTTP/2 connection terminated by server: error code: 0, last stream id: 71, additional data: None
+2025-02-07 11:13:57,729 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
+2025-02-07 11:13:57,822 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
+2025-02-07 11:14:02,015 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
+2025-02-07 11:14:02,246 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
+2025-02-07 11:14:06,425 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
+2025-02-07 11:14:06,670 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
+2025-02-07 11:14:15,955 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
+2025-02-07 11:14:16,059 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
+2025-02-07 11:14:33,827 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
+2025-02-07 11:14:33,956 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
+2025-02-07 11:14:52,265 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2025-02-07 11:14:52,269 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2025-02-07 11:14:52,272 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2025-02-07 11:14:52,389 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2025-02-07 11:14:52,421 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2025-02-07 11:14:52,429 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
+2025-02-07 11:14:52,439 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\resource_variable_ops.py', reloading
+2025-02-07 11:14:52,461 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
+2025-02-07 11:14:52,474 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
+2025-02-07 11:14:52,584 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\framework\\auto_control_deps.py', reloading
+2025-02-07 11:14:52,606 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\bitwise_ops.py', reloading
+2025-02-07 11:14:52,615 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\stateless_random_ops.py', reloading
+2025-02-07 11:14:52,622 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\random_ops.py', reloading
+2025-02-07 11:14:52,631 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\ref_variable.py', reloading
+2025-02-07 11:14:52,706 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\autograph\\utils\\ag_logging.py', reloading
+2025-02-07 11:15:00,171 - WARNING -  * Debugger is active!
+2025-02-07 11:15:00,177 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 11:16:32,524 - INFO - ====== WebDriver manager ======
+2025-02-07 11:16:37,058 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:16:37,192 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:16:37,307 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 11:21:52,324 - INFO - ====== WebDriver manager ======
+2025-02-07 11:30:43,397 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\eventlet\\wsgi.py', reloading
+2025-02-07 11:30:43,403 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socket.py', reloading
+2025-02-07 11:30:45,991 - WARNING -  * Debugger is active!
+2025-02-07 11:30:45,996 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 11:31:00,917 - INFO - ====== WebDriver manager ======
+2025-02-07 11:31:05,155 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:31:05,268 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 11:31:05,362 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-07 11:34:22,170 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+2025-02-07 11:34:22,176 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-02-07 11:34:22,186 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-02-07 11:35:29,199 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
+2025-02-07 11:35:29,200 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
+2025-02-07 11:35:29,202 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
+2025-02-07 11:35:32,019 - WARNING -  * Debugger is active!
+2025-02-07 11:35:32,026 - INFO -  * Debugger PIN: 313-593-320
+2025-02-07 11:41:17,446 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
+2025-02-07 11:41:17,448 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
+2025-02-07 11:41:20,168 - WARNING -  * Debugger is active!
+2025-02-07 11:41:20,174 - INFO -  * Debugger PIN: 313-593-320
+INFO - Accessed dashboard

@@ -1,5 +1,6 @@
 import logging
 import os
+import threading
 import time
 from datetime import datetime
 from urllib.parse import urlparse
@@ -34,6 +35,10 @@ chrome_options_mobile.add_argument('--no-sandbox')
 chrome_options_mobile.add_argument('--disable-dev-shm-usage')
 chrome_options_mobile.add_argument("--ignore-certificate-errors")
 
+# Global variable to control stopping the process
+stop_screenshots = False
+stop_screenshots_lock = threading.Lock()
+
 
 def is_valid_url(url):
     """Checks the validity of the URL and adds 'http://' if the scheme is missing."""
@@ -47,11 +52,14 @@ def is_valid_url(url):
         raise ValueError(f"Invalid URL: {url}. Ensure it's properly formatted with http:// or https://.")
 
 
-def create_directory_for_domain(domain_name, date_str):
-    """Creates a folder for screenshots for the given domain and date."""
-    folder_path = os.path.join(BASE_SCREENSHOT_FOLDER, domain_name, date_str)
-    os.makedirs(folder_path, exist_ok=True)
-    return folder_path
+def create_directory_for_domain(domain_name):
+    """Creates device-specific folders for the given domain."""
+    domain_folder = os.path.join(BASE_SCREENSHOT_FOLDER, domain_name)
+    mobile_folder = os.path.join(domain_folder, 'mobile')
+    desktop_folder = os.path.join(domain_folder, 'desktop')
+    os.makedirs(mobile_folder, exist_ok=True)
+    os.makedirs(desktop_folder, exist_ok=True)
+    return mobile_folder, desktop_folder
 
 
 def create_device_specific_folders(domain_folder):
@@ -97,26 +105,31 @@ def take_full_page_screenshot(driver, filename, is_mobile=False):
     time.sleep(5)
     driver.save_screenshot(filename)
     driver.set_window_size(original_size['width'], original_size['height'])
+    if stop_screenshots:
+        return
 
 
 def kill_screenshot_process():
-    current_process = psutil.Process()
-    for child in current_process.children(recursive=True):
-        if 'chrome' in child.name().lower():
-            child.kill()
+    for proc in psutil.process_iter(['pid', 'name']):
+        if 'chrome' in proc.info['name'].lower():
+            try:
+                proc.kill()
+            except psutil.NoSuchProcess:
+                pass
 
 
-def visit_links_and_take_screenshots(url, device_type):
-    global stop_screenshots
-    stop_screenshots = False  # Reset the flag at the start
+# Global variables for thread management
+screenshot_thread = None
+stop_screenshots = False
+stop_screenshots_lock = threading.Lock()
 
+
+def visit_links_and_take_screenshots(url, device_type, max_links=1):
     url = is_valid_url(url)
     domain_name = urlparse(url).netloc.replace('www.', '').replace(':', '_')
-    date_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    domain_folder = create_directory_for_domain(domain_name, date_str)
-    mobile_folder, desktop_folder = create_device_specific_folders(domain_folder)
+    mobile_folder, desktop_folder = create_directory_for_domain(domain_name)
 
-    setup_logging(domain_name, date_str)
+    setup_logging(domain_name, datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
 
     options = chrome_options_desktop if device_type == 'desktop' else chrome_options_mobile
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
@@ -136,8 +149,9 @@ def visit_links_and_take_screenshots(url, device_type):
 
         links = list(set(get_all_links(driver)))
         processed_links = set()
+        link_count = 0
         for i, link in enumerate(links):
-            if stop_screenshots:
+            if link_count >= max_links:
                 break
             if link in processed_links:
                 continue
@@ -154,9 +168,10 @@ def visit_links_and_take_screenshots(url, device_type):
                     f"screen_{i + 1}_{device_type}.png"
                 )
                 take_full_page_screenshot(driver, screenshot_path, is_mobile=(device_type == 'mobile'))
+                link_count += 1
             except Exception as e:
-                print(f"Error capturing screenshot for {link}: {str(e)}")
+                logging.error(f"Error capturing screenshot for {link}: {str(e)}")
     except Exception as e:
-        print(f"Error processing {url}: {str(e)}")
+        logging.error(f"Error processing {url}: {str(e)}")
     finally:
         driver.quit()

@@ -12,7 +12,6 @@ from flask_socketio import SocketIO
 from filterScreen import find_screenshots_by_date
 from forms import AddDomainForm
 from manyScreen import is_valid_url, visit_links_and_take_screenshots, create_directory_for_domain
-from manyScreen import kill_screenshot_process
 from screenshots import get_screenshots, take_screenshots
 
 app = Flask(__name__)
@@ -20,7 +19,8 @@ app.secret_key = 'your_secret_key'
 socketio = SocketIO(app)
 
 # Paths to files
-LOG_FILE = 'path/to/your/logfile.log'
+LOG_FILE = 'logs/logfile.log'
+MAX_LOG_LINES = 1000
 DOMAINS_FILE = 'data.json'
 SCREENSHOT_DIR = 'static/screenshots'
 BASE_SCREENSHOT_FOLDER = '/path/to/screenshots'
@@ -31,9 +31,11 @@ logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format='%(asctime)s -
 
 
 def get_logs():
+    ensure_log_directory()
     if os.path.exists(LOG_FILE):
         with open(LOG_FILE, 'r') as file:
             logs = file.readlines()
+        logs.reverse()
     else:
         logs = []
     return logs
@@ -155,19 +157,20 @@ def gallery():
 @app.route('/screenshot', methods=['POST'])
 def screenshot():
     data = request.get_json()
-    if not data or 'urls' not in data or 'deviceType' not in data:
+    if not data or 'urls' not in data or 'deviceType' not in data or 'maxLinks' not in data:
         return jsonify({"error": "Invalid input data"}), 400
 
     urls = data['urls']
     device_type = data['deviceType']
+    max_links = data['maxLinks']
     screenshots = []
 
     for url in urls:
         try:
             url = is_valid_url(url)
-            visit_links_and_take_screenshots(url, device_type)
+            visit_links_and_take_screenshots(url, device_type, max_links)
             domain_name = urlparse(url).netloc.replace('www.', '').replace(':', '_')
-            domain_folder = create_directory_for_domain(domain_name, datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
+            domain_folder = os.path.join('static', 'screenshots', domain_name, device_type)
             screenshots.extend([os.path.join(domain_folder, f) for f in os.listdir(domain_folder) if
                                 os.path.isfile(os.path.join(domain_folder, f))])
         except Exception as e:
@@ -189,13 +192,19 @@ def delete_screenshot_from_folder(folder, screenshot):
 
 
 @app.route('/logs/delete', methods=['POST'])
-def delete_logs():
+def delete_logs_route():
     if os.path.exists(LOG_FILE):
-        os.remove(LOG_FILE)
-        flash('Log file deleted successfully!', 'success')
+        with open(LOG_FILE, 'r') as file:
+            lines = file.readlines()
+        if len(lines) >= 500:
+            lines = lines[500:]
+            with open(LOG_FILE, 'w') as file:
+                file.writelines(lines)
+            return jsonify({"success": True})
+        else:
+            return jsonify({"success": False, "error": "Log count is less than 500."}), 400
     else:
-        flash('Log file does not exist.', 'danger')
-    return redirect(url_for('dashboard'))
+        return jsonify({"success": False, "error": "Log file does not exist."}), 404
 
 
 def setup_logging():
@@ -209,7 +218,26 @@ def setup_logging():
 
 
 def write_log(message, level=logging.INFO):
-    logging.log(level, message)
+    ensure_log_directory()
+    if os.path.exists(LOG_FILE):
+        with open(LOG_FILE, 'r') as file:
+            lines = file.readlines()
+        lines.reverse()
+        if len(lines) >= MAX_LOG_LINES:
+            lines = lines[:MAX_LOG_LINES - 1]
+    else:
+        lines = []
+
+    lines.insert(0, f"{logging.getLevelName(level)} - {message}\n")
+
+    with open(LOG_FILE, 'w') as file:
+        file.writelines(lines)
+
+
+def ensure_log_directory():
+    log_dir = os.path.dirname(LOG_FILE)
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
 
 
 @app.route('/take_screenshots', methods=['POST'])
@@ -241,6 +269,9 @@ def many_screen(folder=None):
                                screenshots=screenshots)
 
 
+# app.py
+# app.py
+# app.py
 @app.route('/screenshots', methods=['GET', 'POST'])
 def screenshots_route():
     domains = load_domains()
@@ -274,7 +305,7 @@ def create_domain_folder():
     url = request.form.get('url')
     if url:
         domain_name = urlparse(url).netloc.replace('www.', '').replace(':', '_')
-        create_directory_for_domain(domain_name, datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
+        create_directory_for_domain(domain_name)
         flash('Folder created successfully!', 'success')
     else:
         flash('Please provide a valid URL.', 'danger')
@@ -306,7 +337,8 @@ def search_screenshots():
                 for subfolder in subfolders:
                     subfolder_path = os.path.join(folder_path, subfolder)
                     if os.path.exists(subfolder_path) and os.path.isdir(subfolder_path):
-                        screenshots = find_screenshots_by_date(subfolder_path, start_date, domain, device_type)
+                        screenshots = find_screenshots_by_date(subfolder_path, start_date, end_date, domain,
+                                                               device_type)
                         filtered_screenshots.extend(screenshots)
 
         return render_template('filtrScreen.html', screenshots=filtered_screenshots,
@@ -334,6 +366,7 @@ def api_search_screenshots():
     start_date_str = request.form.get('start_date')
     end_date_str = request.form.get('end_date')
     domain = request.form.get('domain')
+    device_type = request.form.get('device_type')
 
     try:
         start_date = datetime.strptime(start_date_str, '%Y-%m-%d')
@@ -347,14 +380,19 @@ def api_search_screenshots():
     for folder in os.listdir(screenshots_dir):
         folder_path = os.path.join(screenshots_dir, folder)
         if os.path.isdir(folder_path):
-            screenshots = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
-            for screenshot in screenshots:
-                file_path = os.path.join(folder_path, screenshot)
-                file_date = datetime.fromtimestamp(os.path.getmtime(file_path)).date()
+            subfolders = ['desktop', 'mobile'] if not device_type else [device_type.lower()]
+            for subfolder in subfolders:
+                subfolder_path = os.path.join(folder_path, subfolder)
+                if os.path.exists(subfolder_path) and os.path.isdir(subfolder_path):
+                    screenshots = [f for f in os.listdir(subfolder_path) if
+                                   os.path.isfile(os.path.join(subfolder_path, f))]
+                    for screenshot in screenshots:
+                        file_path = os.path.join(subfolder_path, screenshot)
+                        file_date = datetime.fromtimestamp(os.path.getmtime(file_path)).date()
 
-                if (start_date.date() <= file_date <= end_date.date()) and (
-                        not domain or domain.lower() in folder.lower()):
-                    filtered_screenshots.append(os.path.join(folder, screenshot))
+                        if (start_date.date() <= file_date <= end_date.date()) and (
+                                not domain or domain.lower() in folder.lower()):
+                            filtered_screenshots.append(os.path.join(folder, subfolder, screenshot))
 
     return jsonify({"screenshots": filtered_screenshots})
 
@@ -368,12 +406,6 @@ def delete_screenshot():
         return jsonify({"success": True})
     else:
         return jsonify({"success": False, "error": "Screenshot does not exist."}), 404
-
-
-def ensure_log_directory():
-    log_dir = os.path.dirname(LOG_FILE)
-    if not os.path.exists(log_dir):
-        os.makedirs(log_dir)
 
 
 @app.route('/download_logs')
@@ -401,14 +433,6 @@ def fetch_logs(domain=None, date_str=None):
     else:
         logs = get_logs()
         return jsonify({"logs": logs[-20:]})
-
-
-@app.route('/stop_screenshots', methods=['POST'])
-def stop_screenshots_route():
-    global stop_screenshots
-    stop_screenshots = True
-    kill_screenshot_process()
-    return jsonify({"status": "stopping"})
 
 
 if __name__ == '__main__':

@@ -1,17 +1,16 @@
 {
     "domains": [
-        "www.stackoverflow.com",
         "www.katarzynakobiela.pl",
-        "www.lovelymakeup.pl",
-        "www.investing.com",
-        "www.korso.net.pl",
-        "www.zbrojstal.pl",
-        "www.alicjaserowik.com",
         "www.naturbio.pl",
-        "www.coody.it",
         "www.akademiaroslin.pl",
+        "www.coody.it",
+        "www.alicjaserowik.com",
+        "www.investing.com",
         "www.bistrobemol.pl",
-        "www.zbrojstal.pl_copy",
-        "www.bloomfinance.pl"
+        "www.korso.net.pl",
+        "www.lovelymakeup.pl",
+        "www.stackoverflow.com",
+        "www.bloomfinance.pl",
+        "www.zbrojstal.pl"
     ]
 }

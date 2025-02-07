@@ -16,8 +16,11 @@
                 <option value="mobile">Mobile</option>
             </select>
         </div>
+        <div class="mb-3">
+            <label for="maxLinks" class="form-label">Number of Links to Process:</label>
+            <input type="number" id="maxLinks" class="form-control" min="1" required>
+        </div>
         <button type="submit" class="btn btn-primary">Take Screenshots</button>
-        <button type="button" id="stop_screenshots_route" class="btn btn-danger">Stop Screen</button>
     </form>
 
     <div id="result" class="result"></div>
@@ -29,6 +32,7 @@
 
         const urls = document.getElementById('urls').value.split('\n').map(url => url.trim()).filter(url => url);
         const deviceType = document.getElementById('deviceType').value;
+        const maxLinks = parseInt(document.getElementById('maxLinks').value, 10);
         const resultDiv = document.getElementById('result');
 
         resultDiv.innerHTML = '<p class="text-muted">Processing...</p>';
@@ -52,7 +56,7 @@
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ urls, deviceType }),
+                body: JSON.stringify({ urls, deviceType, maxLinks }),
             });
 
             if (!response.ok) {
@@ -80,28 +84,6 @@
         } catch (error) {
             console.error(error);
             resultDiv.innerHTML = `<div class="alert alert-danger">An error occurred: ${error.message}</div>`;
-        }
-    });
-
-    document.getElementById('stopButton').addEventListener('click', async () => {
-        try {
-            const response = await fetch('/stop_screenshots', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-            });
-
-            if (!response.ok) {
-                const errorText = await response.text();
-                throw new Error(`Server returned an error: ${errorText}`);
-            }
-
-            const data = await response.json();
-            alert('Stopping screenshots...');
-        } catch (error) {
-            console.error(error);
-            alert(`An error occurred: ${error.message}`);
         }
     });
 </script>

@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 
 {% block content %}
 <section class="dashboard py-5">
@@ -32,34 +32,49 @@
                 </div>
             </div>
         </div>
-
         <section class="logs mb-5">
             <h3>Recent Logs:</h3>
             <button class="btn btn-primary mb-3" onclick="fetchLogs()">Fetch Logs</button>
             <a href="{{ url_for('download_logs') }}" class="btn btn-secondary mb-3">Download Logs</a>
+            <button class="btn btn-danger mb-3" onclick="deleteLogs()">Delete Logs</button>
             <ul class="list-group" id="log-list">
                 {% for log in logs %}
                 <li class="list-group-item">{{ log }}</li>
                 {% endfor %}
             </ul>
         </section>
-    </div>
-</section>
+    </div> <!-- Closing the container div -->
 
-<script>
-    function fetchLogs() {
-        fetch('/fetch_logs')
-            .then(response => response.json())
-            .then(data => {
-                const logList = document.getElementById('log-list');
-                logList.innerHTML = '';
-                data.logs.forEach(log => {
-                    const listItem = document.createElement('li');
-                    listItem.className = 'list-group-item';
-                    listItem.textContent = log;
-                    logList.appendChild(listItem);
-                });
-            });
-    }
-</script>
+    <script>
+        function fetchLogs() {
+            fetch('/fetch_logs')
+                .then(response => response.json())
+                .then(data => {
+                    const logList = document.getElementById('log-list');
+                    logList.innerHTML = '';
+                    data.logs.forEach(log => {
+                        const listItem = document.createElement('li');
+                        listItem.className = 'list-group-item';
+                        listItem.textContent = log;
+                        logList.appendChild(listItem);
+                    });
+                })
+                .catch(error => console.error('Error fetching logs:', error));
+        }
+
+        function deleteLogs() {
+            fetch('/logs/delete', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert('Logs deleted successfully!');
+                        fetchLogs();
+                    } else {
+                        alert('Error deleting logs: ' + data.error);
+                    }
+                })
+                .catch(error => console.error('Error deleting logs:', error));
+        }
+    </script>
+</section> <!-- Closing the logs section -->
 {% endblock %}
