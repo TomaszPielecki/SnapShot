@@ -1,3 +1,16 @@
+INFO - Application started
+2025-03-25 19:46:31,568 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-25 19:46:30,969 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\markupsafe\\__init__.py', reloading
+2025-03-25 19:46:21,309 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 19:46:21,286 - WARNING -  * Debugger is active!
+INFO - Application started
+2025-03-25 19:46:08,469 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-25 19:46:07,169 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\dotenv\\main.py', reloading
+2025-03-25 19:46:07,168 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\dotenv\\__init__.py', reloading
+2025-03-25 19:46:07,155 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\security.py', reloading
+INFO - Accessed dashboard
+INFO - Application started
+2025-03-25 19:40:35,508 - INFO -  * Restarting with watchdog (windowsapi)
 INFO - Accessed dashboard
 2025-03-25 19:31:42,926 - INFO -  * Debugger PIN: 313-593-320
 2025-03-25 19:31:42,911 - WARNING -  * Debugger is active!
@@ -447,3 +460,19 @@ INFO - Accessed dashboard
 INFO - Accessed dashboard
 2025-03-25 19:31:40,569 - INFO -  * Restarting with watchdog (windowsapi)
 INFO - Application started
+INFO - Application started
+2025-03-25 19:40:37,245 - WARNING -  * Debugger is active!
+2025-03-25 19:40:37,253 - INFO -  * Debugger PIN: 313-593-320
+INFO - Accessed dashboard
+INFO - Accessed dashboard
+2025-03-25 19:46:12,768 - WARNING -  * Debugger is active!
+2025-03-25 19:46:12,779 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 19:46:16,911 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask_wtf\\__init__.py', reloading
+2025-03-25 19:46:16,915 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask_wtf\\form.py', reloading
+2025-03-25 19:46:18,100 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-03-25 19:46:33,925 - WARNING -  * Debugger is active!
+2025-03-25 19:46:33,935 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 19:48:10,789 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\app.py', reloading
+2025-03-25 19:48:10,790 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\app.py', reloading
+2025-03-25 19:48:11,778 - INFO -  * Restarting with watchdog (windowsapi)

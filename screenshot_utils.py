@@ -53,15 +53,41 @@ def get_screenshots(screenshots_dir):
 
 
 def is_valid_url(url):
-    """Checks the validity of the URL and adds 'http://' if the scheme is missing."""
+    """
+    Checks the validity of the URL and adds 'http://' if the scheme is missing.
+    Performs enhanced validation to ensure URL is safe and well-formed.
+    """
+    if not url:
+        raise ValueError("URL cannot be empty.")
+        
+    if not isinstance(url, str):
+        raise ValueError(f"URL must be a string, received {type(url).__name__}")
+    
+    # Obsługa URL bez schematu
     parsed_url = urlparse(url)
     if not parsed_url.scheme:
         url = 'http://' + url
         parsed_url = urlparse(url)
-    if all([parsed_url.scheme, parsed_url.netloc]):
-        return url
-    else:
+    
+    # Sprawdzenie, czy URL jest poprawnie sformułowany
+    if not parsed_url.scheme or not parsed_url.netloc:
         raise ValueError(f"Invalid URL: {url}. Ensure it's properly formatted with http:// or https://.")
+    
+    # Sprawdź, czy schemat jest dozwolony
+    if parsed_url.scheme not in ['http', 'https']:
+        raise ValueError(f"Invalid URL scheme: {parsed_url.scheme}. Only http and https are supported.")
+    
+    # Sprawdź, czy adres nie zawiera niebezpiecznych znaków
+    unsafe_chars = ['<', '>', '"', "'", '%', '{', '}', '|', '\\', '^', '~', '[', ']', '`']
+    for char in unsafe_chars:
+        if char in url:
+            raise ValueError(f"URL contains unsafe character: {char}")
+    
+    # Sprawdź, czy domena nie jest pusta
+    if not parsed_url.netloc:
+        raise ValueError(f"URL domain cannot be empty: {url}")
+    
+    return url
 
 
 def create_directory_for_domain(domain_name):
