@@ -1,504 +1,449 @@
 INFO - Accessed dashboard
-2025-02-07 10:06:01,079 - INFO - Capturing response: https://naturbio.pl/img/favicon.ico?1631595921 200 
-2025-02-07 10:06:01,202 - INFO - Capturing request: https://naturbio.pl/img/favicon.ico?1631595921
-2025-02-07 10:06:01,344 - INFO - Capturing response: https://naturbio.pl/img/favicon.ico?1631595921 200 
-2025-02-07 10:06:03,232 - INFO - 127.0.0.1:17658: HTTP/2 connection terminated by server: error code: 0, last stream id: 81, additional data: b'timeout'
-2025-02-07 10:06:03,258 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
-2025-02-07 10:06:03,488 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw 200 
-2025-02-07 10:06:05,187 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737389072&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS
-2025-02-07 10:06:05,190 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION
-2025-02-07 10:06:05,389 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737389072&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS 200 
-2025-02-07 10:06:05,552 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:06:05,648 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:06:05,651 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&target=OPTIMIZATION_TARGET_PAGE_VISIBILITY
-2025-02-07 10:06:05,744 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 10:06:05,747 - INFO - Using default request storage
-2025-02-07 10:06:05,804 - INFO - Created proxy listening on 127.0.0.1:17698
-2025-02-07 10:06:05,829 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION 200 
-2025-02-07 10:06:06,286 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2
-2025-02-07 10:06:06,926 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&target=OPTIMIZATION_TARGET_PAGE_VISIBILITY 200 
-2025-02-07 10:06:07,453 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737389049&target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS
-2025-02-07 10:06:07,918 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737389049&target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS 200 
-2025-02-07 10:06:08,004 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
-2025-02-07 10:06:08,106 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
-2025-02-07 10:06:08,213 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737475353&target=OPTIMIZATION_TARGET_CLIENT_SIDE_PHISHING
-2025-02-07 10:06:08,398 - INFO - Capturing request: https://www.naturbio.pl/
-2025-02-07 10:06:08,681 - INFO - Capturing response: https://www.naturbio.pl/ 301 
-2025-02-07 10:06:09,435 - INFO - Capturing request: https://naturbio.pl/
-2025-02-07 10:06:10,046 - INFO - Capturing response: https://naturbio.pl/ 200 
-2025-02-07 10:06:10,268 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/theme.css
-2025-02-07 10:06:10,320 - INFO - Capturing request: https://naturbio.pl/modules/przelewy24/views/css/przelewy24.css
-2025-02-07 10:06:10,323 - INFO - Capturing request: https://naturbio.pl/modules/przelewy24/views/css/p24_blik.css
-2025-02-07 10:06:10,426 - INFO - Capturing request: https://naturbio.pl/themes/default/modules/ps_searchbar/ps_searchbar.css
-2025-02-07 10:06:10,477 - INFO - Capturing request: https://naturbio.pl/modules/notarobot/views/css/front.css
-2025-02-07 10:06:10,549 - INFO - Capturing request: https://naturbio.pl/modules/dotpay/views/css/front.css
-2025-02-07 10:06:10,554 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/theme.css 200 
-2025-02-07 10:06:10,566 - INFO - 127.0.0.1:17710: HTTP/2 connection terminated by server: error code: 0, last stream id: 1, additional data: b'timeout'
-2025-02-07 10:06:10,585 - INFO - Capturing request: https://naturbio.pl/modules/exitpopupmodule/views/css/front/tooltipster.css
-2025-02-07 10:06:10,605 - INFO - Capturing response: https://naturbio.pl/modules/przelewy24/views/css/przelewy24.css 200 
-2025-02-07 10:06:10,688 - INFO - Capturing request: https://naturbio.pl/modules/exitpopupmodule/views/css/front/spin_wheel.css
-2025-02-07 10:06:10,695 - INFO - Capturing response: https://naturbio.pl/modules/przelewy24/views/css/p24_blik.css 200 
-2025-02-07 10:06:10,794 - INFO - Capturing request: https://naturbio.pl/js/jquery/ui/themes/base/minified/jquery-ui.min.css
-2025-02-07 10:06:10,805 - INFO - Capturing response: https://naturbio.pl/modules/notarobot/views/css/front.css 200 
-2025-02-07 10:06:10,819 - INFO - Capturing request: https://naturbio.pl/js/jquery/ui/themes/base/minified/jquery.ui.theme.min.css
-2025-02-07 10:06:10,834 - INFO - Capturing response: https://naturbio.pl/modules/dotpay/views/css/front.css 200 
-2025-02-07 10:06:10,899 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/main.css
-2025-02-07 10:06:10,905 - INFO - Capturing response: https://naturbio.pl/modules/exitpopupmodule/views/css/front/tooltipster.css 200 
-2025-02-07 10:06:11,008 - INFO - Capturing response: https://naturbio.pl/modules/exitpopupmodule/views/css/front/spin_wheel.css 200 
-2025-02-07 10:06:11,010 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/cart.css
-2025-02-07 10:06:11,084 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/product.css
-2025-02-07 10:06:11,097 - INFO - Capturing response: https://naturbio.pl/js/jquery/ui/themes/base/minified/jquery-ui.min.css 200 
-2025-02-07 10:06:11,144 - INFO - Capturing response: https://naturbio.pl/js/jquery/ui/themes/base/minified/jquery.ui.theme.min.css 200 
-2025-02-07 10:06:11,148 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/productlist.css
-2025-02-07 10:06:11,155 - INFO - Capturing response: https://naturbio.pl/themes/default/modules/ps_searchbar/ps_searchbar.css 404 
-2025-02-07 10:06:11,158 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/owl.carousel.min.css
-2025-02-07 10:06:11,194 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/cart.css 200 
-2025-02-07 10:06:11,217 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/main.css 200 
-2025-02-07 10:06:11,221 - INFO - Capturing request: https://naturbio.pl/js/jquery/plugins/fancybox/jquery.fancybox.css
-2025-02-07 10:06:11,254 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/css/homeslider.css
-2025-02-07 10:06:11,289 - INFO - Capturing request: https://naturbio.pl/modules/ph_simpleblog/views/css/ph_simpleblog-17.css
-2025-02-07 10:06:11,297 - INFO - Capturing response: https://naturbio.pl/js/jquery/plugins/fancybox/jquery.fancybox.css 200 
-2025-02-07 10:06:11,307 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/css/homeslider.css 200 
-2025-02-07 10:06:11,349 - INFO - Capturing request: https://naturbio.pl/modules/ph_simpleblog/css/custom.css
-2025-02-07 10:06:11,366 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/product.css 200 
-2025-02-07 10:06:11,384 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/productlist.css 200 
-2025-02-07 10:06:11,385 - INFO - Capturing request: https://naturbio.pl/img/naturbiopl-logo-1631595921.jpg
-2025-02-07 10:06:11,403 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/owl.carousel.min.css 200 
-2025-02-07 10:06:11,425 - INFO - Capturing response: https://naturbio.pl/modules/ph_simpleblog/css/custom.css 200 
-2025-02-07 10:06:11,431 - INFO - Capturing response: https://naturbio.pl/modules/ph_simpleblog/views/css/ph_simpleblog-17.css 200 
-2025-02-07 10:06:11,435 - INFO - Capturing request: https://naturbio.pl/82-home_default/padma-basic-05g-100-kaps.jpg
-2025-02-07 10:06:11,532 - INFO - Capturing response: https://naturbio.pl/img/naturbiopl-logo-1631595921.jpg 200 
-2025-02-07 10:06:11,648 - INFO - Capturing response: https://naturbio.pl/82-home_default/padma-basic-05g-100-kaps.jpg 200 
-2025-02-07 10:06:11,676 - INFO - Capturing request: https://www.googletagmanager.com/gtag/js?id=UA-1099784-9
-2025-02-07 10:06:11,681 - INFO - Capturing request: https://fonts.googleapis.com/css?family=Acme|Bree+Serif|Cinzel|Gloria+Hallelujah|Indie+Flower|Pacifico
-2025-02-07 10:06:11,692 - INFO - Capturing request: https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin-ext
-2025-02-07 10:06:11,695 - INFO - Capturing request: https://naturbio.pl/372-home_default/witamina-c-liposomalna-60-kaps.jpg
-2025-02-07 10:06:11,785 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/78c844df054d59e6c9d46b0a087ed9431c553d3a_slider.jpg
-2025-02-07 10:06:11,791 - INFO - Capturing response: https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin-ext 200 
-2025-02-07 10:06:11,855 - INFO - Capturing response: https://naturbio.pl/372-home_default/witamina-c-liposomalna-60-kaps.jpg 200 
-2025-02-07 10:06:11,870 - INFO - Capturing response: https://fonts.googleapis.com/css?family=Acme|Bree+Serif|Cinzel|Gloria+Hallelujah|Indie+Flower|Pacifico 200 
-2025-02-07 10:06:11,917 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/78c844df054d59e6c9d46b0a087ed9431c553d3a_slider.jpg 200 
-2025-02-07 10:06:11,987 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/312afc19d763ce72fb257a2c74be2ff83b35ffba_naturalne_suplementy_diety.jpg
-2025-02-07 10:06:12,006 - INFO - Capturing response: https://www.googletagmanager.com/gtag/js?id=UA-1099784-9 200 
-2025-02-07 10:06:12,018 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/d215b42ff36adbe499766c01044a6bd4d7dc15b5_witamina_c_liposomalna.jpg
-2025-02-07 10:06:12,022 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/cache/bottom-fac922110.js
-2025-02-07 10:06:12,062 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/f9789a3a3e075199a9c7728203eaece44463ca7f_chlorella_yeaamma.jpg
-2025-02-07 10:06:12,077 - INFO - Capturing request: https://naturbio.pl/256-home_default/witamina-c-liposomalna-180-kaps.jpg
-2025-02-07 10:06:12,093 - INFO - Capturing request: https://naturbio.pl/144-home_default/spirulina-hawajska-pacifica-500mg-600-tabl.jpg
-2025-02-07 10:06:12,096 - INFO - Capturing request: https://naturbio.pl/modules/ps_imageslider/images/3ca14fcf3073b6ab3aa453f5a843a621c5ac5f4d_suple_od_farmaceuty.jpg
-2025-02-07 10:06:12,109 - INFO - Capturing request: https://naturbio.pl/263-home_default/biomarine-1140-60-kaps.jpg
-2025-02-07 10:06:12,113 - INFO - Capturing request: https://naturbio.pl/221-home_default/kurkuma-micelizowana-licaps-240-kaps.jpg
-2025-02-07 10:06:12,124 - INFO - Capturing request: https://naturbio.pl/modules/blockhome/file//ca63e4fce4fa9f33d8768d634bf4b66ea15facc2_naturalne_terapie.jpg
-2025-02-07 10:06:12,127 - INFO - Capturing request: https://naturbio.pl/108-home_default/kwas-r-ala-bio-enhanced-60-kaps.jpg
-2025-02-07 10:06:12,141 - INFO - Capturing request: https://naturbio.pl/140-home_default/libramed-138-tabl.jpg
-2025-02-07 10:06:12,188 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2 200 
-2025-02-07 10:06:12,267 - INFO - Capturing response: https://naturbio.pl/256-home_default/witamina-c-liposomalna-180-kaps.jpg 200 
-2025-02-07 10:06:12,315 - INFO - Capturing response: https://naturbio.pl/221-home_default/kurkuma-micelizowana-licaps-240-kaps.jpg 200 
-2025-02-07 10:06:12,331 - INFO - Capturing response: https://naturbio.pl/108-home_default/kwas-r-ala-bio-enhanced-60-kaps.jpg 200 
-2025-02-07 10:06:12,351 - INFO - Capturing response: https://naturbio.pl/144-home_default/spirulina-hawajska-pacifica-500mg-600-tabl.jpg 200 
-2025-02-07 10:06:12,507 - INFO - Capturing response: https://naturbio.pl/263-home_default/biomarine-1140-60-kaps.jpg 200 
-2025-02-07 10:06:12,547 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/312afc19d763ce72fb257a2c74be2ff83b35ffba_naturalne_suplementy_diety.jpg 200 
-2025-02-07 10:06:12,577 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/3ca14fcf3073b6ab3aa453f5a843a621c5ac5f4d_suple_od_farmaceuty.jpg 200 
-2025-02-07 10:06:12,610 - INFO - Capturing response: https://naturbio.pl/140-home_default/libramed-138-tabl.jpg 200 
-2025-02-07 10:06:12,617 - INFO - Capturing response: https://naturbio.pl/modules/blockhome/file//ca63e4fce4fa9f33d8768d634bf4b66ea15facc2_naturalne_terapie.jpg 200 
-2025-02-07 10:06:12,762 - INFO - Capturing request: https://www.google.com/recaptcha/api.js?onload=nar_onLoad&render=explicit
-2025-02-07 10:06:12,791 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1696267841&target=OPTIMIZATION_TARGET_OMNIBOX_URL_SCORING
-2025-02-07 10:06:12,815 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/cache/bottom-fac922110.js 200 
-2025-02-07 10:06:12,903 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/f9789a3a3e075199a9c7728203eaece44463ca7f_chlorella_yeaamma.jpg 200 
-2025-02-07 10:06:12,920 - INFO - Capturing response: https://www.google.com/recaptcha/api.js?onload=nar_onLoad&render=explicit 200 
-2025-02-07 10:06:12,959 - INFO - Capturing response: https://naturbio.pl/modules/ps_imageslider/images/d215b42ff36adbe499766c01044a6bd4d7dc15b5_witamina_c_liposomalna.jpg 200 
-2025-02-07 10:06:12,966 - INFO - Capturing request: https://naturbio.pl/modules/blockhome/file//ea0f04a074ecbd78d3a562e74466d7a198c86b3c_suplementy_diety_farmaceuta.jpg
-2025-02-07 10:06:13,037 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1696267841&target=OPTIMIZATION_TARGET_OMNIBOX_URL_SCORING 200 
-2025-02-07 10:06:13,074 - INFO - Capturing request: https://naturbio.pl/img/platnosci-stopka.png
-2025-02-07 10:06:13,080 - INFO - Capturing request: https://www.googletagmanager.com/gtag/js?id=G-H445KF5J10&l=dataLayer&cx=c&gtm=457e5240za200
-2025-02-07 10:06:13,120 - INFO - Capturing response: https://naturbio.pl/modules/blockhome/file//ea0f04a074ecbd78d3a562e74466d7a198c86b3c_suplementy_diety_farmaceuta.jpg 200 
-2025-02-07 10:06:13,218 - INFO - Capturing response: https://naturbio.pl/img/platnosci-stopka.png 200 
-2025-02-07 10:06:13,300 - INFO - Capturing request: https://naturbio.pl/themes/default/assets/css/fonts/icomoon.ttf?j5a8zm
-2025-02-07 10:06:13,337 - INFO - Capturing response: https://naturbio.pl/themes/default/assets/css/fonts/icomoon.ttf?j5a8zm 200 
-2025-02-07 10:06:13,355 - INFO - Capturing response: https://www.googletagmanager.com/gtag/js?id=G-H445KF5J10&l=dataLayer&cx=c&gtm=457e5240za200 200 
-2025-02-07 10:06:13,718 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=240731042075&target=OPTIMIZATION_TARGET_SEGMENTATION_COMPOSE_PROMOTION
-2025-02-07 10:06:14,238 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=240731042075&target=OPTIMIZATION_TARGET_SEGMENTATION_COMPOSE_PROMOTION 200 
-2025-02-07 10:06:14,621 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737475353&target=OPTIMIZATION_TARGET_CLIENT_SIDE_PHISHING 200 
-2025-02-07 10:06:14,726 - INFO - Capturing request: https://www.google-analytics.com/analytics.js
-2025-02-07 10:06:14,783 - INFO - Capturing response: https://www.google-analytics.com/analytics.js 200 
-2025-02-07 10:06:14,869 - INFO - Capturing request: https://www.gstatic.com/recaptcha/releases/PcIQSvk4Y5ANjYUx0f4froA1/recaptcha__pl.js
-2025-02-07 10:06:15,009 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2
-2025-02-07 10:06:15,062 - INFO - Capturing response: https://www.gstatic.com/recaptcha/releases/PcIQSvk4Y5ANjYUx0f4froA1/recaptcha__pl.js 200 
-2025-02-07 10:06:15,070 - INFO - Capturing request: https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1091046645&t=pageview&_s=1&dl=https%3A%2F%2Fnaturbio.pl%2F&ul=pl-pl&de=UTF-8&dt=Naturalne%20suplementy%20diety&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YADAAUABAAAAACAAI~&jid=92998197&gjid=28513162&cid=825837551.1738919174&tid=UA-1099784-9&_gid=1583975580.1738919175&_r=1&gtm=457e5240za200&gcd=13l3l3l2l1l1&dma_cps=syphamo&dma=1&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&jsscut=1&npa=1&z=649792433
-2025-02-07 10:06:15,354 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2
-2025-02-07 10:06:15,406 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmdteamlsPTIRIFDbtXVmohYDu-I5ml1lESGQkZw5TgrL348xIFDYOoWz0hhleZNRy3ErUSGQlBBo6NBk1mFxIFDdqz6YchYDu-I5ml1lE=?alt=proto
-2025-02-07 10:06:15,484 - INFO - 127.0.0.1:17713: HTTP/2 connection terminated by server: error code: 0, last stream id: 77, additional data: b'timeout'
-2025-02-07 10:06:15,587 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2 200 
-2025-02-07 10:06:15,604 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2
-2025-02-07 10:06:15,669 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2
-2025-02-07 10:06:15,714 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2
-2025-02-07 10:06:15,803 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmdteamlsPTIRIFDbtXVmohYDu-I5ml1lESGQlBBo6NBk1mFxIFDdqz6YchYDu-I5ml1lE=?alt=proto
-2025-02-07 10:06:15,889 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2 200 
-2025-02-07 10:06:15,948 - INFO - Capturing response: https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1091046645&t=pageview&_s=1&dl=https%3A%2F%2Fnaturbio.pl%2F&ul=pl-pl&de=UTF-8&dt=Naturalne%20suplementy%20diety&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YADAAUABAAAAACAAI~&jid=92998197&gjid=28513162&cid=825837551.1738919174&tid=UA-1099784-9&_gid=1583975580.1738919175&_r=1&gtm=457e5240za200&gcd=13l3l3l2l1l1&dma_cps=syphamo&dma=1&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&jsscut=1&npa=1&z=649792433 200 
-2025-02-07 10:06:16,048 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmdteamlsPTIRIFDbtXVmohYDu-I5ml1lESGQkZw5TgrL348xIFDYOoWz0hhleZNRy3ErUSGQlBBo6NBk1mFxIFDdqz6YchYDu-I5ml1lE=?alt=proto 200 
-2025-02-07 10:06:16,059 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2 200 
-2025-02-07 10:06:16,087 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2 200 
-2025-02-07 10:06:16,093 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmdteamlsPTIRIFDbtXVmohYDu-I5ml1lESGQlBBo6NBk1mFxIFDdqz6YchYDu-I5ml1lE=?alt=proto 200 
-2025-02-07 10:06:16,099 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2 200 
-2025-02-07 10:06:16,405 - INFO - Capturing request: https://www.chater.biz/static/538/assets/modules/chat/js/chat.js
-2025-02-07 10:06:16,475 - INFO - Capturing request: https://region1.analytics.google.com/g/collect?v=2&tid=G-H445KF5J10&gtm=45je5240v9135590728za200&_p=1738919170289&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&cid=825837551.1738919174&ul=pl-pl&sr=375x812&_ng=1&ir=1&uaa=&uab=&uafvl=&uamb=1&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAI&_s=1&sid=1738919173&sct=1&seg=0&dl=https%3A%2F%2Fnaturbio.pl%2F&dt=Naturalne%20suplementy%20diety&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=6032
-2025-02-07 10:06:16,516 - INFO - Capturing response: https://www.chater.biz/static/538/assets/modules/chat/js/chat.js 200 
-2025-02-07 10:06:16,554 - INFO - Capturing response: https://region1.analytics.google.com/g/collect?v=2&tid=G-H445KF5J10&gtm=45je5240v9135590728za200&_p=1738919170289&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&cid=825837551.1738919174&ul=pl-pl&sr=375x812&_ng=1&ir=1&uaa=&uab=&uafvl=&uamb=1&uam=&uap=&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAI&_s=1&sid=1738919173&sct=1&seg=0&dl=https%3A%2F%2Fnaturbio.pl%2F&dt=Naturalne%20suplementy%20diety&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=6032 204 
-2025-02-07 10:06:16,662 - INFO - Capturing request: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwaPGQ3q5d0N7w.woff2
-2025-02-07 10:06:16,704 - INFO - Capturing response: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwaPGQ3q5d0N7w.woff2 200 
-2025-02-07 10:06:17,792 - INFO - Capturing request: https://www.google.pl/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&_ng=1&tid=G-H445KF5J10&cid=825837551.1738919174&gtm=45je5240v9135590728za200&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&z=1701867011
-2025-02-07 10:06:17,809 - INFO - Capturing request: https://stats.g.doubleclick.net/g/collect?v=2&_ng=1&tid=G-H445KF5J10&cid=825837551.1738919174&gtm=45je5240v9135590728za200&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417
-2025-02-07 10:06:17,886 - INFO - Capturing response: https://www.google.pl/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&_ng=1&tid=G-H445KF5J10&cid=825837551.1738919174&gtm=45je5240v9135590728za200&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417&z=1701867011 200 
-2025-02-07 10:06:17,921 - INFO - Capturing response: https://stats.g.doubleclick.net/g/collect?v=2&_ng=1&tid=G-H445KF5J10&cid=825837551.1738919174&gtm=45je5240v9135590728za200&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067808~102081485~102123608~102482432~102539968~102556566~102558064~102587591~102605417 204 
-2025-02-07 10:06:17,993 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
-2025-02-07 10:06:18,202 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw 200 
-2025-02-07 10:06:53,346 - INFO - Capturing request: https://update.googleapis.com/service/update2/json?cup2key=14:UsimeXbZiLQakognos98HVy8gB9qgiTXKa2xmZHF0r0&cup2hreq=7b772f3f42a7b422f0258572db377d6c621d158bbe7ed39bc2a65943da843137
-2025-02-07 10:06:53,427 - INFO - Capturing response: https://update.googleapis.com/service/update2/json?cup2key=14:UsimeXbZiLQakognos98HVy8gB9qgiTXKa2xmZHF0r0&cup2hreq=7b772f3f42a7b422f0258572db377d6c621d158bbe7ed39bc2a65943da843137 200 
-2025-02-07 10:06:56,135 - INFO - Capturing request: https://clientservices.googleapis.com/uma/v2
-2025-02-07 10:06:56,302 - INFO - Capturing response: https://clientservices.googleapis.com/uma/v2 200 
-2025-02-07 10:07:01,866 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
-2025-02-07 10:07:02,063 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
-2025-02-07 10:07:39,067 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
-2025-02-07 10:07:39,153 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
-2025-02-07 10:07:43,419 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
-2025-02-07 10:07:43,661 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
-2025-02-07 10:07:52,142 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
-2025-02-07 10:07:52,368 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
-2025-02-07 10:07:57,715 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\forms.py', reloading
-2025-02-07 10:08:04,933 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-25 19:31:42,926 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 19:31:42,911 - WARNING -  * Debugger is active!
 INFO - Application started
-2025-02-07 10:09:38,892 - WARNING -  * Debugger is active!
-2025-02-07 10:09:38,899 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 10:10:09,358 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
-2025-02-07 10:10:09,359 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
-2025-02-07 10:10:09,359 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
-2025-02-07 10:10:09,360 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
-2025-02-07 10:10:10,378 - INFO -  * Restarting with watchdog (windowsapi)
-INFO - Application started
-2025-02-07 10:10:35,855 - WARNING -  * Debugger is active!
-2025-02-07 10:10:35,862 - INFO -  * Debugger PIN: 313-593-320
 INFO - Accessed dashboard
 INFO - Accessed dashboard
-2025-02-07 10:31:15,907 - WARNING -  * Debugger is active!
-2025-02-07 10:31:15,914 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 10:31:59,456 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:31:59,456 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:31:59,457 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:31:59,457 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:32:00,291 - INFO -  * Restarting with watchdog (windowsapi)
 INFO - Application started
-2025-02-07 10:35:48,343 - WARNING -  * Debugger is active!
-2025-02-07 10:35:48,349 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 10:35:48,439 - INFO - ====== WebDriver manager ======
-2025-02-07 10:35:52,640 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:35:52,745 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:35:52,847 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 10:41:11,196 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
-2025-02-07 10:41:11,204 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:41:11,205 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:41:11,205 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:41:11,206 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:41:11,240 - INFO - ====== WebDriver manager ======
-2025-02-07 10:41:16,527 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-25 16:28:56,561 - INFO -  * Restarting with watchdog (windowsapi)
 INFO - Application started
-2025-02-07 10:43:16,292 - WARNING -  * Debugger is active!
-2025-02-07 10:43:16,299 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 10:44:38,348 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:44:38,349 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:44:38,349 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:44:38,389 - INFO - ====== WebDriver manager ======
-2025-02-07 10:44:39,602 - INFO -  * Restarting with watchdog (windowsapi)
-INFO - Application started
-2025-02-07 10:45:57,066 - INFO -  * Restarting with watchdog (windowsapi)
-INFO - Application started
-2025-02-07 10:46:02,484 - WARNING -  * Debugger is active!
-2025-02-07 10:46:02,490 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 10:46:02,806 - INFO - ====== WebDriver manager ======
-2025-02-07 10:46:08,757 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:46:08,862 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:46:08,959 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 10:49:33,784 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:49:33,784 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:49:33,785 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:49:33,785 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 10:49:34,147 - INFO -  * Restarting with watchdog (windowsapi)
-INFO - Application started
-2025-02-07 10:49:41,938 - INFO -  * Restarting with watchdog (windowsapi)
-INFO - Application started
-2025-02-07 10:50:19,266 - INFO - ====== WebDriver manager ======
-2025-02-07 10:50:23,568 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:50:23,707 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:50:23,838 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 10:52:09,479 - INFO - ====== WebDriver manager ======
-2025-02-07 10:52:13,671 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:52:13,777 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:52:13,881 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 10:54:34,799 - INFO - ====== WebDriver manager ======
-2025-02-07 10:54:39,277 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:54:39,406 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:54:39,518 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 10:57:09,197 - INFO - ====== WebDriver manager ======
-2025-02-07 10:57:13,327 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:57:13,439 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:57:13,557 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 10:59:16,695 - INFO - ====== WebDriver manager ======
-2025-02-07 10:59:20,875 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:59:25,108 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 10:59:25,214 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 11:04:25,991 - INFO - ====== WebDriver manager ======
-2025-02-07 11:04:30,121 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:04:30,228 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:04:30,351 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 11:08:19,733 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 11:08:19,734 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 11:08:19,734 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 11:08:19,735 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\manyScreen.py', reloading
-2025-02-07 11:08:20,326 - INFO -  * Restarting with watchdog (windowsapi)
-INFO - Application started
-2025-02-07 11:10:25,091 - WARNING -  * Debugger is active!
-2025-02-07 11:10:25,097 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 11:11:24,359 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\screenshots.py', reloading
-2025-02-07 11:11:24,541 - INFO -  * Restarting with watchdog (windowsapi)
-INFO - Application started
-2025-02-07 11:12:42,240 - WARNING -  * Debugger is active!
-2025-02-07 11:12:42,246 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 11:12:46,262 - INFO - ====== WebDriver manager ======
-2025-02-07 11:12:50,749 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:12:50,863 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:12:51,007 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 11:12:51,008 - INFO - Using default request storage
-2025-02-07 11:12:51,023 - INFO - Created proxy listening on 127.0.0.1:58902
-2025-02-07 11:12:53,454 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
-2025-02-07 11:12:53,628 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
-2025-02-07 11:12:53,734 - INFO - Capturing request: https://www.katarzynakobiela.pl/
-2025-02-07 11:12:53,872 - INFO - Capturing response: https://www.katarzynakobiela.pl/ 200 
-2025-02-07 11:12:54,030 - INFO - Capturing request: https://www.katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js
-2025-02-07 11:12:54,033 - INFO - Capturing request: https://www.katarzynakobiela.pl/styles-2c8cc638826070126d54.js
-2025-02-07 11:12:54,037 - INFO - Capturing request: https://www.katarzynakobiela.pl/framework-16534ddc5a576711dd15.js
-2025-02-07 11:12:54,047 - INFO - Capturing request: https://www.katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js
-2025-02-07 11:12:54,053 - INFO - Capturing request: https://www.katarzynakobiela.pl/app-ccf113e834caa5869340.js
-2025-02-07 11:12:54,057 - INFO - Capturing request: https://www.katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js
-2025-02-07 11:12:54,065 - INFO - Capturing request: https://www.katarzynakobiela.pl/page-data/index/page-data.json
-2025-02-07 11:12:54,068 - INFO - Capturing request: https://www.katarzynakobiela.pl/page-data/app-data.json
-2025-02-07 11:12:54,099 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg
-2025-02-07 11:12:54,110 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/image005.png
-2025-02-07 11:12:54,115 - INFO - Capturing request: https://www.katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg
-2025-02-07 11:12:54,121 - INFO - Capturing request: https://www.katarzynakobiela.pl/sesja-zdjeciowa.jpg
-2025-02-07 11:12:54,125 - INFO - Capturing request: https://www.katarzynakobiela.pl/o-mnie.jpg
-2025-02-07 11:12:54,128 - INFO - Capturing request: https://www.katarzynakobiela.pl/warsztaty-szkolenia.jpg
-2025-02-07 11:12:54,131 - INFO - Capturing request: https://www.katarzynakobiela.pl/przeglad-szafy.jpg
-2025-02-07 11:12:54,134 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-Aryton.png
-2025-02-07 11:12:54,139 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png
-2025-02-07 11:12:54,142 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png
-2025-02-07 11:12:54,148 - INFO - Capturing response: https://www.katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js 200 
-2025-02-07 11:12:54,150 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/top-logo-300x86.png
-2025-02-07 11:12:54,155 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png
-2025-02-07 11:12:54,158 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png
-2025-02-07 11:12:54,161 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png
-2025-02-07 11:12:54,164 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-dv1.png
-2025-02-07 11:12:54,167 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png
-2025-02-07 11:12:54,175 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-1-200x46.png
-2025-02-07 11:12:54,179 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png
-2025-02-07 11:12:54,186 - INFO - Capturing response: https://www.katarzynakobiela.pl/styles-2c8cc638826070126d54.js 200 
-2025-02-07 11:12:54,189 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png
-2025-02-07 11:12:54,192 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png
-2025-02-07 11:12:54,217 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png
-2025-02-07 11:12:54,249 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png
-2025-02-07 11:12:54,260 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-Aryton.png 200 
-2025-02-07 11:12:54,270 - INFO - Capturing request: https://www.katarzynakobiela.pl/katarzyna-kobiela.jpg
-2025-02-07 11:12:54,281 - INFO - Capturing response: https://www.katarzynakobiela.pl/framework-16534ddc5a576711dd15.js 200 
-2025-02-07 11:12:54,309 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff
-2025-02-07 11:12:54,324 - INFO - Capturing response: https://www.katarzynakobiela.pl/page-data/index/page-data.json 200 
-2025-02-07 11:12:54,328 - INFO - Capturing response: https://www.katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js 200 
-2025-02-07 11:12:54,343 - INFO - Capturing response: https://www.katarzynakobiela.pl/app-ccf113e834caa5869340.js 200 
-2025-02-07 11:12:54,347 - INFO - Capturing response: https://www.katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js 200 
-2025-02-07 11:12:54,348 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff
-2025-02-07 11:12:54,360 - INFO - Capturing response: https://www.katarzynakobiela.pl/page-data/app-data.json 200 
-2025-02-07 11:12:54,388 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg 200 
-2025-02-07 11:12:54,451 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png 200 
-2025-02-07 11:12:54,510 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/top-logo-300x86.png 200 
-2025-02-07 11:12:54,530 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png 200 
-2025-02-07 11:12:54,533 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png 200 
-2025-02-07 11:12:54,537 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-dv1.png 200 
-2025-02-07 11:12:54,543 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png 200 
-2025-02-07 11:12:54,549 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png 200 
-2025-02-07 11:12:54,550 - INFO - Capturing request: https://www.katarzynakobiela.pl/instagram.json
-2025-02-07 11:12:54,560 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png 200 
-2025-02-07 11:12:54,565 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-1-200x46.png 200 
-2025-02-07 11:12:54,578 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/image005.png 200 
-2025-02-07 11:12:54,612 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png 200 
-2025-02-07 11:12:54,620 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png 200 
-2025-02-07 11:12:54,667 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png 200 
-2025-02-07 11:12:54,712 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff 200 
-2025-02-07 11:12:54,726 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff 200 
-2025-02-07 11:12:54,743 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png 200 
-2025-02-07 11:12:54,839 - INFO - Capturing response: https://www.katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg 200 
-2025-02-07 11:12:54,867 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png 200 
-2025-02-07 11:12:54,931 - INFO - Capturing response: https://www.katarzynakobiela.pl/instagram.json 200 
-2025-02-07 11:12:54,978 - INFO - Capturing response: https://www.katarzynakobiela.pl/przeglad-szafy.jpg 200 
-2025-02-07 11:12:55,016 - INFO - Capturing response: https://www.katarzynakobiela.pl/warsztaty-szkolenia.jpg 200 
-2025-02-07 11:12:55,027 - INFO - Capturing response: https://www.katarzynakobiela.pl/katarzyna-kobiela.jpg 200 
-2025-02-07 11:12:55,040 - INFO - Capturing response: https://www.katarzynakobiela.pl/sesja-zdjeciowa.jpg 200 
-2025-02-07 11:12:55,161 - INFO - Capturing response: https://www.katarzynakobiela.pl/o-mnie.jpg 200 
-2025-02-07 11:12:55,175 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgnn_TYMJ-LimxIFDZRU-s8SBQ01KV6sEgUNeG8SGRIFDcZosPwhdYPdkIBbabw=?alt=proto
-2025-02-07 11:12:55,306 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgnn_TYMJ-LimxIFDZRU-s8SBQ01KV6sEgUNeG8SGRIFDcZosPwhdYPdkIBbabw=?alt=proto 200 
-2025-02-07 11:12:55,575 - INFO - Capturing request: https://www.katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59
-2025-02-07 11:12:55,732 - INFO - Capturing response: https://www.katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59 200 
-2025-02-07 11:12:55,895 - INFO - ====== WebDriver manager ======
-2025-02-07 11:13:00,912 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:13:01,018 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:13:01,134 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 11:13:01,135 - INFO - Using default request storage
-2025-02-07 11:13:01,150 - INFO - Created proxy listening on 127.0.0.1:58933
-2025-02-07 11:13:03,124 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
-2025-02-07 11:13:03,202 - INFO - Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
-2025-02-07 11:13:03,281 - INFO - Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard 200 
-2025-02-07 11:13:03,337 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw 200 
-2025-02-07 11:13:03,492 - INFO - Capturing request: https://www.katarzynakobiela.pl/
-2025-02-07 11:13:03,525 - INFO - Capturing response: https://www.katarzynakobiela.pl/ 200 
-2025-02-07 11:13:03,691 - INFO - Capturing request: https://www.katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js
-2025-02-07 11:13:03,695 - INFO - Capturing request: https://www.katarzynakobiela.pl/framework-16534ddc5a576711dd15.js
-2025-02-07 11:13:03,709 - INFO - Capturing request: https://www.katarzynakobiela.pl/app-ccf113e834caa5869340.js
-2025-02-07 11:13:03,713 - INFO - Capturing request: https://www.katarzynakobiela.pl/styles-2c8cc638826070126d54.js
-2025-02-07 11:13:03,726 - INFO - Capturing request: https://www.katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js
-2025-02-07 11:13:03,740 - INFO - Capturing request: https://www.katarzynakobiela.pl/page-data/app-data.json
-2025-02-07 11:13:03,746 - INFO - Capturing request: https://www.katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js
-2025-02-07 11:13:03,753 - INFO - Capturing request: https://www.katarzynakobiela.pl/page-data/index/page-data.json
-2025-02-07 11:13:03,764 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg
-2025-02-07 11:13:03,771 - INFO - Capturing request: https://www.katarzynakobiela.pl/o-mnie.jpg
-2025-02-07 11:13:03,777 - INFO - Capturing request: https://www.katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg
-2025-02-07 11:13:03,794 - INFO - Capturing response: https://www.katarzynakobiela.pl/webpack-runtime-8a90d3ccff46789e62d9.js 200 
-2025-02-07 11:13:03,798 - INFO - Capturing request: https://www.katarzynakobiela.pl/przeglad-szafy.jpg
-2025-02-07 11:13:03,807 - INFO - Capturing request: https://www.katarzynakobiela.pl/warsztaty-szkolenia.jpg
-2025-02-07 11:13:03,815 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-Aryton.png
-2025-02-07 11:13:03,822 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/image005.png
-2025-02-07 11:13:03,826 - INFO - Capturing request: https://www.katarzynakobiela.pl/sesja-zdjeciowa.jpg
-2025-02-07 11:13:03,833 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png
-2025-02-07 11:13:03,839 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png
-2025-02-07 11:13:03,844 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png
-2025-02-07 11:13:03,855 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/top-logo-300x86.png
-2025-02-07 11:13:03,859 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png
-2025-02-07 11:13:03,862 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png
-2025-02-07 11:13:03,894 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-dv1.png
-2025-02-07 11:13:03,899 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png
-2025-02-07 11:13:03,922 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png
-2025-02-07 11:13:03,939 - INFO - Capturing response: https://www.katarzynakobiela.pl/framework-16534ddc5a576711dd15.js 200 
-2025-02-07 11:13:03,957 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/logo-1-200x46.png
-2025-02-07 11:13:03,975 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png
-2025-02-07 11:13:03,978 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png
-2025-02-07 11:13:03,981 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png
-2025-02-07 11:13:03,989 - INFO - Capturing request: https://www.katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png
-2025-02-07 11:13:03,993 - INFO - Capturing response: https://www.katarzynakobiela.pl/styles-2c8cc638826070126d54.js 200 
-2025-02-07 11:13:03,996 - INFO - Capturing response: https://www.katarzynakobiela.pl/app-ccf113e834caa5869340.js 200 
-2025-02-07 11:13:04,000 - INFO - Capturing response: https://www.katarzynakobiela.pl/page-data/app-data.json 200 
-2025-02-07 11:13:04,006 - INFO - Capturing response: https://www.katarzynakobiela.pl/page-data/index/page-data.json 200 
-2025-02-07 11:13:04,010 - INFO - Capturing response: https://www.katarzynakobiela.pl/component---src-pages-index-js-b9e30aca4df78dcb7d29.js 200 
-2025-02-07 11:13:04,015 - INFO - Capturing response: https://www.katarzynakobiela.pl/commons-e6e212326a0f1a59f24d.js 200 
-2025-02-07 11:13:04,023 - INFO - Capturing request: https://www.katarzynakobiela.pl/katarzyna-kobiela.jpg
-2025-02-07 11:13:04,027 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/logo-fc260df7459a79811bfc373eb800b930.svg 200 
-2025-02-07 11:13:04,033 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff
-2025-02-07 11:13:04,037 - INFO - Capturing request: https://www.katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff
-2025-02-07 11:13:04,067 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-Aryton.png 200 
-2025-02-07 11:13:04,189 - INFO - Capturing request: https://www.katarzynakobiela.pl/instagram.json
-2025-02-07 11:13:04,286 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/image005.png 200 
-2025-02-07 11:13:04,314 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION
-2025-02-07 11:13:04,316 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/lbq_logo_w_podstawowa-200x96.png 200 
-2025-02-07 11:13:04,324 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/Logo_sfbcc.png 200 
-2025-02-07 11:13:04,329 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737389072&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS
-2025-02-07 11:13:04,333 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-emanuel-berg.png 200 
-2025-02-07 11:13:04,339 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/b57338_5538c33a766b4404a7d5e452855783e0.png 200 
-2025-02-07 11:13:04,342 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/anja-coraletti-logo-the-best-200x49.png 200 
-2025-02-07 11:13:04,376 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-dv1.png 200 
-2025-02-07 11:13:04,379 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/Untitled-design-8-200x100.png 200 
-2025-02-07 11:13:04,393 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/top-logo-300x86.png 200 
-2025-02-07 11:13:04,398 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/hr-na-spzilkach.png 200 
-2025-02-07 11:13:04,502 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/monika-szymikowska-logo.png 200 
-2025-02-07 11:13:04,549 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/IK_logo_poziom2-200x75.png 200 
-2025-02-07 11:13:04,609 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/stowarzyszenie_trefl_pomorze-200x186.png 200 
-2025-02-07 11:13:04,612 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/gotham-book-abd3ea394345e4568baa1c253eec46c2.woff 200 
-2025-02-07 11:13:04,648 - INFO - Capturing response: https://www.katarzynakobiela.pl/zakupy-ze-stylistka-zakupy-online.jpg 200 
-2025-02-07 11:13:04,653 - INFO - Capturing response: https://www.katarzynakobiela.pl/instagram.json 200 
-2025-02-07 11:13:04,683 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/IMG_2406-200x194.png 200 
-2025-02-07 11:13:04,694 - INFO - Capturing response: https://www.katarzynakobiela.pl/wspolpraca/logo-1-200x46.png 200 
-2025-02-07 11:13:04,745 - INFO - Capturing request: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgnn_TYMJ-LimxIFDZRU-s8SBQ01KV6sEgUNeG8SGRIFDcZosPwhdYPdkIBbabw=?alt=proto
-2025-02-07 11:13:04,781 - INFO - Capturing response: https://www.katarzynakobiela.pl/static/gotham-bold-639bd87f8889cc30c60cc9b0053dd764.woff 200 
-2025-02-07 11:13:04,857 - INFO - Capturing response: https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgnn_TYMJ-LimxIFDZRU-s8SBQ01KV6sEgUNeG8SGRIFDcZosPwhdYPdkIBbabw=?alt=proto 200 
-2025-02-07 11:13:04,863 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION 200 
-2025-02-07 11:13:04,917 - INFO - Capturing response: https://www.katarzynakobiela.pl/przeglad-szafy.jpg 200 
-2025-02-07 11:13:04,987 - INFO - Capturing response: https://www.katarzynakobiela.pl/katarzyna-kobiela.jpg 200 
-2025-02-07 11:13:05,045 - INFO - Capturing response: https://www.katarzynakobiela.pl/warsztaty-szkolenia.jpg 200 
-2025-02-07 11:13:05,063 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737389072&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS 200 
-2025-02-07 11:13:05,100 - INFO - Capturing response: https://www.katarzynakobiela.pl/sesja-zdjeciowa.jpg 200 
-2025-02-07 11:13:05,216 - INFO - Capturing response: https://www.katarzynakobiela.pl/o-mnie.jpg 200 
-2025-02-07 11:13:05,461 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&target=OPTIMIZATION_TARGET_PAGE_VISIBILITY
-2025-02-07 11:13:05,477 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2
-2025-02-07 11:13:05,521 - INFO - Capturing request: https://www.katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59
-2025-02-07 11:13:05,556 - INFO - Capturing response: https://www.katarzynakobiela.pl/favicon-32x32.png?v=4bdd966b315586eef9fd8ea533835e59 200 
-2025-02-07 11:13:07,685 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2 200 
-2025-02-07 11:13:08,080 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737389049&target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS
-2025-02-07 11:13:08,380 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737389049&target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS 200 
-2025-02-07 11:13:08,686 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1737475353&target=OPTIMIZATION_TARGET_CLIENT_SIDE_PHISHING
-2025-02-07 11:13:09,761 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&target=OPTIMIZATION_TARGET_PAGE_VISIBILITY 200 
-2025-02-07 11:13:10,374 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1696267841&target=OPTIMIZATION_TARGET_OMNIBOX_URL_SCORING
-2025-02-07 11:13:10,644 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1696267841&target=OPTIMIZATION_TARGET_OMNIBOX_URL_SCORING 200 
-2025-02-07 11:13:10,963 - INFO - Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=240731042075&target=OPTIMIZATION_TARGET_SEGMENTATION_COMPOSE_PROMOTION
-2025-02-07 11:13:11,543 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=240731042075&target=OPTIMIZATION_TARGET_SEGMENTATION_COMPOSE_PROMOTION 200 
-2025-02-07 11:13:12,146 - INFO - Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1737475353&target=OPTIMIZATION_TARGET_CLIENT_SIDE_PHISHING 200 
-2025-02-07 11:13:53,261 - INFO - Capturing request: https://update.googleapis.com/service/update2/json?cup2key=14:I5CM4C5c197Wj6_TlfwDnWMIAjoEojPpj_xr538Dw8Q&cup2hreq=2d9a76f24f7b21629737aab90d955d54c0144d798e468c0a0ec047746aaaecdf
-2025-02-07 11:13:53,457 - INFO - Capturing response: https://update.googleapis.com/service/update2/json?cup2key=14:I5CM4C5c197Wj6_TlfwDnWMIAjoEojPpj_xr538Dw8Q&cup2hreq=2d9a76f24f7b21629737aab90d955d54c0144d798e468c0a0ec047746aaaecdf 200 
-2025-02-07 11:13:55,946 - INFO - Capturing request: https://clientservices.googleapis.com/uma/v2
-2025-02-07 11:13:56,212 - INFO - Capturing response: https://clientservices.googleapis.com/uma/v2 200 
-2025-02-07 11:13:57,570 - INFO - 127.0.0.1:58914: HTTP/2 connection terminated by server: error code: 0, last stream id: 71, additional data: None
-2025-02-07 11:13:57,729 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
-2025-02-07 11:13:57,822 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
-2025-02-07 11:14:02,015 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
-2025-02-07 11:14:02,246 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
-2025-02-07 11:14:06,425 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
-2025-02-07 11:14:06,670 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
-2025-02-07 11:14:15,955 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
-2025-02-07 11:14:16,059 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
-2025-02-07 11:14:33,827 - INFO - Capturing request: https://update.googleapis.com/service/update2/json
-2025-02-07 11:14:33,956 - INFO - Capturing response: https://update.googleapis.com/service/update2/json 200 
-2025-02-07 11:14:52,265 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
-2025-02-07 11:14:52,269 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
-2025-02-07 11:14:52,272 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
-2025-02-07 11:14:52,389 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
-2025-02-07 11:14:52,421 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
-2025-02-07 11:14:52,429 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
-2025-02-07 11:14:52,439 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\resource_variable_ops.py', reloading
-2025-02-07 11:14:52,461 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
-2025-02-07 11:14:52,474 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
-2025-02-07 11:14:52,584 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\framework\\auto_control_deps.py', reloading
-2025-02-07 11:14:52,606 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\bitwise_ops.py', reloading
-2025-02-07 11:14:52,615 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\stateless_random_ops.py', reloading
-2025-02-07 11:14:52,622 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\random_ops.py', reloading
-2025-02-07 11:14:52,631 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\ref_variable.py', reloading
-2025-02-07 11:14:52,706 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\autograph\\utils\\ag_logging.py', reloading
-2025-02-07 11:15:00,171 - WARNING -  * Debugger is active!
-2025-02-07 11:15:00,177 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 11:16:32,524 - INFO - ====== WebDriver manager ======
-2025-02-07 11:16:37,058 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:16:37,192 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:16:37,307 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 11:21:52,324 - INFO - ====== WebDriver manager ======
-2025-02-07 11:30:43,397 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\eventlet\\wsgi.py', reloading
-2025-02-07 11:30:43,403 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socket.py', reloading
-2025-02-07 11:30:45,991 - WARNING -  * Debugger is active!
-2025-02-07 11:30:45,996 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 11:31:00,917 - INFO - ====== WebDriver manager ======
-2025-02-07 11:31:05,155 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:31:05,268 - INFO - Get LATEST chromedriver version for google-chrome
-2025-02-07 11:31:05,362 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
-2025-02-07 11:34:22,170 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
-2025-02-07 11:34:22,176 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\templating.py', reloading
-2025-02-07 11:34:22,186 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\environment.py', reloading
-2025-02-07 11:35:29,199 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
-2025-02-07 11:35:29,200 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
-2025-02-07 11:35:29,202 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
-2025-02-07 11:35:32,019 - WARNING -  * Debugger is active!
-2025-02-07 11:35:32,026 - INFO -  * Debugger PIN: 313-593-320
-2025-02-07 11:41:17,446 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
-2025-02-07 11:41:17,448 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\SnapShot\\app.py', reloading
-2025-02-07 11:41:20,168 - WARNING -  * Debugger is active!
-2025-02-07 11:41:20,174 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 16:28:30,715 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-25 16:28:30,227 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\manyScreen.py', reloading
 INFO - Accessed dashboard
+2025-03-25 16:28:06,367 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 16:28:06,358 - WARNING -  * Debugger is active!
+INFO - Application started
+2025-03-25 16:27:43,187 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-25 16:27:42,508 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\app.py', reloading
+2025-03-25 16:27:42,507 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\app.py', reloading
+2025-03-25 16:27:42,505 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\app.py', reloading
+2025-03-25 16:27:42,497 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\app.py', reloading
+2025-03-25 16:23:56,946 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 16:23:56,934 - WARNING -  * Debugger is active!
+INFO - Application started
+2025-03-25 16:23:39,383 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-25 16:23:38,409 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\webdriver_manager\\core\\driver_cache.py', reloading
+2025-03-25 16:23:38,403 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\webdriver_manager\\core\\download_manager.py', reloading
+2025-03-25 16:23:38,398 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\webdriver_manager\\core\\os_manager.py', reloading
+2025-03-25 16:23:38,396 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\types.py', reloading
+2025-03-25 16:23:38,389 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\virtual_authenticator.py', reloading
+2025-03-25 16:23:38,384 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\remote\\file_detector.py', reloading
+2025-03-25 16:23:38,380 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\timeouts.py', reloading
+2025-03-25 16:23:38,363 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py', reloading
+2025-03-25 16:23:38,358 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py', reloading
+2025-03-25 16:23:38,201 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\webdriver_manager\\core\\manager.py', reloading
+2025-03-25 16:23:38,191 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\webdriver_manager\\chrome.py', reloading
+2025-03-25 16:23:38,181 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py', reloading
+2025-03-25 16:23:38,134 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py', reloading
+2025-03-25 16:23:38,129 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py', reloading
+2025-03-25 16:23:38,127 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\support\\ui.py', reloading
+2025-03-25 16:23:38,118 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py', reloading
+2025-03-25 16:23:38,116 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\support\\__init__.py', reloading
+2025-03-25 16:23:38,114 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\by.py', reloading
+2025-03-25 16:23:38,108 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py', reloading
+2025-03-25 16:23:38,106 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\__init__.py', reloading
+2025-03-25 16:23:38,101 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\chromium\\service.py', reloading
+2025-03-25 16:23:38,100 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\chromium\\__init__.py', reloading
+2025-03-25 16:23:38,097 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\chrome\\service.py', reloading
+2025-03-25 16:23:38,091 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\options.py', reloading
+2025-03-25 16:23:38,086 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\chromium\\options.py', reloading
+2025-03-25 16:23:38,082 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\chrome\\options.py', reloading
+2025-03-25 16:23:38,070 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\__init__.py', reloading
+2025-03-25 16:23:38,070 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\__init__.py', reloading
+2025-03-25 16:23:35,046 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 16:23:35,040 - WARNING -  * Debugger is active!
+INFO - Accessed dashboard
+INFO - Application started
+2025-03-25 16:21:16,064 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Accessed dashboard
+INFO - Application started
+2025-03-25 16:11:59,383 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-03-24 15:44:52,652 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-24 15:44:48,251 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\static\\screenshots\\cukierniapati.pl.zip', reloading
+2025-03-24 15:27:45,065 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-24 15:27:44,990 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-24 15:27:44,868 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-24 15:27:42,488 - INFO - ====== WebDriver manager ======
+2025-03-24 15:13:57,354 - INFO - Driver has been saved in cache [C:\Users\tomas\.wdm\drivers\chromedriver\win64\134.0.6998.165]
+2025-03-24 15:13:57,078 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-24 15:13:56,748 - INFO - Driver downloading response is 200
+2025-03-24 15:13:56,595 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-03-24 15:13:56,594 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-03-24 15:13:56,591 - INFO - WebDriver version 134.0.6998.165 selected
+2025-03-24 15:13:56,406 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-24 15:13:56,406 - INFO - There is no [win64] chromedriver "134.0.6998.165" for browser google-chrome "134.0.6998" in cache
+2025-03-24 15:13:56,314 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-24 15:13:54,636 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-24 15:13:52,424 - INFO - ====== WebDriver manager ======
+INFO - Accessed dashboard
+2025-03-24 15:11:58,641 - INFO -  * Debugger PIN: 313-593-320
+2025-03-24 15:11:58,634 - WARNING -  * Debugger is active!
+INFO - Application started
+INFO - Application started
+2025-02-27 08:35:12,753 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-27 08:35:12,116 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\process.py', reloading
+2025-02-27 08:35:03,479 - INFO -  * Debugger PIN: 313-593-320
+2025-02-27 08:35:03,473 - WARNING -  * Debugger is active!
+INFO - Accessed dashboard
+2025-02-27 08:35:00,247 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\dtensor\\python\\api.py', reloading
+2025-02-27 08:35:00,103 - INFO -  * Debugger PIN: 313-593-320
+2025-02-27 08:35:00,096 - WARNING -  * Debugger is active!
+INFO - Application started
+2025-02-27 08:34:54,224 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-27 08:34:53,923 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\while_v2.py', reloading
+2025-02-27 08:34:53,835 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\ops\\cond_v2.py', reloading
+2025-02-27 08:34:50,077 - INFO -  * Debugger PIN: 313-593-320
+2025-02-27 08:34:50,070 - WARNING -  * Debugger is active!
+INFO - Application started
+INFO - Accessed dashboard
+INFO - Application started
+2025-02-17 11:26:50,844 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-17 10:40:55,556 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 10:40:54,403 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\forms.py', reloading
+2025-02-17 10:40:54,402 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\filterScreen.py', reloading
+2025-02-17 10:40:54,402 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\app.py', reloading
+2025-02-17 10:38:50,940 - INFO -  * Debugger PIN: 313-593-320
+2025-02-17 10:38:50,932 - WARNING -  * Debugger is active!
+INFO - Application started
+2025-02-17 10:35:44,682 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 10:35:44,268 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:35:44,267 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:35:44,267 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:29:43,669 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17 10:29:43,573 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:29:43,477 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:29:41,772 - INFO - ====== WebDriver manager ======
+INFO - Application started
+2025-02-17 10:29:08,725 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 10:29:07,930 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:29:07,930 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:29:07,929 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:28:06,409 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17 10:28:06,308 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:28:06,191 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:28:03,546 - INFO - ====== WebDriver manager ======
+2025-02-17 10:28:03,343 - INFO -  * Debugger PIN: 313-593-320
+2025-02-17 10:28:03,329 - WARNING -  * Debugger is active!
+INFO - Application started
+2025-02-17 10:25:57,819 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Accessed dashboard
+2025-02-17 10:21:55,551 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17 10:21:55,457 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:21:55,347 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:21:53,115 - INFO - ====== WebDriver manager ======
+2025-02-17 10:20:29,269 - INFO -  * Debugger PIN: 313-593-320
+2025-02-17 10:20:29,264 - WARNING -  * Debugger is active!
+INFO - Application started
+2025-02-17 10:20:08,651 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 10:20:08,511 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:20:08,509 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:17:35,755 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17 10:17:35,661 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:17:35,527 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:17:33,870 - INFO - ====== WebDriver manager ======
+2025-02-17 10:04:27,487 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17 10:04:27,396 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:04:27,293 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:04:25,681 - INFO - ====== WebDriver manager ======
+2025-02-17 10:03:22,143 - INFO -  * Debugger PIN: 313-593-320
+2025-02-17 10:03:22,136 - WARNING -  * Debugger is active!
+2025-02-17 09:42:41,452 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\signals.py', reloading
+2025-02-17 09:42:41,452 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-02-17 09:42:41,451 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-02-17 09:42:41,450 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-02-17 09:42:41,450 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-02-17 10:20:28,014 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-17 10:25:51,529 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:25:51,530 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:25:52,291 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-17 10:25:59,330 - WARNING -  * Debugger is active!
+2025-02-17 10:25:59,336 - INFO -  * Debugger PIN: 313-593-320
+2025-02-17 10:26:11,617 - INFO - ====== WebDriver manager ======
+2025-02-17 10:26:13,233 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:26:13,335 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:26:13,429 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17 10:27:07,343 - ERROR - Error capturing screenshot for javascript:void(0);: Message: unknown error: unsupported protocol
+  (Session info: chrome=132.0.6834.197)
+Stacktrace:
+	GetHandleVerifier [0x006B74A3+25091]
+	(No symbol) [0x0063DC04]
+	(No symbol) [0x0051B373]
+	(No symbol) [0x0051DCF8]
+	(No symbol) [0x0059BEC7]
+	(No symbol) [0x00581F0C]
+	(No symbol) [0x0059B49E]
+	(No symbol) [0x00581CA6]
+	(No symbol) [0x005531D5]
+	(No symbol) [0x0055435D]
+	GetHandleVerifier [0x009B07C3+3142947]
+	GetHandleVerifier [0x009C1A2B+3213195]
+	GetHandleVerifier [0x009BC412+3191154]
+	GetHandleVerifier [0x00758720+685184]
+	(No symbol) [0x00646E1D]
+	(No symbol) [0x00643E18]
+	(No symbol) [0x00643FB6]
+	(No symbol) [0x006366F0]
+	BaseThreadInitThunk [0x77755D49+25]
+	RtlInitializeExceptionChain [0x77E2CDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x77E2CD71+561]
+
+2025-02-17 10:28:01,267 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:28:01,269 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:28:01,269 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:28:01,270 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\manyScreen.py', reloading
+2025-02-17 10:28:01,777 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-17 10:29:10,539 - WARNING -  * Debugger is active!
+2025-02-17 10:29:10,546 - INFO -  * Debugger PIN: 313-593-320
+INFO - Accessed dashboard
+2025-02-17 10:35:54,518 - WARNING -  * Debugger is active!
+2025-02-17 10:35:54,523 - INFO -  * Debugger PIN: 313-593-320
+2025-02-17 10:36:07,595 - INFO - ====== WebDriver manager ======
+2025-02-17 10:36:09,300 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:36:09,391 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:36:09,485 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17 10:37:06,281 - INFO - ====== WebDriver manager ======
+2025-02-17 10:37:07,964 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:37:12,148 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 10:37:12,243 - INFO - Driver [C:\Users\tomas\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17 10:38:40,027 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\eventlet\\wsgi.py', reloading
+2025-02-17 10:38:40,029 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socket.py', reloading
+2025-02-17 10:38:40,031 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\eventlet\\greenio\\base.py', reloading
+2025-02-17 10:38:41,073 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-17 10:41:13,387 - WARNING -  * Debugger is active!
+2025-02-17 10:41:13,398 - INFO -  * Debugger PIN: 313-593-320
+2025-02-17 10:43:55,007 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\_distutils_hack\\__init__.py', reloading
+2025-02-17 10:43:55,008 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\_distutils_hack\\override.py', reloading
+2025-02-17 10:43:55,009 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\blinker\\__init__.py', reloading
+2025-02-17 10:43:55,010 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\blinker\\_utilities.py', reloading
+2025-02-17 10:43:55,011 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\blinker\\base.py', reloading
+2025-02-17 10:43:55,015 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\__init__.py', reloading
+2025-02-17 10:43:55,027 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\_compat.py', reloading
+2025-02-17 10:43:55,029 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\_termui_impl.py', reloading
+2025-02-17 10:43:55,029 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\_textwrap.py', reloading
+2025-02-17 10:43:55,030 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\_winconsole.py', reloading
+2025-02-17 10:43:55,033 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\core.py', reloading
+2025-02-17 10:43:55,034 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\decorators.py', reloading
+2025-02-17 10:43:55,034 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\exceptions.py', reloading
+2025-02-17 10:43:55,034 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\formatting.py', reloading
+2025-02-17 10:43:55,035 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\globals.py', reloading
+2025-02-17 10:43:55,035 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\parser.py', reloading
+2025-02-17 10:43:55,036 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\shell_completion.py', reloading
+2025-02-17 10:43:55,037 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\termui.py', reloading
+2025-02-17 10:43:55,039 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\testing.py', reloading
+2025-02-17 10:43:55,039 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\types.py', reloading
+2025-02-17 10:43:55,040 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\click\\utils.py', reloading
+2025-02-17 10:43:55,043 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\__init__.py', reloading
+2025-02-17 10:43:55,047 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\ansi.py', reloading
+2025-02-17 10:43:55,047 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\ansitowin32.py', reloading
+2025-02-17 10:43:55,051 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\initialise.py', reloading
+2025-02-17 10:43:55,052 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\tests\\__init__.py', reloading
+2025-02-17 10:43:55,055 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\tests\\ansi_test.py', reloading
+2025-02-17 10:43:55,056 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\tests\\ansitowin32_test.py', reloading
+2025-02-17 10:43:55,058 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\tests\\initialise_test.py', reloading
+2025-02-17 10:43:55,059 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\tests\\isatty_test.py', reloading
+2025-02-17 10:43:55,059 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\tests\\utils.py', reloading
+2025-02-17 10:43:55,060 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\tests\\winterm_test.py', reloading
+2025-02-17 10:43:55,060 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\win32.py', reloading
+2025-02-17 10:43:55,061 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\colorama\\winterm.py', reloading
+2025-02-17 10:43:55,063 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-02-17 10:43:55,063 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\__main__.py', reloading
+2025-02-17 10:43:55,072 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\app.py', reloading
+2025-02-17 10:43:55,073 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-02-17 10:43:55,075 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\cli.py', reloading
+2025-02-17 10:43:55,076 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\config.py', reloading
+2025-02-17 10:43:55,077 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\ctx.py', reloading
+2025-02-17 10:43:55,081 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+2025-02-17 10:43:55,082 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-02-17 10:43:55,082 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-02-17 10:43:55,084 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-02-17 10:43:55,085 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\json\\provider.py', reloading
+2025-02-17 10:43:55,091 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\json\\tag.py', reloading
+2025-02-17 10:43:55,091 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\logging.py', reloading
+2025-02-17 10:43:55,097 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-02-17 10:43:55,098 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-02-17 10:43:55,098 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-02-17 10:43:55,099 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-02-17 10:43:55,100 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\signals.py', reloading
+2025-02-17 10:43:55,100 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-02-17 10:43:55,101 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\testing.py', reloading
+2025-02-17 10:43:55,101 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-02-17 10:43:55,101 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\views.py', reloading
+2025-02-17 10:43:55,102 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-02-17 10:43:55,107 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\__init__.py', reloading
+2025-02-17 10:43:55,107 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\_compat.py', reloading
+2025-02-17 10:43:55,108 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\csrf.py', reloading
+2025-02-17 10:43:55,108 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\file.py', reloading
+2025-02-17 10:43:55,108 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\form.py', reloading
+2025-02-17 10:43:55,109 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\i18n.py', reloading
+2025-02-17 10:43:55,109 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\recaptcha\\__init__.py', reloading
+2025-02-17 10:43:55,110 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\recaptcha\\fields.py', reloading
+2025-02-17 10:43:55,110 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\recaptcha\\validators.py', reloading
+2025-02-17 10:43:55,110 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\flask_wtf\\recaptcha\\widgets.py', reloading
+2025-02-17 10:43:55,111 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\itsdangerous\\__init__.py', reloading
+2025-02-17 10:43:55,120 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\itsdangerous\\_json.py', reloading
+2025-02-17 10:43:55,121 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\itsdangerous\\encoding.py', reloading
+2025-02-17 10:43:55,121 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\itsdangerous\\exc.py', reloading
+2025-02-17 10:43:55,122 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\itsdangerous\\serializer.py', reloading
+2025-02-17 10:43:55,127 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\itsdangerous\\signer.py', reloading
+2025-02-17 10:43:55,128 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\itsdangerous\\timed.py', reloading
+2025-02-17 10:43:55,129 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\itsdangerous\\url_safe.py', reloading
+2025-02-17 10:43:55,147 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-02-17 10:43:55,154 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\_identifier.py', reloading
+2025-02-17 10:43:55,155 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\async_utils.py', reloading
+2025-02-17 10:43:55,155 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\bccache.py', reloading
+2025-02-17 10:43:55,156 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\compiler.py', reloading
+2025-02-17 10:43:55,157 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\constants.py', reloading
+2025-02-17 10:43:55,159 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\debug.py', reloading
+2025-02-17 10:43:55,159 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\defaults.py', reloading
+2025-02-17 10:43:55,160 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-02-17 10:43:55,160 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\exceptions.py', reloading
+2025-02-17 10:43:55,161 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\ext.py', reloading
+2025-02-17 10:43:55,162 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\filters.py', reloading
+2025-02-17 10:43:55,162 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\idtracking.py', reloading
+2025-02-17 10:43:55,163 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\lexer.py', reloading
+2025-02-17 10:43:55,163 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2025-02-17 10:43:55,164 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\meta.py', reloading
+2025-02-17 10:43:55,164 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\nativetypes.py', reloading
+2025-02-17 10:43:55,164 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\nodes.py', reloading
+2025-02-17 10:43:55,165 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\optimizer.py', reloading
+2025-02-17 10:43:55,165 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\parser.py', reloading
+2025-02-17 10:43:55,165 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\runtime.py', reloading
+2025-02-17 10:43:55,166 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\sandbox.py', reloading
+2025-02-17 10:43:55,166 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\tests.py', reloading
+2025-02-17 10:43:55,167 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\utils.py', reloading
+2025-02-17 10:43:55,167 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\jinja2\\visitor.py', reloading
+2025-02-17 10:43:55,167 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\markupsafe\\__init__.py', reloading
+2025-02-17 10:43:55,174 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\markupsafe\\_native.py', reloading
+2025-02-17 10:43:55,186 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\__init__.py', reloading
+2025-02-17 10:43:55,187 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\__main__.py', reloading
+2025-02-17 10:43:55,188 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\__pip-runner__.py', reloading
+2025-02-17 10:43:55,197 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\__init__.py', reloading
+2025-02-17 10:43:55,200 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\build_env.py', reloading
+2025-02-17 10:43:55,200 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cache.py', reloading
+2025-02-17 10:43:55,217 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\__init__.py', reloading
+2025-02-17 10:43:55,222 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\autocompletion.py', reloading
+2025-02-17 10:43:55,223 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\base_command.py', reloading
+2025-02-17 10:43:55,223 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\cmdoptions.py', reloading
+2025-02-17 10:43:55,223 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\command_context.py', reloading
+2025-02-17 10:43:55,224 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\index_command.py', reloading
+2025-02-17 10:43:55,224 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\main.py', reloading
+2025-02-17 10:43:55,228 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\main_parser.py', reloading
+2025-02-17 10:43:55,229 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\parser.py', reloading
+2025-02-17 10:43:55,229 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\progress_bars.py', reloading
+2025-02-17 10:43:55,230 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\req_command.py', reloading
+2025-02-17 10:43:55,231 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\spinners.py', reloading
+2025-02-17 10:43:55,231 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\status_codes.py', reloading
+2025-02-17 10:43:55,238 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\__init__.py', reloading
+2025-02-17 10:43:55,257 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\cache.py', reloading
+2025-02-17 10:43:55,266 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\check.py', reloading
+2025-02-17 10:43:55,267 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\completion.py', reloading
+2025-02-17 10:43:55,267 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\configuration.py', reloading
+2025-02-17 10:43:55,267 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\debug.py', reloading
+2025-02-17 10:43:55,268 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\download.py', reloading
+2025-02-17 10:43:55,269 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\freeze.py', reloading
+2025-02-17 10:43:55,269 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\hash.py', reloading
+2025-02-17 10:43:55,274 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\help.py', reloading
+2025-02-17 10:43:55,274 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\index.py', reloading
+2025-02-17 10:43:55,275 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\inspect.py', reloading
+2025-02-17 10:43:55,276 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\install.py', reloading
+2025-02-17 10:43:55,277 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\list.py', reloading
+2025-02-17 10:43:55,278 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\search.py', reloading
+2025-02-17 10:43:55,278 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\show.py', reloading
+2025-02-17 10:43:55,280 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\uninstall.py', reloading
+2025-02-17 10:43:55,280 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\wheel.py', reloading
+2025-02-17 10:43:55,281 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\configuration.py', reloading
+2025-02-17 10:43:55,282 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\__init__.py', reloading
+2025-02-17 10:43:55,283 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\base.py', reloading
+2025-02-17 10:43:55,284 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\installed.py', reloading
+2025-02-17 10:43:55,284 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\sdist.py', reloading
+2025-02-17 10:43:55,284 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\wheel.py', reloading
+2025-02-17 10:43:55,285 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\exceptions.py', reloading
+2025-02-17 10:43:55,286 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\index\\__init__.py', reloading
+2025-02-17 10:43:55,288 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\index\\collector.py', reloading
+2025-02-17 10:43:55,290 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\index\\package_finder.py', reloading
+2025-02-17 10:43:55,295 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\index\\sources.py', reloading
+2025-02-17 10:43:55,296 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\locations\\__init__.py', reloading
+2025-02-17 10:43:55,324 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\locations\\_distutils.py', reloading
+2025-02-17 10:43:55,326 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\venv\\Lib\\site-packages\\pip\\_internal\\locations\\_sysconfig.py', reloading
+2025-02-17 10:43:55,644 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-17 11:26:52,078 - WARNING -  * Debugger is active!
+2025-02-17 11:26:52,094 - INFO -  * Debugger PIN: 313-593-320
+INFO - Accessed dashboard
+INFO - Accessed dashboard
+2025-02-27 08:34:48,389 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-27 08:34:55,982 - WARNING -  * Debugger is active!
+2025-02-27 08:34:55,989 - INFO -  * Debugger PIN: 313-593-320
+2025-02-27 08:34:56,021 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\debug_gradients.py', reloading
+2025-02-27 08:34:56,328 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\dumping_callback.py', reloading
+2025-02-27 08:34:57,264 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-27 08:35:01,298 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-02-27 08:35:14,971 - WARNING -  * Debugger is active!
+2025-02-27 08:35:14,979 - INFO -  * Debugger PIN: 313-593-320
+INFO - Accessed dashboard
+2025-03-24 15:11:56,860 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+INFO - Accessed dashboard
+2025-03-24 15:44:55,381 - WARNING -  * Debugger is active!
+2025-03-24 15:44:55,387 - INFO -  * Debugger PIN: 313-593-320
+INFO - Application started
+2025-03-25 16:12:01,051 - WARNING -  * Debugger is active!
+2025-03-25 16:12:01,059 - INFO -  * Debugger PIN: 313-593-320
+INFO - Accessed dashboard
+INFO - Application started
+2025-03-25 16:21:17,693 - WARNING -  * Debugger is active!
+2025-03-25 16:21:17,701 - INFO -  * Debugger PIN: 313-593-320
+INFO - Accessed dashboard
+2025-03-25 16:23:31,441 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\screenshot_utils.py', reloading
+2025-03-25 16:23:32,612 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-03-25 16:23:41,308 - WARNING -  * Debugger is active!
+2025-03-25 16:23:41,321 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 16:23:53,726 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-03-25 16:23:53,737 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+2025-03-25 16:23:53,817 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\scaffold.py', reloading
+2025-03-25 16:23:53,830 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-03-25 16:23:53,836 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-03-25 16:23:53,840 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-03-25 16:23:53,872 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-03-25 16:23:53,881 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-03-25 16:23:53,884 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-03-25 16:23:53,902 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-03-25 16:23:53,915 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-03-25 16:23:53,921 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-03-25 16:23:53,929 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-03-25 16:23:53,940 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-03-25 16:23:53,948 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-03-25 16:23:53,963 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-03-25 16:23:53,976 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\json\\tag.py', reloading
+2025-03-25 16:23:53,983 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-03-25 16:23:54,005 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\config.py', reloading
+2025-03-25 16:23:54,067 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-03-25 16:23:54,088 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2025-03-25 16:23:54,097 - INFO -  * Detected change in 'C:\\Users\\tomas\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+2025-03-25 16:23:54,605 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-03-25 16:28:04,693 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+INFO - Accessed dashboard
+2025-03-25 16:28:33,450 - WARNING -  * Debugger is active!
+2025-03-25 16:28:33,463 - INFO -  * Debugger PIN: 313-593-320
+2025-03-25 16:28:34,979 - INFO -  * Detected change in 'C:\\Users\\tomas\\OneDrive\\Pulpit\\SnapShot\\SnapShot\\screenshot_utils.py', reloading
+2025-03-25 16:28:35,685 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started
+2025-03-25 16:28:58,251 - WARNING -  * Debugger is active!
+2025-03-25 16:28:58,263 - INFO -  * Debugger PIN: 313-593-320
+INFO - Accessed dashboard
+INFO - Accessed dashboard
+INFO - Accessed dashboard
+2025-03-25 19:31:40,569 - INFO -  * Restarting with watchdog (windowsapi)
+INFO - Application started

@@ -6,9 +6,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html, body {
+    height: 100%;
+}
 /* Global settings */
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-color: #f0f2f5;
     color: #333;
@@ -53,6 +57,7 @@ nav ul li a:hover {
 /* Main container */
 main {
     padding: 20px;
+    flex: 1;
 }
 
 /* Stats section */
@@ -95,10 +100,10 @@ h2, h3 {
 /* Footer */
 footer {
     background-color: #007bff;
+    position: relative;
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }

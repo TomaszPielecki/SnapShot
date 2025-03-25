@@ -2,7 +2,6 @@ import json
 import logging
 import os
 from datetime import datetime
-from urllib.parse import urlparse
 
 from flask import Flask, render_template, redirect, url_for, flash, request, jsonify
 from flask import send_file
@@ -11,8 +10,7 @@ from flask_socketio import SocketIO
 
 from filterScreen import find_screenshots_by_date
 from forms import AddDomainForm
-from manyScreen import is_valid_url, visit_links_and_take_screenshots, create_directory_for_domain
-from screenshots import get_screenshots, take_screenshots
+from screenshot_utils import is_valid_url, visit_links_and_take_screenshots, create_directory_for_domain, get_screenshots
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -23,7 +21,7 @@ LOG_FILE = 'logs/logfile.log'
 MAX_LOG_LINES = 1000
 DOMAINS_FILE = 'data.json'
 SCREENSHOT_DIR = 'static/screenshots'
-BASE_SCREENSHOT_FOLDER = '/path/to/screenshots'
+BASE_SCREENSHOT_FOLDER = 'static/screenshots'
 
 # Configure logging
 os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
@@ -154,32 +152,6 @@ def gallery():
     return render_template('FiltrScreen.html', images=images)
 
 
-@app.route('/screenshot', methods=['POST'])
-def screenshot():
-    data = request.get_json()
-    if not data or 'urls' not in data or 'deviceType' not in data or 'maxLinks' not in data:
-        return jsonify({"error": "Invalid input data"}), 400
-
-    urls = data['urls']
-    device_type = data['deviceType']
-    max_links = data['maxLinks']
-    screenshots = []
-
-    for url in urls:
-        try:
-            url = is_valid_url(url)
-            visit_links_and_take_screenshots(url, device_type, max_links)
-            domain_name = urlparse(url).netloc.replace('www.', '').replace(':', '_')
-            domain_folder = os.path.join('static', 'screenshots', domain_name, device_type)
-            screenshots.extend([os.path.join(domain_folder, f) for f in os.listdir(domain_folder) if
-                                os.path.isfile(os.path.join(domain_folder, f))])
-        except Exception as e:
-            print(f"Error processing {url}: {e}")
-            return jsonify({"error": f"Error processing {url}: {str(e)}"}), 500
-
-    return jsonify({"screenshots": screenshots}), 200
-
-
 @app.route('/screenshots/delete/<folder>/<screenshot>', methods=['POST'])
 def delete_screenshot_from_folder(folder, screenshot):
     screenshot_path = os.path.join(SCREENSHOT_DIR, folder, screenshot)
@@ -240,17 +212,6 @@ def ensure_log_directory():
         os.makedirs(log_dir)
 
 
-@app.route('/take_screenshots', methods=['POST'])
-def trigger_screenshots():
-    url = request.form.get('url')
-    if url:
-        save_dir = take_screenshots(url)
-        flash(f'Screenshots saved in {save_dir}', 'success')
-    else:
-        flash('Please provide a valid URL.', 'danger')
-    return redirect(url_for('dashboard'))
-
-
 @app.route('/manyScreen')
 @app.route('/manyScreen/<folder>')
 def many_screen(folder=None):
@@ -267,26 +228,6 @@ def many_screen(folder=None):
         screenshots = get_screenshots(SCREENSHOT_DIR)
         return render_template('manyScreen.html', screenshot_dirs=screenshot_dirs, domains=domains,
                                screenshots=screenshots)
-
-
-# app.py
-# app.py
-# app.py
-@app.route('/screenshots', methods=['GET', 'POST'])
-def screenshots_route():
-    domains = load_domains()
-    if request.method == 'POST':
-        url = request.form.get('url')
-        if url:
-            take_screenshots(url)
-            flash('Screenshot taken successfully!', 'success')
-        else:
-            flash('Please provide a valid URL.', 'danger')
-        return redirect(url_for('screenshots_route'))
-
-    screenshots_dir = os.path.join(app.static_folder, 'screenshots')
-    images = [f for f in os.listdir(screenshots_dir) if os.path.isfile(os.path.join(screenshots_dir, f))]
-    return render_template('screenshots.html', screenshots=images, domains=domains)
 
 
 @app.route('/screenshots/delete/<screenshot>', methods=['POST'])
@@ -433,6 +374,47 @@ def fetch_logs(domain=None, date_str=None):
     else:
         logs = get_logs()
         return jsonify({"logs": logs[-20:]})
+
+
+@app.route('/zrobscreen', methods=['POST'])
+def zrobscreen():
+    data = request.get_json()
+    if not data or 'domain' not in data or 'deviceType' not in data:
+        return jsonify({"error": "Invalid input data"}), 400
+
+    domain = data['domain']
+    device_type = data['deviceType']
+    try:
+        visit_links_and_take_screenshots(domain, device_type, max_links=50)
+        return jsonify({"success": True}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/screenshot', methods=['POST'])
+def screenshot():
+    data = request.get_json()
+    if not data or 'urls' not in data or 'deviceType' not in data:
+        return jsonify({"error": "Invalid input data"}), 400
+
+    urls = data['urls']
+    device_type = data['deviceType']
+    screenshots = []
+
+    for url in urls:
+        try:
+            url = is_valid_url(url)
+            visit_links_and_take_screenshots(url, device_type)
+            domain_name = url.split('/')[2].replace('www.', '').replace(':', '_')
+            domain_folder = os.path.join('static', 'screenshots', domain_name, device_type)
+            if os.path.exists(domain_folder):
+                screenshots.extend([os.path.join(domain_folder, f) for f in os.listdir(domain_folder) if
+                                   os.path.isfile(os.path.join(domain_folder, f))])
+        except Exception as e:
+            print(f"Error processing {url}: {e}")
+            return jsonify({"error": f"Error processing {url}: {str(e)}"}), 500
+
+    return jsonify({"screenshots": screenshots}), 200
 
 
 if __name__ == '__main__':

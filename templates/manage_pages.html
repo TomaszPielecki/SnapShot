@@ -3,6 +3,14 @@
 {% block content %}
 <section class="manage-domains py-5">
     <div class="container">
+        <h4 class="text-center mb-4">
+            To narzędzie umożliwia wykonywanie zrzutów ekranu wielu stron internetowych.
+            Przetwarza listę adresów URL, przechodzi do każdego adresu URL i przechwytuje zrzuty ekranu strony głównej i
+            jej
+            linki wewnętrzne.
+            Zrzuty ekranu są zapisywane w folderach specyficznych dla urządzenia dektop lub mobile
+
+        </h4>
         <h2 class="mb-4">Zarządzanie domenami</h2>
         <form method="POST">
             {{ add_domain_form.hidden_tag() }}
@@ -27,22 +35,91 @@
                     <a href="{{ url_for('edit_domain', old_domain=domain) }}" class="btn btn-warning btn-sm">Edytuj</a>
 
                     <!-- Copy domain button -->
-                    <button type="button" class="btn btn-info btn-sm" onclick="copyToClipboard('{{ domain }}')">Kopiuj</button>
+                    <button type="button" class="btn btn-info btn-sm" onclick="copyToClipboard('{{ domain }}')">Kopiuj
+                    </button>
+
+                    <!-- Take screenshots button -->
+                    <button type="button" class="btn btn-success btn-sm"
+                            onclick="takeScreenshots('{{ domain }}')">Zrób Screenshots
+                    </button>
                 </div>
             </li>
             {% endfor %}
         </ul>
+
+        <!-- Progress and status section -->
+        <div id="progress-section" class="mt-4" style="display: none;">
+            <h4>Postęp:</h4>
+            <div class="progress mb-3">
+                <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;">0%</div>
+            </div>
+            <p id="status-message"></p>
+            <p id="time-elapsed"></p>
+        </div>
     </div>
 </section>
 
 <script>
-function copyToClipboard(domain) {
-    const el = document.createElement('textarea');
-    el.value = domain;
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-}
+    function takeScreenshots(domain) {
+        // Show progress section
+        document.getElementById('progress-section').style.display = 'block';
+        document.getElementById('progress-bar').style.width = '0%';
+        document.getElementById('progress-bar').innerText = '0%';
+        document.getElementById('status-message').innerText = 'Rozpoczynanie procesu...';
+        document.getElementById('time-elapsed').innerText = '';
+
+        const startTime = new Date().getTime();
+        const deviceTypes = ['desktop', 'mobile'];
+        let completedDevices = 0;
+
+        deviceTypes.forEach(deviceType => {
+            fetch('/zrobscreen', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ domain, deviceType }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert(`Error: ${data.error}`);
+                } else {
+                    completedDevices++;
+                    updateProgress(completedDevices, deviceTypes.length);
+
+                    if (completedDevices === deviceTypes.length) {
+                        const endTime = new Date().getTime();
+                        const timeElapsed = ((endTime - startTime) / 1000).toFixed(2);
+                        document.getElementById('status-message').innerText = 'Zrzuty ekranu zakończone!';
+                        document.getElementById('time-elapsed').innerText = `Czas wykonania: ${timeElapsed} sekund`;
+                    }
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Wystąpił błąd podczas robienia zrzutów ekranu.');
+            });
+        });
+    }
+
+    function updateProgress(completed, total) {
+        const progress = (completed / total) * 100;
+        const progressBar = document.getElementById('progress-bar');
+        progressBar.style.width = `${progress}%`;
+        progressBar.innerText = `${Math.round(progress)}%`;
+
+        if (completed < total) {
+            document.getElementById('status-message').innerText = `Przetwarzanie... (${completed}/${total})`;
+        }
+    }
+
+    function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Skopiowano do schowka: ' + text);
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+        });
+    }
 </script>
 {% endblock %}

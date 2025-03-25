@@ -16,12 +16,17 @@
                 <option value="mobile">Mobile</option>
             </select>
         </div>
-        <div class="mb-3">
-            <label for="maxLinks" class="form-label">Number of Links to Process:</label>
-            <input type="number" id="maxLinks" class="form-control" min="1" required>
-        </div>
         <button type="submit" class="btn btn-primary">Take Screenshots</button>
     </form>
+
+    <div id="progress-section" class="mt-4" style="display: none;">
+        <h4>Progress:</h4>
+        <div class="progress mb-3">
+            <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;">0%</div>
+        </div>
+        <p id="status-message"></p>
+        <p id="time-elapsed"></p>
+    </div>
 
     <div id="result" class="result"></div>
 </div>
@@ -32,10 +37,20 @@
 
         const urls = document.getElementById('urls').value.split('\n').map(url => url.trim()).filter(url => url);
         const deviceType = document.getElementById('deviceType').value;
-        const maxLinks = parseInt(document.getElementById('maxLinks').value, 10);
         const resultDiv = document.getElementById('result');
+        const progressSection = document.getElementById('progress-section');
+        const progressBar = document.getElementById('progress-bar');
+        const statusMessage = document.getElementById('status-message');
+        const timeElapsed = document.getElementById('time-elapsed');
 
         resultDiv.innerHTML = '<p class="text-muted">Processing...</p>';
+        progressSection.style.display = 'block';
+        progressBar.style.width = '0%';
+        progressBar.innerText = '0%';
+        statusMessage.innerText = 'Starting process...';
+        timeElapsed.innerText = '';
+
+        const startTime = new Date().getTime();
 
         if (urls.length === 0) {
             resultDiv.innerHTML = '<div class="alert alert-danger">Please provide at least one URL.</div>';
@@ -56,7 +71,7 @@
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ urls, deviceType, maxLinks }),
+                body: JSON.stringify({ urls, deviceType }),
             });
 
             if (!response.ok) {
@@ -81,10 +96,26 @@
                     </div>
                 `;
             });
+
+            const endTime = new Date().getTime();
+            const timeElapsedValue = ((endTime - startTime) / 1000).toFixed(2);
+            statusMessage.innerText = 'Screenshots completed!';
+            timeElapsed.innerText = `Time taken: ${timeElapsedValue} seconds`;
+
         } catch (error) {
             console.error(error);
             resultDiv.innerHTML = `<div class="alert alert-danger">An error occurred: ${error.message}</div>`;
         }
     });
+
+    function updateProgress(completed, total) {
+        const progress = (completed / total) * 100;
+        progressBar.style.width = `${progress}%`;
+        progressBar.innerText = `${Math.round(progress)}%`;
+
+        if (completed < total) {
+            statusMessage.innerText = `Processing... (${completed}/${total})`;
+        }
+    }
 </script>
 {% endblock %}
